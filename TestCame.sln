@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp1", "BlazorApp1\BlazorApp1.csproj", "{5CA13D6A-E4D2-4223-93EE-AF58AE908246}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "came", "came\came.csproj", "{EBC5C1F9-B401-4142-B309-8A045432BBD4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5CA13D6A-E4D2-4223-93EE-AF58AE908246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5CA13D6A-E4D2-4223-93EE-AF58AE908246}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5CA13D6A-E4D2-4223-93EE-AF58AE908246}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5CA13D6A-E4D2-4223-93EE-AF58AE908246}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBC5C1F9-B401-4142-B309-8A045432BBD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBC5C1F9-B401-4142-B309-8A045432BBD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBC5C1F9-B401-4142-B309-8A045432BBD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBC5C1F9-B401-4142-B309-8A045432BBD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
