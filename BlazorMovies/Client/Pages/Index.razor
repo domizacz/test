@@ -1,0 +1,9 @@
+﻿@page "/"
+
+<p>Hellp, @CustomtoUper(name)</p>
+<p> les add 2+2 = @(2+2)</p>
+
+@code{
+    string name = "Filipe";
+    string CustomtoUper(string valium) => valium.ToUpper(); 
+}

@@ -1,6 +1,6 @@
 ﻿@page "/"
 <h1>Hello, world!</h1>
-@inject  IJSRuntime Jsruntime
+@inject  IJSRuntime IJSRuntime
 
 
 
@@ -11,14 +11,14 @@
     </div>
 
     <div class="select">
-        <label for="audioOutput">Audio output destination: </label><select id="audioOutput"></select>
+        <label for="audioOutput">Audio output destination: </label>
     </div>
 
     <div class="select">
-        <label for="videoSource">Video source: </label><select id="videoSource"></select>
+        <label for="videoSource">Video source: </label><select ie="VideoCaptureDevice"></select>
     </div>
-
-    <video id="video" playsinline autoplay></video>
+    <span @bind="VideoCaptureDevice" />
+    <video id="" ></video>
     
     
 </div>
@@ -27,8 +27,11 @@
 
 
 @code{
-          
-   
-    
+
+    private async Task camera ()
+    {
+        await IJSRuntime.InvokeVoidAsync("start");
+    }
+
 
 }
