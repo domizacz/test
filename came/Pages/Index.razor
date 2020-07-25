@@ -18,7 +18,7 @@
         <label for="videoSource">Video source: </label><select ie="VideoCaptureDevice"></select>
     </div>
     <span @bind="VideoCaptureDevice" />
-    <video id="" ></video>
+    <video ="video" ></video>
     
     
 </div>
@@ -27,11 +27,5 @@
 
 
 @code{
-
-    private async Task camera ()
-    {
-        await IJSRuntime.InvokeVoidAsync("start");
-    }
-
 
 }
