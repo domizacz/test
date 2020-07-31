@@ -16,13 +16,17 @@
     </div>
 
 
-    <video id="video" resource="video" playsinline autoplay width="200" height="150"></video>
-
+    <video id="(() => Funon())" playsinline autoplay></video>
+    
 
 </div>
 
 @code
 {
-    
+  
+    public static async ValueTask Funon(this IJSRuntime IJSRuntime)
+    {
+        await IJSRuntime.InvokeVoidAsync("my_function");
+    }
 
 }

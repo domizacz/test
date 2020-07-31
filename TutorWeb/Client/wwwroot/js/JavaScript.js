@@ -1,0 +1,1 @@
+﻿function my_function() { console.log("test")}
