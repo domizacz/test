@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="C:\Users\Dom\Documents\Project\TestCame\TutorWeb\Client\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\Users\Dom\Documents\Project\TestCame\TutorWeb\Client\bin\Debug\netstandard2.1\wwwroot\" />
+</StaticWebAssets>
