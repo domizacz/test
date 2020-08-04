@@ -10,14 +10,30 @@
 <p>Current count transotopm: @transition.number</p>
 
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
-
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
 @code {
     private int currentCount = 0;
 
-    private void IncrementCount()
+   
+
+
+    [JSInvokable]
+   public async Task IncrementCount()
     {
         currentCount++;
         singelton.number++;
         transition.number++;
     }
+
+
+
+    [JSInvokable]
+    public static Task<int> GetCurrecntCount()
+    {
+        return Task.FromResult(CurrentCountStatic);
+    }
+
+
+
+
 }
