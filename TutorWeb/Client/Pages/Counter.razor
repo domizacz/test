@@ -13,12 +13,12 @@
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
 @code {
     private int currentCount = 0;
+    public  int currentCountn = 0;
 
-   
 
 
     [JSInvokable]
-   public async Task IncrementCount()
+    public async Task IncrementCount()
     {
         currentCount++;
         singelton.number++;
@@ -27,11 +27,7 @@
 
 
 
-    [JSInvokable]
-    public static Task<int> GetCurrecntCount()
-    {
-        return Task.FromResult(CurrentCountStatic);
-    }
+    
 
 
 
