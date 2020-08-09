@@ -10,11 +10,11 @@ namespace DemoLabrary
 {
     public class Comicprocessor
     {
-        public int MaxComicNumber { get; set; }
+        public static int MaxComicNumber { get; set; } 
 
-        public async Task<ComicModel> LoadComic(int comicNumber = 0)
+        public static async Task<ComicModel> LoadComic(int comicNumber = 0)
         {
-            string url = "";
+            string url;
             if (comicNumber > 0)
             {
                 url = $"https://xkcd.com/{ comicNumber} /info.0.json";
@@ -25,7 +25,7 @@ namespace DemoLabrary
                 url = "https://xkcd.com/info.0.json";
             
             }
-
+            
             using (HttpResponseMessage response = await ApiHelper.APiClient.GetAsync(url))
             {
                 if(response.IsSuccessStatusCode)

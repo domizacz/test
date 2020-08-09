@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AAB96B40-62E0-4507-96EE-77F5CE32852A}</ProjectGuid>
+    <ProjectGuid>{C6479C9C-1747-438E-8763-BC8CBD1E7900}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>WPFApp</RootNamespace>
     <AssemblyName>WPFApp</AssemblyName>
@@ -93,6 +93,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DemoLabrary\DemoLabrary.csproj">
+      <Project>{9aafa7fa-98f6-4254-871a-318ce5e824e3}</Project>
+      <Name>DemoLabrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

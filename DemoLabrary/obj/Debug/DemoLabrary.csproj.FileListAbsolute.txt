@@ -1,0 +1,12 @@
+C:\Users\Dom\Documents\Project\TestCame\DemoLabrary\bin\Debug\DemoLabrary.dll.config
+C:\Users\Dom\Documents\Project\TestCame\DemoLabrary\bin\Debug\DemoLabrary.dll
+C:\Users\Dom\Documents\Project\TestCame\DemoLabrary\bin\Debug\DemoLabrary.pdb
+C:\Users\Dom\Documents\Project\TestCame\DemoLabrary\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Dom\Documents\Project\TestCame\DemoLabrary\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Dom\Documents\Project\TestCame\DemoLabrary\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Dom\Documents\Project\TestCame\DemoLabrary\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Dom\Documents\Project\TestCame\DemoLabrary\obj\Debug\DemoLabrary.csprojAssemblyReference.cache
+C:\Users\Dom\Documents\Project\TestCame\DemoLabrary\obj\Debug\DemoLabrary.csproj.CoreCompileInputs.cache
+C:\Users\Dom\Documents\Project\TestCame\DemoLabrary\obj\Debug\DemoLabrary.csproj.CopyComplete
+C:\Users\Dom\Documents\Project\TestCame\DemoLabrary\obj\Debug\DemoLabrary.dll
+C:\Users\Dom\Documents\Project\TestCame\DemoLabrary\obj\Debug\DemoLabrary.pdb
