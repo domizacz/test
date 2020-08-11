@@ -30,7 +30,7 @@ namespace WPFApp
             nextImageButton.IsEnabled = false;
 
         }
-        private async Task LoadImage(int imageNumber=0)
+        private async Task LoadImage(int imageNumber = 0)
         {
             var comic = await Comicprocessor.LoadComic(imageNumber);
 
