@@ -14,18 +14,17 @@
     <div class="select">
         <label for="videoSource">Video source: </label><select id="videoSource"></select>
     </div>
-    
-    <textarea id="TextArea1" rows="100" cols="500">@audiosource()</textarea>
-    <video id="(() => Funon())" playsinline autoplay></video>
-    
+   
+    <video id="video" playsinline autoplay></video>
+    @audiosource()
 
 </div>
 
 @code
 {
-    public async Task audiosource()
+    public async void audiosource()
     {
-        await SRuntime.InvokeVoidAsync("start()");
+         await SRuntime.InvokeAsync<object>("video");
     }
 
 
