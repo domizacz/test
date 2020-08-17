@@ -1,0 +1,33 @@
+﻿<div class="modal-backdrop show" ></div>
+<div class="modal fade show" id="exampleModel" tabindex="-1" 
+     role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true" style="display:block;">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                @Title
+            </div>
+            <div class="modal-body">
+                <botton @onclick="onCancel" type="button" class="close">
+                    <span aria-hi
+                </botton>
+
+            </div>
+            <div class="modal-footer">
+            </div>
+
+
+
+        </div>
+
+    </div>
+</div>
+
+
+@code {
+    [Parameter] public string Title { get; set; } = "Confitm";
+    [Parameter] public RenderFragment ChildContent { get; set; }
+    [Parameter] public EventCallback onConform { get; set; }
+    [Parameter] public EventCallback onCancel { get; set; }
+
+}

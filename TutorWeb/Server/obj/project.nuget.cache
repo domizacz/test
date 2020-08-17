@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "l/8DLXsCyUPO+47gHXmIAPJp5kwyFM7l3IljGAcW4JH0cvmujtp2tT/jrnc6Pd+ScL+5Tbv6zvLPmBR509jzAA==",
+  "dgSpecHash": "9rdNiALU120b8B8AlDqBPOxslHNVYsB17N39AOu0K9zkl3Sj7jsaf0Mk8tFZIzMwh/B9G8cRHyg/ldsvO6Da5Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Dom\\Documents\\Project\\TestCame\\TutorWeb\\Server\\TutorWeb.Server.csproj",
   "expectedPackageFiles": [
@@ -29,8 +29,8 @@
     "C:\\Users\\Dom\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\microsoft.extensions.primitives.3.1.6.nupkg.sha512",
     "C:\\Users\\Dom\\.nuget\\packages\\microsoft.jsinterop\\3.1.6\\microsoft.jsinterop.3.1.6.nupkg.sha512",
     "C:\\Users\\Dom\\.nuget\\packages\\microsoft.jsinterop.webassembly\\3.2.1\\microsoft.jsinterop.webassembly.3.2.1.nupkg.sha512",
-    "C:\\Users\\Dom\\.nuget\\packages\\system.net.http.json\\3.2.0\\system.net.http.json.3.2.0.nupkg.sha512",
-    "C:\\Users\\Dom\\.nuget\\packages\\system.text.json\\4.7.1\\system.text.json.4.7.1.nupkg.sha512"
+    "C:\\Users\\Dom\\.nuget\\packages\\system.net.http.json\\3.2.1\\system.net.http.json.3.2.1.nupkg.sha512",
+    "C:\\Users\\Dom\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
   ],
   "logs": []
 }

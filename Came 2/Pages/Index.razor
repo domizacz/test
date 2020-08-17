@@ -16,13 +16,15 @@
     </div>
    
     <video id="video" playsinline autoplay></video>
-    @audiosource()
+    <video controls="controls" autoplay>
+        <source src="audiosource" id="video" type="video/mp4" />
+    </video>
 
 </div>
 
 @code
 {
-    public async void audiosource()
+    public async Task audiosource()
     {
          await SRuntime.InvokeAsync<object>("video");
     }

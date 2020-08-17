@@ -1,12 +1,12 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\2_SYHgwTyUA0Isfxi99lbMgU7i09kIqjc7vxOGa-IZE=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\5iQQa1rHSOeNSHAkrlFUsBLK8qzyFleCEwuFXvyNM6s=.hash",
       "Source": "C:\\Users\\Dom\\Documents\\Project\\TestCame\\TutorWeb\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\TutorWeb.Client.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/TutorWeb.Client.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\99dseBOagY3mzu5Y8Eqm8gRI_o8QbbCp7R2Ew9bQ_5E=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\WkuXkEV--B1J2kYqjuSPxgHubOHALmA548PhKTed2JE=.hash",
       "Source": "C:\\Users\\Dom\\Documents\\Project\\TestCame\\TutorWeb\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Net.Http.Json.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Net.Http.Json.dll.gz"
     },
@@ -206,6 +206,11 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/TutorWeb.Shared.dll.gz"
     },
     {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\LqwA2Rpm96Ualk0IhLZar87kfRCyKHzHTeTt2jYhm7M=.hash",
+      "Source": "C:\\Users\\Dom\\Documents\\Project\\TestCame\\TutorWeb\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.JSInterop.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.dll.gz"
+    },
+    {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\FJ_rEgcx6ljTxwbRXZSUGfrDKpVvOxHCSfNxbnXNn3M=.hash",
       "Source": "C:\\Users\\Dom\\Documents\\Project\\TestCame\\TutorWeb\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.Components.WebAssembly.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.WebAssembly.dll.gz"
@@ -256,17 +261,12 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\LqwA2Rpm96Ualk0IhLZar87kfRCyKHzHTeTt2jYhm7M=.hash",
-      "Source": "C:\\Users\\Dom\\Documents\\Project\\TestCame\\TutorWeb\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.JSInterop.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.dll.gz"
-    },
-    {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\czNf3btAeBW-vvID5LAfgcsNZ_GM3ssVuPaMflcg0rs=.hash",
       "Source": "C:\\Users\\Dom\\Documents\\Project\\TestCame\\TutorWeb\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.JSInterop.WebAssembly.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\_UlrL_2oaMrcoX7-5_jx2SDozvCIwkXkWMfcKJqwPl8=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\jxW72LTYo-PTbZve9VZMH8-n91u59iJhqUc-fg9U8TI=.hash",
       "Source": "C:\\Users\\Dom\\Documents\\Project\\TestCame\\TutorWeb\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\TutorWeb.Client.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/TutorWeb.Client.pdb.gz"
     },
@@ -296,7 +296,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\D-6J6D2rQUQ91OukL-KI_-kSbfYzdLFsCf6L7bh_4fo=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\G51kNolNypLIJKjuL-it0fv3QnUYaUSpShx7IekGO1U=.hash",
       "Source": "C:\\Users\\Dom\\Documents\\Project\\TestCame\\TutorWeb\\Client\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.gz"
     }

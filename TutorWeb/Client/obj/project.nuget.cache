@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ljA/BJyMv+wuu1x8Xt7UEcZZkymzuz7vpcOGH39czfRi5NgY7sN4FP0khO2Wzl4JkEagDtjhfjrXescIR9iXxw==",
+  "dgSpecHash": "A3OJQQqn1V3uDYeCahYPcvejFOE8XDCRop7t650fd4uolarCAYQPeLIJE7FMO4dQEqHLrnSDJT8CfSt3LPM6SQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Dom\\Documents\\Project\\TestCame\\TutorWeb\\Client\\TutorWeb.Client.csproj",
   "expectedPackageFiles": [
@@ -35,7 +35,7 @@
     "C:\\Users\\Dom\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\Dom\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\Dom\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
-    "C:\\Users\\Dom\\.nuget\\packages\\system.net.http.json\\3.2.0\\system.net.http.json.3.2.0.nupkg.sha512",
+    "C:\\Users\\Dom\\.nuget\\packages\\system.net.http.json\\3.2.1\\system.net.http.json.3.2.1.nupkg.sha512",
     "C:\\Users\\Dom\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Dom\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512",
     "C:\\Users\\Dom\\.nuget\\packages\\system.text.encodings.web\\4.7.1\\system.text.encodings.web.4.7.1.nupkg.sha512",

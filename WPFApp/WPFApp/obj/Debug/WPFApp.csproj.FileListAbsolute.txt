@@ -20,3 +20,5 @@ C:\Users\Dom\Documents\Project\TestCame\WPFApp\WPFApp\obj\Debug\WPFApp.csproj.Co
 C:\Users\Dom\Documents\Project\TestCame\WPFApp\WPFApp\obj\Debug\WPFApp.csproj.CopyComplete
 C:\Users\Dom\Documents\Project\TestCame\WPFApp\WPFApp\obj\Debug\WPFApp.exe
 C:\Users\Dom\Documents\Project\TestCame\WPFApp\WPFApp\obj\Debug\WPFApp.pdb
+C:\Users\Dom\Documents\Project\TestCame\WPFApp\WPFApp\obj\Debug\SunInfo.g.cs
+C:\Users\Dom\Documents\Project\TestCame\WPFApp\WPFApp\obj\Debug\SunInfo.baml
