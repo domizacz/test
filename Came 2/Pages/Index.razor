@@ -1,5 +1,5 @@
 ﻿@page "/"
-@inject IJSRuntime SRuntime 
+@inject IJSRuntime IJR
 
 <h1>Hello, world!</h1>
 <div id="container">
@@ -14,26 +14,27 @@
     <div class="select">
         <label for="videoSource">Video source: </label><select id="videoSource"></select>
     </div>
-    
+
     <video id="video" playsinline autoplay></video>
-  
-   @test.Length
-   
-  
+    <video @ref="divElement" id="" playsinline autoplay></video>
+
 </div>
 
 @code
 {
-    private string test;
 
-    public string audo;
 
-    protected override void OnInitialized()
+    private ElementReference divElement;
+
+
+    // protected override void OnInitialized()
+    
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
     {
-        test = "dddasdasdasdasdsad";
-
-
+        if (firstRender)
+        {
+            await IJR.InvokeVoidAsync("test.start", divElement);
+        }
     }
-
-
 }
