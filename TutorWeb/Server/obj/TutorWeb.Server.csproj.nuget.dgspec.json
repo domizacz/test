@@ -1,103 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dom\\Documents\\Project\\TestCame\\TutorWeb\\Server\\TutorWeb.Server.csproj": {}
+    "Z:\\Projekty\\test\\TutorWeb\\Server\\TutorWeb.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dom\\Documents\\Project\\TestCame\\TutorWeb\\Client\\TutorWeb.Client.csproj": {
+    "Z:\\Projekty\\test\\TutorWeb\\Server\\TutorWeb.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dom\\Documents\\Project\\TestCame\\TutorWeb\\Client\\TutorWeb.Client.csproj",
-        "projectName": "TutorWeb.Client",
-        "projectPath": "C:\\Users\\Dom\\Documents\\Project\\TestCame\\TutorWeb\\Client\\TutorWeb.Client.csproj",
-        "packagesPath": "C:\\Users\\Dom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dom\\Documents\\Project\\TestCame\\TutorWeb\\Client\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Dom\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netstandard2.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netstandard2.1": {
-            "projectReferences": {
-              "C:\\Users\\Dom\\Documents\\Project\\TestCame\\TutorWeb\\Shared\\TutorWeb.Shared.csproj": {
-                "projectPath": "C:\\Users\\Dom\\Documents\\Project\\TestCame\\TutorWeb\\Shared\\TutorWeb.Shared.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netstandard2.1": {
-          "dependencies": {
-            "Microsoft.AspNetCore.Components.WebAssembly": {
-              "target": "Package",
-              "version": "[3.2.1, )"
-            },
-            "Microsoft.AspNetCore.Components.WebAssembly.Build": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.2.1, )"
-            },
-            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.2.1, )"
-            },
-            "System.Net.Http.Json": {
-              "target": "Package",
-              "version": "[3.2.1, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "NETStandard.Library": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\Dom\\Documents\\Project\\TestCame\\TutorWeb\\Server\\TutorWeb.Server.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Dom\\Documents\\Project\\TestCame\\TutorWeb\\Server\\TutorWeb.Server.csproj",
+        "projectUniqueName": "Z:\\Projekty\\test\\TutorWeb\\Server\\TutorWeb.Server.csproj",
         "projectName": "TutorWeb.Server",
-        "projectPath": "C:\\Users\\Dom\\Documents\\Project\\TestCame\\TutorWeb\\Server\\TutorWeb.Server.csproj",
-        "packagesPath": "C:\\Users\\Dom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dom\\Documents\\Project\\TestCame\\TutorWeb\\Server\\obj\\",
+        "projectPath": "Z:\\Projekty\\test\\TutorWeb\\Server\\TutorWeb.Server.csproj",
+        "packagesPath": "C:\\Users\\monster\\.nuget\\packages\\",
+        "outputPath": "Z:\\Projekty\\test\\TutorWeb\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\monster\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -111,11 +32,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Dom\\Documents\\Project\\TestCame\\TutorWeb\\Client\\TutorWeb.Client.csproj": {
-                "projectPath": "C:\\Users\\Dom\\Documents\\Project\\TestCame\\TutorWeb\\Client\\TutorWeb.Client.csproj"
-              },
-              "C:\\Users\\Dom\\Documents\\Project\\TestCame\\TutorWeb\\Shared\\TutorWeb.Shared.csproj": {
-                "projectPath": "C:\\Users\\Dom\\Documents\\Project\\TestCame\\TutorWeb\\Shared\\TutorWeb.Shared.csproj"
+              "Z:\\Projekty\\test\\TutorWeb\\Shared\\TutorWeb.Shared.csproj": {
+                "projectPath": "Z:\\Projekty\\test\\TutorWeb\\Shared\\TutorWeb.Shared.csproj"
               }
             }
           }
@@ -152,24 +70,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Dom\\Documents\\Project\\TestCame\\TutorWeb\\Shared\\TutorWeb.Shared.csproj": {
+    "Z:\\Projekty\\test\\TutorWeb\\Shared\\TutorWeb.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dom\\Documents\\Project\\TestCame\\TutorWeb\\Shared\\TutorWeb.Shared.csproj",
+        "projectUniqueName": "Z:\\Projekty\\test\\TutorWeb\\Shared\\TutorWeb.Shared.csproj",
         "projectName": "TutorWeb.Shared",
-        "projectPath": "C:\\Users\\Dom\\Documents\\Project\\TestCame\\TutorWeb\\Shared\\TutorWeb.Shared.csproj",
-        "packagesPath": "C:\\Users\\Dom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dom\\Documents\\Project\\TestCame\\TutorWeb\\Shared\\obj\\",
+        "projectPath": "Z:\\Projekty\\test\\TutorWeb\\Shared\\TutorWeb.Shared.csproj",
+        "packagesPath": "C:\\Users\\monster\\.nuget\\packages\\",
+        "outputPath": "Z:\\Projekty\\test\\TutorWeb\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\monster\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -208,7 +127,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

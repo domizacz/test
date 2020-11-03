@@ -10,3 +10,15 @@ C:\Users\Dom\Documents\Project\TestCame\DemoLabrary\obj\Debug\DemoLabrary.csproj
 C:\Users\Dom\Documents\Project\TestCame\DemoLabrary\obj\Debug\DemoLabrary.csproj.CopyComplete
 C:\Users\Dom\Documents\Project\TestCame\DemoLabrary\obj\Debug\DemoLabrary.dll
 C:\Users\Dom\Documents\Project\TestCame\DemoLabrary\obj\Debug\DemoLabrary.pdb
+Z:\Projekty\test\DemoLabrary\bin\Debug\DemoLabrary.dll.config
+Z:\Projekty\test\DemoLabrary\bin\Debug\DemoLabrary.dll
+Z:\Projekty\test\DemoLabrary\bin\Debug\DemoLabrary.pdb
+Z:\Projekty\test\DemoLabrary\bin\Debug\Newtonsoft.Json.dll
+Z:\Projekty\test\DemoLabrary\bin\Debug\System.Net.Http.Formatting.dll
+Z:\Projekty\test\DemoLabrary\bin\Debug\Newtonsoft.Json.xml
+Z:\Projekty\test\DemoLabrary\bin\Debug\System.Net.Http.Formatting.xml
+Z:\Projekty\test\DemoLabrary\obj\Debug\DemoLabrary.csprojAssemblyReference.cache
+Z:\Projekty\test\DemoLabrary\obj\Debug\DemoLabrary.csproj.CoreCompileInputs.cache
+Z:\Projekty\test\DemoLabrary\obj\Debug\DemoLabrary.csproj.CopyComplete
+Z:\Projekty\test\DemoLabrary\obj\Debug\DemoLabrary.dll
+Z:\Projekty\test\DemoLabrary\obj\Debug\DemoLabrary.pdb

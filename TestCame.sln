@@ -5,15 +5,7 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Came 2", "Came 2\Came 2.csproj", "{3467E106-8E11-4BA7-9393-7505A40E576C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TutorWeb.Server", "TutorWeb\Server\TutorWeb.Server.csproj", "{10D60280-837D-4FA4-A286-15E03A675A9E}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TutorWeb.Client", "TutorWeb\Client\TutorWeb.Client.csproj", "{F80312CA-21E4-4B5E-8DB4-6E4B5D26D560}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TutorWeb.Shared", "TutorWeb\Shared\TutorWeb.Shared.csproj", "{51BFFD4B-BED7-44A5-AB06-F848587E18E1}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoLabrary", "DemoLabrary\DemoLabrary.csproj", "{9AAFA7FA-98F6-4254-871A-318CE5E824E3}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFApp", "WPFApp\WPFApp\WPFApp.csproj", "{C6479C9C-1747-438E-8763-BC8CBD1E7900}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,26 +17,10 @@ Global
 		{3467E106-8E11-4BA7-9393-7505A40E576C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3467E106-8E11-4BA7-9393-7505A40E576C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3467E106-8E11-4BA7-9393-7505A40E576C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{10D60280-837D-4FA4-A286-15E03A675A9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{10D60280-837D-4FA4-A286-15E03A675A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{10D60280-837D-4FA4-A286-15E03A675A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{10D60280-837D-4FA4-A286-15E03A675A9E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F80312CA-21E4-4B5E-8DB4-6E4B5D26D560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F80312CA-21E4-4B5E-8DB4-6E4B5D26D560}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F80312CA-21E4-4B5E-8DB4-6E4B5D26D560}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F80312CA-21E4-4B5E-8DB4-6E4B5D26D560}.Release|Any CPU.Build.0 = Release|Any CPU
-		{51BFFD4B-BED7-44A5-AB06-F848587E18E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{51BFFD4B-BED7-44A5-AB06-F848587E18E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{51BFFD4B-BED7-44A5-AB06-F848587E18E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{51BFFD4B-BED7-44A5-AB06-F848587E18E1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9AAFA7FA-98F6-4254-871A-318CE5E824E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9AAFA7FA-98F6-4254-871A-318CE5E824E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AAFA7FA-98F6-4254-871A-318CE5E824E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AAFA7FA-98F6-4254-871A-318CE5E824E3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C6479C9C-1747-438E-8763-BC8CBD1E7900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C6479C9C-1747-438E-8763-BC8CBD1E7900}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C6479C9C-1747-438E-8763-BC8CBD1E7900}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C6479C9C-1747-438E-8763-BC8CBD1E7900}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

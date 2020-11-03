@@ -9,7 +9,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Client\TutorWeb.Client.csproj" />
     <ProjectReference Include="..\Shared\TutorWeb.Shared.csproj" />
   </ItemGroup>
 
