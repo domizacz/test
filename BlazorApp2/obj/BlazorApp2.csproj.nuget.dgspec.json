@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\Projekty\\Test\\BlazorApp2\\BlazorApp2.csproj": {}
+    "Z:\\Projekty\\test\\BlazorApp2\\BlazorApp2.csproj": {}
   },
   "projects": {
-    "Z:\\Projekty\\Test\\BlazorApp2\\BlazorApp2.csproj": {
+    "Z:\\Projekty\\test\\BlazorApp2\\BlazorApp2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\Projekty\\Test\\BlazorApp2\\BlazorApp2.csproj",
+        "projectUniqueName": "Z:\\Projekty\\test\\BlazorApp2\\BlazorApp2.csproj",
         "projectName": "BlazorApp2",
-        "projectPath": "Z:\\Projekty\\Test\\BlazorApp2\\BlazorApp2.csproj",
-        "packagesPath": "C:\\Users\\Dom\\.nuget\\packages\\",
-        "outputPath": "Z:\\Projekty\\Test\\BlazorApp2\\obj\\",
+        "projectPath": "Z:\\Projekty\\test\\BlazorApp2\\BlazorApp2.csproj",
+        "packagesPath": "C:\\Users\\monster\\.nuget\\packages\\",
+        "outputPath": "Z:\\Projekty\\test\\BlazorApp2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\monster\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
