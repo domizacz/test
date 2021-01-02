@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "MiOSt0SnzscsNIuBFFJpPj+efiLhr0ymB57c+eE2LPPfjvbRPR+czplyLhW84Vz1/hAE/yHjpiTfnnT3ILRyaQ==",
+  "dgSpecHash": "S8SFJS8IDiVhfLpSjJ9EkdD/rtKTpDJx3mgZMCefq7LS0InwIccvhojPeqF7+aGIXfN6zN8fDoITQckTQrRykw==",
   "success": true,
   "projectFilePath": "Z:\\Projekty\\test\\Capter\\Capter.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\monster\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

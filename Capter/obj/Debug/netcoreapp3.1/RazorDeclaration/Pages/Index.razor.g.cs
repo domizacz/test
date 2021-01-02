@@ -56,20 +56,27 @@ using Microsoft.AspNetCore.Components.Web;
 #nullable disable
 #nullable restore
 #line 7 "Z:\Projekty\test\Capter\_Imports.razor"
-using Microsoft.JSInterop;
+using Microsoft.Extensions.Configuration;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 8 "Z:\Projekty\test\Capter\_Imports.razor"
-using Capter;
+using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 9 "Z:\Projekty\test\Capter\_Imports.razor"
+using Capter;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 10 "Z:\Projekty\test\Capter\_Imports.razor"
 using Capter.Shared;
 
 #line default
