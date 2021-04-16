@@ -1,24 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\Projekty\\test\\Capter\\Capter.csproj": {}
+    "C:\\Users\\Dom\\Documents\\Project\\test\\Capter\\Capter.csproj": {}
   },
   "projects": {
-    "Z:\\Projekty\\test\\Capter\\Capter.csproj": {
+    "C:\\Users\\Dom\\Documents\\Project\\test\\Capter\\Capter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\Projekty\\test\\Capter\\Capter.csproj",
+        "projectUniqueName": "C:\\Users\\Dom\\Documents\\Project\\test\\Capter\\Capter.csproj",
         "projectName": "Capter",
-        "projectPath": "Z:\\Projekty\\test\\Capter\\Capter.csproj",
-        "packagesPath": "C:\\Users\\monster\\.nuget\\packages\\",
-        "outputPath": "Z:\\Projekty\\test\\Capter\\obj\\",
+        "projectPath": "C:\\Users\\Dom\\Documents\\Project\\test\\Capter\\Capter.csproj",
+        "packagesPath": "C:\\Users\\Dom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dom\\Documents\\Project\\test\\Capter\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\monster\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -68,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
