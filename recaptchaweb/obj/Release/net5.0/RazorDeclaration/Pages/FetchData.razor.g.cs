@@ -98,7 +98,7 @@ using recaptchaweb.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 39 "C:\Users\Dom\Documents\Project\test\recaptchaweb\Pages\FetchData.razor"
+#line 59 "C:\Users\Dom\Documents\Project\test\recaptchaweb\Pages\FetchData.razor"
        
     private WeatherForecast[] forecasts;
 
@@ -106,11 +106,61 @@ using recaptchaweb.Data;
     {
         forecasts = await ForecastService.GetForecastAsync(DateTime.Now);
     }
+    private ReCAPTCHA reCAPTCHAComponent;
+
+    private bool ValidReCAPTCHA = false;
+
+    private bool ServerVerificatiing = false;
+
+    private bool DisablePostButton => !ValidReCAPTCHA || ServerVerificatiing;
+
+    private void OnSuccess()
+    {
+        ValidReCAPTCHA = true;
+    }
+
+    private void OnExpired()
+    {
+        ValidReCAPTCHA = false;
+    }
+
+    private async Task OnClickPost()
+    {
+        if (ValidReCAPTCHA)
+        {
+            var response = await reCAPTCHAComponent.GetResponseAsync();
+            try
+            {
+                ServerVerificatiing = true;
+                StateHasChanged();
+                var result = await SampleAPI.Post(response);
+                if (result.Success)
+                {
+                    Navigation.NavigateTo("/valid");
+                }
+                else
+                {
+                    await JS.InvokeAsync<object>("alert", string.Join(", ", result.ErrorCodes));
+                    ServerVerificatiing = false;
+                    StateHasChanged();
+                }
+            }
+            catch (HttpRequestException e)
+            {
+                await JS.InvokeAsync<object>("alert", e.Message);
+                ServerVerificatiing = false;
+                StateHasChanged();
+            }
+        }
+    } 
 
 #line default
 #line hidden
 #nullable disable
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private WeatherForecastService ForecastService { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private SampleAPI SampleAPI { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager Navigation { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IJSRuntime JS { get; set; }
     }
 }
 #pragma warning restore 1591
