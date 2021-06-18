@@ -35,5 +35,17 @@ namespace WebAPi.Controllers
             })
             .ToArray();
         }
+        [HttpGet("date")]
+        public IEnumerable<WeatherForecast> GetWeatherForecasts()
+        {
+            
+            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+            {
+                Date = DateTime.Now.AddDays(index),
+
+            })
+            .ToArray();
+        }
+
     }
 }
