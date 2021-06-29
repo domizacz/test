@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "recaptchaweb", "recaptchawe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notyfication", "Notyfication\Notyfication.csproj", "{25617806-B36C-449D-B503-889B5CACFA7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPi", "WebAPi\WebAPi.csproj", "{939DFBD6-A13F-4145-9E97-079101E41080}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPi", "WebAPi\WebAPi.csproj", "{939DFBD6-A13F-4145-9E97-079101E41080}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
