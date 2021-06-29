@@ -54,3 +54,4 @@ C:\Users\Dom\Documents\Project\test\Notyfication\obj\Debug\net5.0\Notyfication.c
 C:\Users\Dom\Documents\Project\test\Notyfication\obj\Debug\net5.0\Notyfication.csproj.AssemblyReference.cache
 C:\Users\Dom\Documents\Project\test\Notyfication\obj\Debug\net5.0\RazorDeclaration\Pages\Errortest.razor.g.cs
 C:\Users\Dom\Documents\Project\test\Notyfication\obj\Debug\net5.0\Razor\Pages\Errortest.razor.g.cs
+C:\Users\Dom\Documents\Project\test\Notyfication\bin\Debug\net5.0\Newtonsoft.Json.dll

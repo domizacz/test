@@ -1,7 +1,28 @@
-﻿<h3 class="bg-danger">Errortest</h3>
+﻿
 
-<dialog class="alert-info" >test</dialog>
+@inject IJSRuntime JSRuntime
+
+
+
+
+
+
+<button @onclick="OpenModal">Open</button>
+
+@* 👇 Use @ref to keep a reference to the html element in order to use it in JS *@
+<dialog @ref="_element">My modal</dialog>
+
+<dialog @ref="_element1" class="btn-danger top-row">My modal 2</dialog>
 
 @code {
-   
+    private ElementReference _element;
+    private ElementReference _element1;
+
+    private async Task OpenModal()
+    {
+        // 👇 Call the JS function with the html element (dialog) as parameter
+        await JSRuntime.InvokeVoidAsync("blazorOpenModal", _element);
+        await JSRuntime.InvokeVoidAsync("blazorOpenModal", _element1);
+    }
 }
+

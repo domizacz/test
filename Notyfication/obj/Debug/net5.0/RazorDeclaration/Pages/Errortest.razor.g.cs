@@ -89,6 +89,23 @@ using Notyfication.Shared;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 17 "C:\Users\Dom\Documents\Project\test\Notyfication\Pages\Errortest.razor"
+       
+    private ElementReference _element;
+    private ElementReference _element1;
+
+    private async Task OpenModal()
+    {
+        // 👇 Call the JS function with the html element (dialog) as parameter
+        await JSRuntime.InvokeVoidAsync("blazorOpenModal", _element);
+        await JSRuntime.InvokeVoidAsync("blazorOpenModal", _element1);
+    }
+
+#line default
+#line hidden
+#nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IJSRuntime JSRuntime { get; set; }
     }
 }
 #pragma warning restore 1591
