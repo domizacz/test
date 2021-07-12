@@ -90,6 +90,20 @@ using Notyfication.Shared;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 15 "C:\Users\Dom\Documents\Project\test\Notyfication\Pages\Index.razor"
+      
+    public string test;
+
+    public class init  tests()
+    {
+        test1 = Convert.ToInt32(test);
+    }
+
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591
