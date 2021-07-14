@@ -5,23 +5,23 @@
 Welcome to your new app.
 
 
-<input type="text" @bind="test.Lastname" />
+<input type="text" @bind="test.test2" ParsingErrorMessage/>
 
 
-@test
 
-
-<Errortest></Errortest>
+<Errortest />
 @code{
     @using System.ComponentModel.DataAnnotations;
     @using System.Globalization
-    string test1 = "100.100.100.1";
+    public string test1 = "100.100.100.1";
 
     public class test
     {
-        [RequiredRule]
-        [MaxLengthRule(50)]
-        public String LastName { get; set; }
+
+
+        [Required(ErrorMessage = "Genre must be specified")]
+        public static String test2 { get; set; } = "tti hest ti ";
     }
+
 
 }

@@ -51,7 +51,6 @@ C:\Users\Dom\Documents\Project\test\Notyfication\obj\Debug\net5.0\ref\Notyficati
 C:\Users\Dom\Documents\Project\test\Notyfication\obj\Debug\net5.0\Notyfication.pdb
 C:\Users\Dom\Documents\Project\test\Notyfication\obj\Debug\net5.0\Notyfication.genruntimeconfig.cache
 C:\Users\Dom\Documents\Project\test\Notyfication\obj\Debug\net5.0\Notyfication.csproj.CopyComplete
-C:\Users\Dom\Documents\Project\test\Notyfication\obj\Debug\net5.0\Notyfication.csproj.AssemblyReference.cache
 C:\Users\Dom\Documents\Project\test\Notyfication\obj\Debug\net5.0\RazorDeclaration\Pages\Errortest.razor.g.cs
 C:\Users\Dom\Documents\Project\test\Notyfication\obj\Debug\net5.0\Razor\Pages\Errortest.razor.g.cs
 C:\Users\Dom\Documents\Project\test\Notyfication\bin\Debug\net5.0\Newtonsoft.Json.dll

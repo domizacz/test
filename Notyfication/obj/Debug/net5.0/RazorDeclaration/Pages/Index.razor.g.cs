@@ -82,6 +82,20 @@ using Notyfication.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 14 "C:\Users\Dom\Documents\Project\test\Notyfication\Pages\Index.razor"
+using System.ComponentModel.DataAnnotations;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 15 "C:\Users\Dom\Documents\Project\test\Notyfication\Pages\Index.razor"
+using System.Globalization;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -92,13 +106,17 @@ using Notyfication.Shared;
         #pragma warning restore 1998
 #nullable restore
 #line 15 "C:\Users\Dom\Documents\Project\test\Notyfication\Pages\Index.razor"
-      
-    public string test;
+                               
+    public string test1 = "100.100.100.1";
 
-    public class init  tests()
+    public class test
     {
-        test1 = Convert.ToInt32(test);
+
+
+        [Required(ErrorMessage = "Genre must be specified")]
+        public static String test2 { get; set; } = "tti hest ti ";
     }
+
 
 
 #line default
