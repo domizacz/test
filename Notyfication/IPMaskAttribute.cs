@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Notyfication
 {
-    public class Class
+    public class IPMaskAttribute
     {
     }
 }

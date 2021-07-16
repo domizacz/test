@@ -3,25 +3,48 @@
 <h1>Hello, world!</h1>
 
 Welcome to your new app.
+@test
+<EditForm Model="@exampleModel" >
+    <DataAnnotationsValidator />
+    <ValidationSummary />
 
+    <InputText id="name" @bind-Value="exampleModel.Name" />
 
-<input type="text" @bind="test.test2" ParsingErrorMessage/>
+    <button type="submit">Submit</button>
+</EditForm>
 
-
-
-<Errortest />
 @code{
-    @using System.ComponentModel.DataAnnotations;
-    @using System.Globalization
-    public string test1 = "100.100.100.1";
+@using System.ComponentModel.DataAnnotations;
 
-    public class test
+
+    private ExampleModel exampleModel = new();
+    public string test;
+
+    public class ExampleModel
     {
+        [Required]
 
-
-        [Required(ErrorMessage = "Genre must be specified")]
-        public static String test2 { get; set; } = "tti hest ti ";
+        [StringLength(18, ErrorMessage = "Name is too long.")]
+        [Customer(ErrorMessage ="noooooo")]
+        public string Name { get; set; }
     }
 
+    [MetadataType(typeof(ExampleModel))]
+    public partial class Customer : ValidationAttribute
+    {
+        public bool my { get; set; }
 
-}
+        public override bool IsValid(object value)
+        {
+            string imput = value as string;
+            if ( imput[0]=='2')
+                {
+                return true;
+                }
+
+            return false;
+        }
+    }
+
+    }
+    

@@ -83,15 +83,8 @@ using Notyfication.Shared;
 #line hidden
 #nullable disable
 #nullable restore
-#line 14 "C:\Users\Dom\Documents\Project\test\Notyfication\Pages\Index.razor"
+#line 17 "C:\Users\Dom\Documents\Project\test\Notyfication\Pages\Index.razor"
 using System.ComponentModel.DataAnnotations;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 15 "C:\Users\Dom\Documents\Project\test\Notyfication\Pages\Index.razor"
-using System.Globalization;
 
 #line default
 #line hidden
@@ -105,19 +98,40 @@ using System.Globalization;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 15 "C:\Users\Dom\Documents\Project\test\Notyfication\Pages\Index.razor"
-                               
-    public string test1 = "100.100.100.1";
+#line 17 "C:\Users\Dom\Documents\Project\test\Notyfication\Pages\Index.razor"
+                                             
 
-    public class test
+
+    private ExampleModel exampleModel = new();
+    public string test;
+
+    public class ExampleModel
     {
+        [Required]
 
-
-        [Required(ErrorMessage = "Genre must be specified")]
-        public static String test2 { get; set; } = "tti hest ti ";
+        [StringLength(18, ErrorMessage = "Name is too long.")]
+        [Customer(ErrorMessage ="noooooo")]
+        public string Name { get; set; }
     }
 
+    [MetadataType(typeof(ExampleModel))]
+    public partial class Customer : ValidationAttribute
+    {
+        public bool my { get; set; }
 
+        public override bool IsValid(object value)
+        {
+            string imput = value as string;
+            if ( imput[0]=='2')
+                {
+                return true;
+                }
+
+            return false;
+        }
+    }
+
+    
 
 #line default
 #line hidden
