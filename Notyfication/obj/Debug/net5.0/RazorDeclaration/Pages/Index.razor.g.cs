@@ -83,7 +83,7 @@ using Notyfication.Shared;
 #line hidden
 #nullable disable
 #nullable restore
-#line 17 "C:\Users\Dom\Documents\Project\test\Notyfication\Pages\Index.razor"
+#line 18 "C:\Users\Dom\Documents\Project\test\Notyfication\Pages\Index.razor"
 using System.ComponentModel.DataAnnotations;
 
 #line default
@@ -98,19 +98,31 @@ using System.ComponentModel.DataAnnotations;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 17 "C:\Users\Dom\Documents\Project\test\Notyfication\Pages\Index.razor"
+#line 18 "C:\Users\Dom\Documents\Project\test\Notyfication\Pages\Index.razor"
                                              
 
 
     private ExampleModel exampleModel = new();
     public string test;
 
+    private void Testtest()
+    {
+
+        test = exampleModel.Name;
+        // Process the valid form
+    }
+    private void testclass()
+    {
+
+    }
+
+
     public class ExampleModel
     {
         [Required]
 
-        [StringLength(18, ErrorMessage = "Name is too long.")]
-        [Customer(ErrorMessage ="noooooo")]
+        //[StringLength(18, ErrorMessage = "Name is too long.")]
+        [Customer]
         public string Name { get; set; }
     }
 
@@ -122,12 +134,41 @@ using System.ComponentModel.DataAnnotations;
         public override bool IsValid(object value)
         {
             string imput = value as string;
-            if ( imput[0]=='2')
-                {
-                return true;
-                }
+            var imputsep = imput.Split(".");
+            var firsoctet = Convert.ToInt64(imputsep[0]);
+            var secoctet = Convert.ToInt64(imputsep[1]);
+            var treoctet = Convert.ToInt64(imputsep[2]);
+            var masksep = imputsep[3].Split("/");
+            var forthoctet = Convert.ToInt64(masksep[0]);
+            var mask = Convert.ToInt64(masksep[1]);
 
-            return false;
+
+            if (firsoctet>255)
+            {
+                ErrorMessage = "first octet is to big";
+                return false;
+            }
+
+            if (secoctet>255)
+            {
+                ErrorMessage = "sec octet is to big";
+                return false;
+            }
+            if (treoctet > 255)
+            {
+                ErrorMessage = "thert octet is to big";
+                return false;
+            }
+
+            if (forthoctet > 255)
+            {
+                ErrorMessage = "for octet is to big";
+                return false;
+            }
+
+
+
+            return true;
         }
     }
 
