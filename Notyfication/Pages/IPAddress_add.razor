@@ -1,0 +1,90 @@
+﻿<h3>IPAddress_add</h3>
+
+
+<EditForm Model="@exampleModel" OnValidSubmit="@Testtest">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <InputText id="name" @bind-Value="exampleModel.Name" />
+
+    <button type="submit">Submit</button>
+</EditForm>
+
+@code{
+    @using System.ComponentModel.DataAnnotations;
+    @using System.Net;
+
+    private ExampleModel exampleModel = new();
+    public string lastusing;
+    public string firstusing;
+    public string usingin;
+
+    private void Testtest()
+    {
+        IPNetwork ipnetwork = IPNetwork.Parse(exampleModel.Name);
+        lastusing = ipnetwork.LastUsable.ToString();
+        firstusing = ipnetwork.FirstUsable.ToString();
+        usingin = ipnetwork.Usable.ToString(); ;
+        // Process the valid form
+    }
+
+    public class ExampleModel
+    {
+        [Required]
+
+        [StringLength(18, ErrorMessage = "Name is too long.")]
+        [Customer]
+        public string Name { get; set; }
+    }
+
+    [MetadataType(typeof(ExampleModel))]
+    public partial class Customer : ValidationAttribute
+    {
+        public bool my { get; set; }
+
+        public override bool IsValid(object value)
+        {
+            string imput = value as string;
+            var imputsep = imput.Split(".");
+            var firsoctet = Convert.ToInt64(imputsep[0]);
+            var secoctet = Convert.ToInt64(imputsep[1]);
+            var treoctet = Convert.ToInt64(imputsep[2]);
+            var masksep = imputsep[3].Split("/");
+            var forthoctet = Convert.ToInt64(masksep[0]);
+            var mask = Convert.ToInt64(masksep[1]);
+
+
+            if (firsoctet > 255)
+            {
+                ErrorMessage = "first octet is to big";
+                return false;
+            }
+
+            if (secoctet > 255)
+            {
+                ErrorMessage = "sec octet is to big";
+                return false;
+            }
+            if (treoctet > 255)
+            {
+                ErrorMessage = "thert octet is to big";
+                return false;
+            }
+
+            if (forthoctet > 255)
+            {
+                ErrorMessage = "for octet is to big";
+                return false;
+            }
+            if (mask>32 ||  mask<4)
+            {
+                ErrorMessage = "Net mask out of range";
+                return false;
+            }
+
+
+            return true;
+        }
+    }
+
+}

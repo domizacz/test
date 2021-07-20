@@ -2,7 +2,19 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "Newtonsoft.Json/12.0.1": {
+      "IPNetwork2/2.5.329": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "compile": {
+          "lib/net5.0/System.Net.IPNetwork.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/System.Net.IPNetwork.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
@@ -10,53 +22,102 @@
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
+      },
+      "System.Memory/4.5.4": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
       }
     }
   },
   "libraries": {
-    "Newtonsoft.Json/12.0.1": {
-      "sha512": "pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
+    "IPNetwork2/2.5.329": {
+      "sha512": "BjHbRhKvPFFFIUwvWzHEMrQybFi6obKQruJtFZpnvkHh0YF9GpPwdHb7vQIzv42/1r4nDaVjWWVyjmtYj0ozkA==",
       "type": "package",
-      "path": "newtonsoft.json/12.0.1",
+      "path": "ipnetwork2/2.5.329",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "ipnetwork2.2.5.329.nupkg.sha512",
+        "ipnetwork2.nuspec",
+        "lib/net40/System.Net.IPNetwork.dll",
+        "lib/net40/System.Net.IPNetwork.xml",
+        "lib/net45/System.Net.IPNetwork.dll",
+        "lib/net45/System.Net.IPNetwork.xml",
+        "lib/net46/System.Net.IPNetwork.dll",
+        "lib/net46/System.Net.IPNetwork.xml",
+        "lib/net47/System.Net.IPNetwork.dll",
+        "lib/net47/System.Net.IPNetwork.xml",
+        "lib/net5.0/System.Net.IPNetwork.dll",
+        "lib/net5.0/System.Net.IPNetwork.xml",
+        "lib/netstandard1.6/System.Net.IPNetwork.dll",
+        "lib/netstandard1.6/System.Net.IPNetwork.xml",
+        "lib/netstandard2.0/System.Net.IPNetwork.dll",
+        "lib/netstandard2.0/System.Net.IPNetwork.xml",
+        "lib/netstandard2.1/System.Net.IPNetwork.dll",
+        "lib/netstandard2.1/System.Net.IPNetwork.xml"
+      ]
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
-        "lib/net20/Newtonsoft.Json.pdb",
         "lib/net20/Newtonsoft.Json.xml",
         "lib/net35/Newtonsoft.Json.dll",
-        "lib/net35/Newtonsoft.Json.pdb",
         "lib/net35/Newtonsoft.Json.xml",
         "lib/net40/Newtonsoft.Json.dll",
-        "lib/net40/Newtonsoft.Json.pdb",
         "lib/net40/Newtonsoft.Json.xml",
         "lib/net45/Newtonsoft.Json.dll",
-        "lib/net45/Newtonsoft.Json.pdb",
         "lib/net45/Newtonsoft.Json.xml",
         "lib/netstandard1.0/Newtonsoft.Json.dll",
-        "lib/netstandard1.0/Newtonsoft.Json.pdb",
         "lib/netstandard1.0/Newtonsoft.Json.xml",
         "lib/netstandard1.3/Newtonsoft.Json.dll",
-        "lib/netstandard1.3/Newtonsoft.Json.pdb",
         "lib/netstandard1.3/Newtonsoft.Json.xml",
         "lib/netstandard2.0/Newtonsoft.Json.dll",
-        "lib/netstandard2.0/Newtonsoft.Json.pdb",
         "lib/netstandard2.0/Newtonsoft.Json.xml",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.pdb",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
-        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.pdb",
-        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.12.0.1.nupkg.sha512",
-        "newtonsoft.json.nuspec"
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "System.Memory/4.5.4": {
+      "sha512": "1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "type": "package",
+      "path": "system.memory/4.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Memory.dll",
+        "lib/net461/System.Memory.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.4.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Newtonsoft.Json >= 12.0.1"
+      "IPNetwork2 >= 2.5.329",
+      "Newtonsoft.Json >= 13.0.1"
     ]
   },
   "packageFolders": {
@@ -106,9 +167,13 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "IPNetwork2": {
+            "target": "Package",
+            "version": "[2.5.329, )"
+          },
           "Newtonsoft.Json": {
             "target": "Package",
-            "version": "[12.0.1, )"
+            "version": "[13.0.1, )"
           }
         },
         "imports": [

@@ -46,9 +46,13 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "IPNetwork2": {
+              "target": "Package",
+              "version": "[2.5.329, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[12.0.1, )"
+              "version": "[13.0.1, )"
             }
           },
           "imports": [
