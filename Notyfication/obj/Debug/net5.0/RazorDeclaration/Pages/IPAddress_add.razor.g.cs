@@ -169,7 +169,7 @@ using System.Net;
                 ErrorMessage = "for octet is to big";
                 return false;
             }
-            if (mask>33 ||  mask<3)
+            if (mask>32 ||  mask<4)
             {
                 ErrorMessage = "Net mask out of range";
                 return false;
