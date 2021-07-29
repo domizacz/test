@@ -22,7 +22,6 @@ C:\Users\Dom\Documents\Project\test\Notyfication\obj\Debug\net5.0\Notyfication.R
 C:\Users\Dom\Documents\Project\test\Notyfication\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
 C:\Users\Dom\Documents\Project\test\Notyfication\obj\Debug\net5.0\RazorDeclaration\Pages\Errortest.razor.g.cs
 C:\Users\Dom\Documents\Project\test\Notyfication\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
-C:\Users\Dom\Documents\Project\test\Notyfication\obj\Debug\net5.0\RazorDeclaration\Pages\IPAddress_add.razor.g.cs
 C:\Users\Dom\Documents\Project\test\Notyfication\obj\Debug\net5.0\RazorDeclaration\Pages\ListofIPS.razor.g.cs
 C:\Users\Dom\Documents\Project\test\Notyfication\obj\Debug\net5.0\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
 C:\Users\Dom\Documents\Project\test\Notyfication\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
@@ -36,7 +35,6 @@ C:\Users\Dom\Documents\Project\test\Notyfication\obj\Debug\net5.0\Notyfication.R
 C:\Users\Dom\Documents\Project\test\Notyfication\obj\Debug\net5.0\Razor\App.razor.g.cs
 C:\Users\Dom\Documents\Project\test\Notyfication\obj\Debug\net5.0\Razor\Pages\Errortest.razor.g.cs
 C:\Users\Dom\Documents\Project\test\Notyfication\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs
-C:\Users\Dom\Documents\Project\test\Notyfication\obj\Debug\net5.0\Razor\Pages\IPAddress_add.razor.g.cs
 C:\Users\Dom\Documents\Project\test\Notyfication\obj\Debug\net5.0\Razor\Pages\ListofIPS.razor.g.cs
 C:\Users\Dom\Documents\Project\test\Notyfication\obj\Debug\net5.0\Razor\Shared\SurveyPrompt.razor.g.cs
 C:\Users\Dom\Documents\Project\test\Notyfication\obj\Debug\net5.0\Razor\_Imports.razor.g.cs

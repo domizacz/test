@@ -76,7 +76,7 @@ using Notyfication;
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "C:\Users\Dom\Documents\Project\test\Notyfication\_Imports.razor"
+#line 23 "C:\Users\Dom\Documents\Project\test\Notyfication\Pages\ListofIPS.razor"
 using Notyfication.Shared;
 
 #line default
@@ -90,33 +90,9 @@ using Notyfication.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 22 "C:\Users\Dom\Documents\Project\test\Notyfication\Pages\ListofIPS.razor"
-       
-
-    public int nameow = 0;
-    protected override async Task OnInitializedAsync()
-    {
-        for (int i = 0; i < 100; i++)
-        {
-
-#line default
-#line hidden
-#nullable disable
-        __builder.AddContent(0, "            ");
-        __builder.AddMarkupContent(1, "<ul>  test  </ul>\r\n");
-#nullable restore
-#line 30 "C:\Users\Dom\Documents\Project\test\Notyfication\Pages\ListofIPS.razor"
-                }
-
-            }
-
-
-
-
-
-
-
-
+#line 23 "C:\Users\Dom\Documents\Project\test\Notyfication\Pages\ListofIPS.razor"
+                           
+    classa_test test;
     
 
 #line default
