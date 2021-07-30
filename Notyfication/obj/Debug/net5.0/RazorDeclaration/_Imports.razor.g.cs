@@ -82,6 +82,13 @@ using Notyfication.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "C:\Users\Dom\Documents\Project\test\Notyfication\_Imports.razor"
+using Radzen.Blazor;
+
+#line default
+#line hidden
+#nullable disable
     public partial class _Imports : System.Object
     {
         #pragma warning disable 1998
