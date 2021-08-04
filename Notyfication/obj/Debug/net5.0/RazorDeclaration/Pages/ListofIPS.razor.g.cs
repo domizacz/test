@@ -76,15 +76,15 @@ using Notyfication;
 #line hidden
 #nullable disable
 #nullable restore
-#line 11 "C:\Users\Dom\Documents\Project\test\Notyfication\_Imports.razor"
-using Radzen.Blazor;
+#line 10 "C:\Users\Dom\Documents\Project\test\Notyfication\_Imports.razor"
+using Notyfication.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 23 "C:\Users\Dom\Documents\Project\test\Notyfication\Pages\ListofIPS.razor"
-using Notyfication.Shared;
+#line 11 "C:\Users\Dom\Documents\Project\test\Notyfication\_Imports.razor"
+using Radzen.Blazor;
 
 #line default
 #line hidden
@@ -96,15 +96,6 @@ using Notyfication.Shared;
         {
         }
         #pragma warning restore 1998
-#nullable restore
-#line 23 "C:\Users\Dom\Documents\Project\test\Notyfication\Pages\ListofIPS.razor"
-                           
-    classa_test test;
-
-
-#line default
-#line hidden
-#nullable disable
     }
 }
 #pragma warning restore 1591

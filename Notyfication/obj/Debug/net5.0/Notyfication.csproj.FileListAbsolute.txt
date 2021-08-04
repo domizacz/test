@@ -58,3 +58,5 @@ C:\Users\Dom\Documents\Project\test\Notyfication\obj\Debug\net5.0\Notyfication.d
 C:\Users\Dom\Documents\Project\test\Notyfication\obj\Debug\net5.0\ref\Notyfication.dll
 C:\Users\Dom\Documents\Project\test\Notyfication\obj\Debug\net5.0\Notyfication.pdb
 C:\Users\Dom\Documents\Project\test\Notyfication\obj\Debug\net5.0\Notyfication.genruntimeconfig.cache
+C:\Users\Dom\Documents\Project\test\Notyfication\bin\Debug\net5.0\Radzen.Blazor.dll
+C:\Users\Dom\Documents\Project\test\Notyfication\bin\Debug\net5.0\System.Linq.Dynamic.Core.dll

@@ -17,15 +17,67 @@
     </li>
     <li>Test1</li>
 </ol>
-<classa_test ip="aaa"></classa_test>
 
-
-
-
-@code {
-    @using Notyfication.Shared;
-    @using Radzen.Blazor;
-
-
+<ul>
+    a
+    <ul>1</ul>
+    <ul>2</ul>
+    <ul>
+        3
+        <ul>
+            5
+            <ul>4</ul>
+        </ul>
+    </ul>
+</ul>
+test PASSS
+@for(int a=0;a<10;a++)
+            {
+<ul>
+    <li>@a</li>
+    @for (int b = 0; b < 10; b++)
+    {
+    <ul >
+        <li>@b</li>
+            @for (int c = 0; c < 10; c++)
+            {
+    <ul>
+        <li >">@c</li>
+        @for (int d = 0; d < 10; d++)
+        {
+            <ul >
+                <li>@d</li>
+                @for (int e = 0; e < 10; e++)
+                {
+                    <ul>
+                        <li>@e</li>
+                        @for (int f = 0; f < 10; f++)
+                        {
+                            <ul>
+                                <li >@f</li>
+                            </ul>
 }
-}
+
+                    </ul>
+                }
+            </ul>
+        }
+    </ul>}
+
+            </ul >
+        }
+        </ul>
+    }
+
+
+
+    <classa_test ip="aaa"></classa_test>
+
+
+
+
+    @code {
+
+
+
+    }

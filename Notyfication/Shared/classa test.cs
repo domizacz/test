@@ -9,7 +9,7 @@ namespace Notyfication.Shared
     {
         public string ip { get; set; }
 
-        public string tree()
+        public string tree(string ips)
         {
             
             return "ip";
