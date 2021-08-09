@@ -1,6 +1,7 @@
 ﻿@using Microsoft.Extensions.Logging
-
+@using Shared
 <h3>ListofIPS</h3>
+
 <ol>
     fffff
     <li>
@@ -33,28 +34,57 @@
         </ul>
     </ul>
 </ul>
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> aa
-<classa_test ip="aaa" />
-<input class="form-check-input" type="checkbox" value="1 id="defaultCheck1">
 
 
-<ul>
-    <li>
-        <input class="form-check-input" type="checkbox" value="1 id="Te" name="test" >
-        
-        <ul>tree</ul>
-        <ul>tree2</ul>
-        <ul>tree</ul>
-        <ul><input class="form-check-input" type="checkbox" value="1 id="TREE3"><li>Terst</li></ul>
 
-    </li>
-</ul>
+<input class="form-check-input" type="checkbox" value="True" id="We test this " @onclick="onclikc" name="@test">10.0.0.0/8
 
+@if (@test)
+{
+
+    <ul>10.10.0.0/9</ul>
+    <ul>10.20.0.0/9</ul>
+    <ul>10.30.0.0/9</ul>
+    <ul>
+        <input class="form-check-input" type="checkbox" id="TREE3" @onclick="onclikc1" name="@test1">10.40.0.0/9
+        @if (test1)
+        {
+            <li>
+                <ul>10.40.10.0/10</ul>
+                <ul>10.40.20.0/10</ul>
+                <ul>10.40.30.0/10</ul>
+
+            </li>
+
+        }
+
+    </ul>
+}
+    
 
 
 
 @code {
-    public int test;
+    public classa_test a = new classa_test();
 
+    public bool test1;
+    public bool test;
+
+    public void on()
+    {
+        a.pod=!a.pod;
+
+    }
+
+    public void onclikc()
+    {
+        a.pod = !a.pod;
+
+        test = !test;
+    }
+    public void onclikc1()
+    {
+        test1 = !test1;
+    }
 
 }

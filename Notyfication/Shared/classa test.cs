@@ -5,15 +5,11 @@ using System.Threading.Tasks;
 
 namespace Notyfication.Shared
 {
-    public abstract class classa_test
+    public class classa_test
     {
-        public string ip { get; set; }
+        public bool pod { get; set; }
 
-        public string tree(string ips)
-        {
-            
-            return "ipdasdasdsadasdsada";
-        }
+       
      
     }
 }

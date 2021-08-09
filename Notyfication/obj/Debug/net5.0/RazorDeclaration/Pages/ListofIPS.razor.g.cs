@@ -96,6 +96,13 @@ using Microsoft.Extensions.Logging;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\Users\Dom\Documents\Project\test\Notyfication\Pages\ListofIPS.razor"
+using Shared;
+
+#line default
+#line hidden
+#nullable disable
     public partial class ListofIPS : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -103,6 +110,35 @@ using Microsoft.Extensions.Logging;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 82 "C:\Users\Dom\Documents\Project\test\Notyfication\Pages\ListofIPS.razor"
+       
+    public classa_test a = new classa_test();
+
+    public bool test1;
+    public bool test;
+
+    public void on()
+    {
+        a.pod=!a.pod;
+
+    }
+
+    public void onclikc()
+    {
+        a.pod = !a.pod;
+
+        test = !test;
+    }
+    public void onclikc1()
+    {
+        test1 = !test1;
+    }
+
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591
