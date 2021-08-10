@@ -111,7 +111,7 @@ using Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 82 "C:\Users\Dom\Documents\Project\test\Notyfication\Pages\ListofIPS.razor"
+#line 67 "C:\Users\Dom\Documents\Project\test\Notyfication\Pages\ListofIPS.razor"
        
     public classa_test a = new classa_test();
 
@@ -126,9 +126,8 @@ using Shared;
 
     public void onclikc()
     {
-        a.pod = !a.pod;
-
         test = !test;
+        
     }
     public void onclikc1()
     {

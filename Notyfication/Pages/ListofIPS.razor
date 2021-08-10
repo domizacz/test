@@ -47,7 +47,7 @@
     <ul>10.30.0.0/9</ul>
     <ul>
         <input class="form-check-input" type="checkbox" id="TREE3" @onclick="onclikc1" name="@test1">10.40.0.0/9
-        @if (test1)
+        @if (@test1)
         {
             <li>
                 <ul>10.40.10.0/10</ul>
@@ -75,12 +75,11 @@
         a.pod=!a.pod;
 
     }
-
+    
     public void onclikc()
     {
-        a.pod = !a.pod;
-
         test = !test;
+        
     }
     public void onclikc1()
     {
