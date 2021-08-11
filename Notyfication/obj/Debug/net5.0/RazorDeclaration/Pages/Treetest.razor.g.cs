@@ -89,21 +89,7 @@ using Radzen.Blazor;
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 1 "C:\Users\Dom\Documents\Project\test\Notyfication\Pages\ListofIPS.razor"
-using Microsoft.Extensions.Logging;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 2 "C:\Users\Dom\Documents\Project\test\Notyfication\Pages\ListofIPS.razor"
-using Shared;
-
-#line default
-#line hidden
-#nullable disable
-    public partial class ListofIPS : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class Treetest : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -111,33 +97,20 @@ using Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 68 "C:\Users\Dom\Documents\Project\test\Notyfication\Pages\ListofIPS.razor"
+#line 33 "C:\Users\Dom\Documents\Project\test\Notyfication\Pages\Treetest.razor"
        
-    public classa_test a = new classa_test();
+    private ElementReference _nested;
 
-    public bool test1;
-    public bool test;
-
-    public void on()
+    private async Task OpenModal()
     {
-        a.pod=!a.pod;
-
+        // 👇 Call the JS function with the html element (dialog) as parameter
+        await JS.InvokeVoidAsync("tree", _nested);
     }
-    
-    public void onclikc()
-    {
-        test = !test;
-        
-    }
-    public void onclikc1()
-    {
-        test1 = !test1;
-    }
-
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IJSRuntime JS { get; set; }
     }
 }
 #pragma warning restore 1591

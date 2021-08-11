@@ -60,3 +60,5 @@ C:\Users\Dom\Documents\Project\test\Notyfication\obj\Debug\net5.0\Notyfication.g
 C:\Users\Dom\Documents\Project\test\Notyfication\bin\Debug\net5.0\Radzen.Blazor.dll
 C:\Users\Dom\Documents\Project\test\Notyfication\bin\Debug\net5.0\System.Linq.Dynamic.Core.dll
 C:\Users\Dom\Documents\Project\test\Notyfication\obj\Debug\net5.0\Notyfication.csproj.AssemblyReference.cache
+C:\Users\Dom\Documents\Project\test\Notyfication\obj\Debug\net5.0\RazorDeclaration\Pages\Treetest.razor.g.cs
+C:\Users\Dom\Documents\Project\test\Notyfication\obj\Debug\net5.0\Razor\Pages\Treetest.razor.g.cs

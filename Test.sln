@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notyfication", "Notyficatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPi", "WebAPi\WebAPi.csproj", "{939DFBD6-A13F-4145-9E97-079101E41080}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorSnew", "BlazorSnew\BlazorSnew.csproj", "{63B89C50-9DFB-458F-9C72-E7D0EB2A22B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorSnew", "BlazorSnew\BlazorSnew.csproj", "{63B89C50-9DFB-458F-9C72-E7D0EB2A22B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
