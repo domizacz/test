@@ -3,19 +3,20 @@
 <h3>Treetest</h3>
 
 TEST TEST TEST TETS TSTETES
+<code>tree</code>
 <ul id="myUL">
     <li>
-        <span class="caret">Beverages</span>
+        <span class="@_caret">Beverages</span>
         <ul class="_nested">
             <li>Water</li>
             <li>Coffee</li>
             <li>
-                <span class="caret">Tea</span>
+                <span class="@_caret">Tea</span>
                 <ul class="_nested">
                     <li>Black Tea</li>
                     <li>White Tea</li>
                     <li>
-                        <span class="caret">Green Tea</span>
+                        <span class="_caret">Green Tea</span>
                         <ul class="_nested">
                             <li>Sencha</li>
                             <li>Gyokuro</li>
@@ -29,13 +30,15 @@ TEST TEST TEST TETS TSTETES
     </li>
 </ul>
 
-TEST TEST TESTETSTE
+TEST TEST TEST ETSTE
 @code {
     private ElementReference _nested;
+    private ElementReference _caret;
+    private ElementReference _name;
 
     private async Task OpenModal()
     {
-        // 👇 Call the JS function with the html element (dialog) as parameter
-        await JS.InvokeVoidAsync("tree", _nested);
+        await JS.InvokeVoidAsync("tree", _caret);
+
     }
 }

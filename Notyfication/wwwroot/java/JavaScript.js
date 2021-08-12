@@ -4,7 +4,8 @@
         dialog.showModal();
     }
 }
-function tree(dialog) {
+
+window.tree => {
     var toggler = document.getElementsByClassName("caret");
     var i;
 
@@ -14,5 +15,6 @@ function tree(dialog) {
             this.classList.toggle("caret-down");
         });
     }
-}
+};
+
 

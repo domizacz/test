@@ -97,14 +97,16 @@ using Radzen.Blazor;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 33 "C:\Users\Dom\Documents\Project\test\Notyfication\Pages\Treetest.razor"
+#line 34 "C:\Users\Dom\Documents\Project\test\Notyfication\Pages\Treetest.razor"
        
     private ElementReference _nested;
+    private ElementReference _caret;
+    private ElementReference _name;
 
     private async Task OpenModal()
     {
-        // 👇 Call the JS function with the html element (dialog) as parameter
-        await JS.InvokeVoidAsync("tree", _nested);
+        await JS.InvokeVoidAsync("tree", _caret);
+
     }
 
 #line default
