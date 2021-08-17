@@ -97,22 +97,51 @@ using Radzen.Blazor;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 34 "C:\Users\Dom\Documents\Project\test\Notyfication\Pages\Treetest.razor"
+#line 57 "C:\Users\Dom\Documents\Project\test\Notyfication\Pages\Treetest.razor"
        
-    private ElementReference _nested;
-    private ElementReference _caret;
-    private ElementReference _name;
+    private MarkupString text;
+    [Parameter]
+    public string _caret { get; set; } = "caret";
+    public string _nested { get; set; } = "active";
 
-    private async Task OpenModal()
+    private uint[] quoteArray =
+    new uint[]
     {
-        await JS.InvokeVoidAsync("tree", _caret);
+            60, 101, 109, 62, 67, 97, 110, 39, 116, 32, 115, 116, 111, 112, 32,
+            116, 104, 101, 32, 115, 105, 103, 110, 97, 108, 44, 32, 77, 97,
+            108, 46, 60, 47, 101, 109, 62, 32, 45, 32, 77, 114, 46, 32, 85, 110,
+            105, 118, 101, 114, 115, 101, 10, 10,
+            };
 
+    private async Task ConvertArray()
+    {
+        text = new(await JSRuntime.InvokeAsync<string>("convertArray", quoteArray));
+
+    }
+
+    [Parameter]
+    public string CurrentDate { get; set; }
+
+    private async void GetCurrentDateTime()
+    {
+        CurrentDate = await JSRuntime.InvokeAsync<string>("getDateTime");
+        StateHasChanged();
+    }
+    public void caret()
+    {
+        if (_nested != "active")
+        {
+            _nested = "active";
+        }
+        else
+        {
+            _nested = "nested"; }
     }
 
 #line default
 #line hidden
 #nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IJSRuntime JS { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IJSRuntime JSRuntime { get; set; }
     }
 }
 #pragma warning restore 1591
