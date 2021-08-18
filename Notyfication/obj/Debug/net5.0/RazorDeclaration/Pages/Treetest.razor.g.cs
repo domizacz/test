@@ -104,6 +104,7 @@ using Radzen.Blazor;
     public string _caret { get; set; } = "caret";
     public string _nested { get; set; } = "active";
 
+    uno uno1 = new uno();
     private uint[] quoteArray =
     new uint[]
     {
@@ -129,13 +130,22 @@ using Radzen.Blazor;
     }
     public void caret()
     {
-        if (_nested != "active")
+        if (uno1.nasteds != "active")
         {
-            _nested = "active";
+            uno1.nasteds= "active";
+            //_nested = "active";
         }
         else
         {
-            _nested = "nested"; }
+            uno1.nasteds = "nested";
+           // _nested = "nested";
+         }
+    }
+
+    class uno
+    {
+        public string nasteds { get; set; } = "active";
+
     }
 
 #line default

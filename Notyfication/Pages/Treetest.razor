@@ -3,29 +3,6 @@
 <h3>Treetest</h3>
 
 
-<h1>Call JS <code>convertArray</code> Function</h1>
-
-<p>
-    <button @onclick="ConvertArray">Convert Array</button>
-</p>
-
-<p>
-    @text
-</p>
-
-<div>
-    <div>
-        <p>Current DateTime:<b> @CurrentDate</b></p>
-        <br />
-        <input type="button" @onclick="@GetCurrentDateTime" value="Get Current DateTime" />
-    </div>
-</div>
-
-
-
-
-
-TEST TEST TEST TETS TSTETES
 <code>tree</code>
 <ul id="myUL">
     <li>
@@ -35,12 +12,12 @@ TEST TEST TEST TETS TSTETES
             <li>Coffee</li>
             <li>
                 <span class="@_caret" @onclick="@caret">Tea</span>
-                <ul class="@_nested">
+                <ul class="@uno1.nasteds">
                     <li>Black Tea</li>
                     <li>White Tea</li>
                     <li>
-                        <span class="@_caret" @onclick="@caret">Green Tea</span>
-                        <ul class="@_nested">
+                        <span class="@_caret"  @onclick="@((args) => @caret())">Green Tea</span>
+                        <ul class="@uno1.nasteds">
                             <li>Sencha</li>
                             <li>Gyokuro</li>
                             <li>Matcha</li>
@@ -55,42 +32,30 @@ TEST TEST TEST TETS TSTETES
 
 TEST TEST TEST ETSTE
 @code {
-    private MarkupString text;
+    
     [Parameter]
     public string _caret { get; set; } = "caret";
     public string _nested { get; set; } = "active";
 
-    private uint[] quoteArray =
-    new uint[]
-    {
-            60, 101, 109, 62, 67, 97, 110, 39, 116, 32, 115, 116, 111, 112, 32,
-            116, 104, 101, 32, 115, 105, 103, 110, 97, 108, 44, 32, 77, 97,
-            108, 46, 60, 47, 101, 109, 62, 32, 45, 32, 77, 114, 46, 32, 85, 110,
-            105, 118, 101, 114, 115, 101, 10, 10,
-            };
-
-    private async Task ConvertArray()
-    {
-        text = new(await JSRuntime.InvokeAsync<string>("convertArray", quoteArray));
-
-    }
-
-    [Parameter]
-    public string CurrentDate { get; set; }
-
-    private async void GetCurrentDateTime()
-    {
-        CurrentDate = await JSRuntime.InvokeAsync<string>("getDateTime");
-        StateHasChanged();
-    }
+    uno uno1 = new uno();
+    
     public void caret()
     {
-        if (_nested != "active")
+        if (uno1.nasteds != "active")
         {
-            _nested = "active";
+            uno1.nasteds= "active";
+            //_nested = "active";
         }
         else
         {
-            _nested = "nested"; }
+            uno1.nasteds = "nested";
+           // _nested = "nested";
+         }
+    }
+
+    class uno
+    {
+        public string nasteds { get; set; } = "active";
+
     }
 }
