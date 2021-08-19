@@ -7,17 +7,17 @@
 <ul id="myUL">
     <li>
         <span class="@_caret" @onclick="@caret">Beverages</span>
-        <ul class="@_nested">
+        <ul class="nested">
             <li>Water</li>
             <li>Coffee</li>
             <li>
                 <span class="@_caret" @onclick="@caret">Tea</span>
-                <ul class="@uno1.nasteds">
+                <ul class="nested">
                     <li>Black Tea</li>
                     <li>White Tea</li>
                     <li>
                         <span class="@_caret"  @onclick="@((args) => @caret())">Green Tea</span>
-                        <ul class="@uno1.nasteds">
+                        <ul class="nested">
                             <li>Sencha</li>
                             <li>Gyokuro</li>
                             <li>Matcha</li>
@@ -32,25 +32,27 @@
 
 TEST TEST TEST ETSTE
 @code {
-    
+
     [Parameter]
     public string _caret { get; set; } = "caret";
     public string _nested { get; set; } = "active";
 
     uno uno1 = new uno();
-    
+
     public void caret()
     {
         if (uno1.nasteds != "active")
         {
             uno1.nasteds= "active";
+            JSRuntime.InvokeVoidAsync("tree");
             //_nested = "active";
         }
         else
         {
             uno1.nasteds = "nested";
-           // _nested = "nested";
-         }
+            JSRuntime.InvokeVoidAsync("tree");
+            // _nested = "nested";
+        }
     }
 
     class uno
