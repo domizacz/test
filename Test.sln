@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPi", "WebAPi\WebAPi.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorSnew", "BlazorSnew\BlazorSnew.csproj", "{63B89C50-9DFB-458F-9C72-E7D0EB2A22B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{A416922C-A719-4776-91B5-3D422F55E722}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{63B89C50-9DFB-458F-9C72-E7D0EB2A22B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63B89C50-9DFB-458F-9C72-E7D0EB2A22B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63B89C50-9DFB-458F-9C72-E7D0EB2A22B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A416922C-A719-4776-91B5-3D422F55E722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A416922C-A719-4776-91B5-3D422F55E722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A416922C-A719-4776-91B5-3D422F55E722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A416922C-A719-4776-91B5-3D422F55E722}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
