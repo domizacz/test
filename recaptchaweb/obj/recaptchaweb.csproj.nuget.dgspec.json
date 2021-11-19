@@ -1,24 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dom\\Documents\\Project\\test\\recaptchaweb\\recaptchaweb.csproj": {}
+    "C:\\Users\\monster\\Source\\Repos\\domizacz\\test\\recaptchaweb\\recaptchaweb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dom\\Documents\\Project\\test\\recaptchaweb\\recaptchaweb.csproj": {
+    "C:\\Users\\monster\\Source\\Repos\\domizacz\\test\\recaptchaweb\\recaptchaweb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dom\\Documents\\Project\\test\\recaptchaweb\\recaptchaweb.csproj",
+        "projectUniqueName": "C:\\Users\\monster\\Source\\Repos\\domizacz\\test\\recaptchaweb\\recaptchaweb.csproj",
         "projectName": "recaptchaweb",
-        "projectPath": "C:\\Users\\Dom\\Documents\\Project\\test\\recaptchaweb\\recaptchaweb.csproj",
-        "packagesPath": "C:\\Users\\Dom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dom\\Documents\\Project\\test\\recaptchaweb\\obj\\",
+        "projectPath": "C:\\Users\\monster\\Source\\Repos\\domizacz\\test\\recaptchaweb\\recaptchaweb.csproj",
+        "packagesPath": "C:\\Users\\monster\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\monster\\Source\\Repos\\domizacz\\test\\recaptchaweb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\monster\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -67,6 +68,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.12, 5.0.12]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -75,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
