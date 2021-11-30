@@ -1,0 +1,91 @@
+﻿@page "/"
+Remote Hand List for @friday
+
+<table class="table table-striped table-hover">
+  <tr class="table-active">
+    <td class="table-primary">Client</td>
+    <td class="table-primary">Location</td>
+    <td class="table-primary">Case</td>
+    <td class="table-primary">Task</td>
+    <td class="table-primary">Details</td>
+    <td class="table-primary">Instruction</td>
+    <td class="table-primary">Status</td>
+    <td class="table-primary">Tested</td>
+    <td class="table-primary">Support</td>
+    <td class="table-primary">Networking</td>
+    <td class="table-primary">Remote Hands</td>
+    <td class="table-primary">Date Added</td>
+   </tr>
+   <tr>
+    <td scope="row">GT</td>
+    <td class="">Ny4</td>
+    <td class="">GTS-12533-ascs</td>
+    <td class="">Replace HDD</td>
+    <td class="">Remove hdd from...</td>
+    <td class="">....</td>
+    <td class=""> status    </td>
+    <td class="">Tested</td>
+    <td class="">Test</td>
+    <td class="">ADAM</td>
+    <td class="">Mark GPS</td>
+    <td class="">07/10/11</td>
+   </tr>
+   <tr>
+    <td scope="row">GT</td>
+    <td class="">Ny4</td>
+    <td class="">GTS-12533-ascs</td>
+    <td class="">Replace HDD</td>
+    <td class="">Remove hdd from...</td>
+    <td class="">....</td>
+    <td class="">Wait</td>
+    <td class="">Tested</td>
+    <td class="">Test</td>
+    <td class="">ADAM</td>
+    <td class="">Mark GPS</td>
+    <td class="">07/10/11</td>
+   </tr>
+   <tr>
+    <td scope="row">GT</td>
+    <td class="">Ny4</td>
+    <td class="">GTS-12533-ascs</td>
+    <td class="">Replace HDD</td>
+    <td class="">Remove hdd from...</td>
+    <td class="">....</td>
+    <td class="">Wait</td>
+    <td class="">Tested</td>
+    <td class="">Test</td>
+    <td class="">ADAM</td>
+    <td class="">Mark GPS</td>
+    <td class="">07/10/11</td>
+   </tr>
+      <tr>
+    <td scope="row">GT</td>
+    <td class="">Ny4</td>
+    <td class="">GTS-12533-ascs</td>
+    <td class="">Replace HDD</td>
+    <td class="">Remove hdd from...</td>
+    <td class="">....</td>
+    <td class="">Wait</td>
+    <td class="">Tested</td>
+    <td class="">Test</td>
+    <td class="">ADAM</td>
+    <td class="">Mark GPS</td>
+    <td class="">07/10/11</td>
+   </tr>
+  
+</table>
+
+
+
+@code{
+    public int friday;
+
+
+
+    public List<string> status_lab = new List<string>() { "Wait", "schego", "send instruction", "progress", "testing", "Completed", "postpone", "cancle" };
+
+    public int DayOfwork()
+    {
+        return friday = 10; 
+    }
+}
