@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorSnew", "BlazorSnew\Bl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{A416922C-A719-4776-91B5-3D422F55E722}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteHand", "E:\Project\RemoteHand\RemoteHand.csproj", "{6627419B-E603-4AC0-8C3C-0BB403AE2274}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoteHand", "RemoteHand\RemoteHand.csproj", "{584FB100-806C-415C-BFC0-C84A12D9C479}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,10 @@ Global
 		{A416922C-A719-4776-91B5-3D422F55E722}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A416922C-A719-4776-91B5-3D422F55E722}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A416922C-A719-4776-91B5-3D422F55E722}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6627419B-E603-4AC0-8C3C-0BB403AE2274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6627419B-E603-4AC0-8C3C-0BB403AE2274}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6627419B-E603-4AC0-8C3C-0BB403AE2274}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6627419B-E603-4AC0-8C3C-0BB403AE2274}.Release|Any CPU.Build.0 = Release|Any CPU
+		{584FB100-806C-415C-BFC0-C84A12D9C479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{584FB100-806C-415C-BFC0-C84A12D9C479}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{584FB100-806C-415C-BFC0-C84A12D9C479}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{584FB100-806C-415C-BFC0-C84A12D9C479}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -22,81 +22,25 @@ Remote Hand List for @friday
    <tr>
     <td scope="row">GT</td>
     <td class="">Ny4</td>
-    <td class="">GTS-12533-ascs</td>
+    <td class="">GTC-63568-M8G0T1</td>
     <td class="">Replace HDD</td>
     <td class="">Remove hdd from...</td>
     <td class="">....</td>
     <td class="">
         <select class="form-select form-select-sm" aria-label=".form-select-sm example">
-  <option selected>Open this select menu</option>
-  <option value="1">One</option>
-  <option value="2">Two</option>
-  <option value="3">Three</option>
-</select>
+  @foreach(string stat in status_lab)
+                    {
+                        <option value="@stat">@stat</option>
+                    }
+                </select>
 </td>
     <td class="">Tested</td>
     <td class="">Test</td>
     <td class="">ADAM</td>
     <td class="">Mark GPS</td>
-    <td class="">07/10/11</td>
+    <td class="">@data</td>
    </tr>
-   <tr>
-    <td scope="row">GT</td>
-    <td class="">Ny4</td>
-    <td class="">GTS-12533-ascs</td>
-    <td class="">Replace HDD</td>
-    <td class="">Remove hdd from...</td>
-    <td class="">....</td>
-    <td class="">  <select class="form-select form-select-sm" aria-label=".form-select-sm example">
-  <option selected>Open this select menu</option>
-  <option value="1">One</option>
-  <option value="2">Two</option>
-  <option value="3">Three</option>
-</select></td>
-    <td class="">Tested</td>
-    <td class="">Test</td>
-    <td class="">ADAM</td>
-    <td class="">Mark GPS</td>
-    <td class="">07/10/11</td>
-   </tr>
-   <tr>
-    <td scope="row">GT</td>
-    <td class="">Ny4</td>
-    <td class="">GTS-12533-ascs</td>
-    <td class="">Replace HDD</td>
-    <td class="">Remove hdd from...</td>
-    <td class="">....</td>
-    <td class="">  <select class="form-select form-select-sm" aria-label=".form-select-sm example">
-  <option selected>Open this select menu</option>
-  <option value="1">One</option>
-  <option value="2">Two</option>
-  <option value="3">Three</option>
-</select></td>
-    <td class="">Tested</td>
-    <td class="">Test</td>
-    <td class="">ADAM</td>
-    <td class="">Mark GPS</td>
-    <td class="">07/10/11</td>
-   </tr>
-      <tr>
-    <td scope="row">GT</td>
-    <td class="">Ny4</td>
-    <td class="">GTS-12533-ascs</td>
-    <td class="">Replace HDD</td>
-    <td class="">Remove hdd from...</td>
-    <td class="">....</td>
-    <td class="">  <select class="form-select form-select-sm" aria-label=".form-select-sm example">
-  <option selected>Open this select menu</option>
-  <option value="1">One</option>
-  <option value="2">Two</option>
-  <option value="3">Three</option>
-</select></td>
-    <td class="">Tested</td>
-    <td class="">Test</td>
-    <td class="">ADAM</td>
-    <td class="">Mark GPS</td>
-    <td class="">07/10/11</td>
-   </tr>
+  
   </tbody>
 </table>
 
@@ -104,10 +48,10 @@ Remote Hand List for @friday
 
 @code{
     public int friday;
+    public DateOnly data =new DateOnly( DateTime.Today.Year , DateTime.Today.Month, DateTime.Today.Day);
 
 
-
-    public List<string> status_lab = new List<string>() { "Wait", "schego", "send instruction", "progress", "testing", "Completed", "postpone", "cancle" };
+    public List<string> status_lab = new List<string>() {"Pending", "Sent", "Provided", "Tested", "Notified", "Completed", "Delayed"};
 
     public int DayOfwork()
     {
