@@ -47,14 +47,24 @@ Remote Hand List for @friday
 
 
 @code{
-    public int friday;
+    public string friday= "1";
     public DateOnly data =new DateOnly( DateTime.Today.Year , DateTime.Today.Month, DateTime.Today.Day);
 
 
-    public List<string> status_lab = new List<string>() {"Pending", "Sent", "Provided", "Tested", "Notified", "Completed", "Delayed"};
+    public List<string> status_lab = new List<string>() {"Pending", "Sent", "Provided", "Tested", "Notified", "Completed", "Delayed", "Cancle"};
 
-    public int DayOfwork()
+    protected override async Task OnInitializedAsync()
     {
-        return friday = 10; 
+
+        DateTime datfr = DateTime.Today;
+       while(datfr.DayOfWeek == DayOfWeek.Friday)
+        {   
+           datfr.AddDays(1); 
+        }
+        if (datfr.DayOfWeek == DayOfWeek.Friday)
+            {
+                friday =data.Month +" / "+datfr.Day;
+            }
+
     }
 }
