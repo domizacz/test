@@ -1,5 +1,20 @@
 ﻿@page "/"
-Remote Hand List for @friday
+@inject IJSRuntime JS
+
+Remote Hand List for 
+<p>
+  <button @onclick="@calend" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+    @friday.Month /@friday.Day /@friday.Year 
+  </button><button class="btn " @onclick="IncrementCount">+</button>
+</p>
+<div style="min-height: 120px;">
+  <div class="@collapse" id="">
+    <div class="card card-body" style="width: 300px;">
+      Calendar ytesy alshdalsd
+    </div>
+  </div>
+</div>
+
 
 <table class="table table-striped table-hover">
     <thead>
@@ -25,7 +40,7 @@ Remote Hand List for @friday
     <td class="">GTC-63568-M8G0T1</td>
     <td class="">Replace HDD</td>
     <td class="">Remove hdd from...</td>
-    <td class="">....</td>
+    <td class="col-1 text-truncate">Test test test tetst  tts </td>
     <td class="">
         <select class="form-select form-select-sm" aria-label=".form-select-sm example">
   @foreach(string stat in status_lab)
@@ -47,24 +62,57 @@ Remote Hand List for @friday
 
 
 @code{
-    public string friday= "1";
+    public DateTime friday = DateTime.Now;
     public DateOnly data =new DateOnly( DateTime.Today.Year , DateTime.Today.Month, DateTime.Today.Day);
-
+    public string collapse = "collapse";
 
     public List<string> status_lab = new List<string>() {"Pending", "Sent", "Provided", "Tested", "Notified", "Completed", "Delayed", "Cancle"};
 
     protected override async Task OnInitializedAsync()
     {
 
-        DateTime datfr = DateTime.Today;
-       while(datfr.DayOfWeek == DayOfWeek.Friday)
-        {   
-           datfr.AddDays(1); 
-        }
-        if (datfr.DayOfWeek == DayOfWeek.Friday)
-            {
-                friday =data.Month +" / "+datfr.Day;
-            }
+        fri_day(0);
+
 
     }
+    public void IncrementCount()
+    {
+        fri_day(7);
+    }
+    public void calend()
+    {
+        if (collapse == "collapse")
+        { collapse = ""; }
+        else {collapse = "collapse"; }
+        
+    }
+    public void fri_day(int day)
+    {
+        int a = 0;
+        if (day == 0)
+        {
+            while (a < 2)
+            {
+
+                if (friday.DayOfWeek == DayOfWeek.Friday)
+                {
+                    a = 2;
+
+                }
+                else
+                {
+                    friday = friday.AddDays(1);
+                }
+            }
+             }
+        else{
+             
+                    friday= friday.AddDays(day);
+            
+        }
+
+
+    }
+
+
 }
