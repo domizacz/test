@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Notyfication",
+    "\\Notyfication\\Pages"
   ],
-  "SelectedNode": "\\Capter",
+  "SelectedNode": "\\Notyfication\\Pages\\Treetest.razor",
   "PreviewInSolutionExplorer": false
 }

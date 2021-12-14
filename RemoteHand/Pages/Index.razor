@@ -1,8 +1,25 @@
 ﻿@page "/"
-Remote Hand List for @friday
+@using Data;
+@inject IJSRuntime JS
+
+Remote Hand List for 
+<p>
+  <button @onclick="@calend" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+    @friday.Month /@friday.Day /@friday.Year 
+  </button><button class="btn " @onclick="IncrementCount">+</button>
+</p>
+<div style="min-height: 120px;">
+  <div class="@collapse" id="">
+    <div class="card card-body" style="width: 300px;">
+      Calendar ytesy alshdalsd
+    </div>
+  </div>
+</div>
+
 
 <table class="table table-striped table-hover">
-    <thead>
+   
+ <thead>
   <tr class="table-active">
     <td class="table-primary">Client</td>
     <td class="table-primary">Location</td>
@@ -25,7 +42,7 @@ Remote Hand List for @friday
     <td class="">GTC-63568-M8G0T1</td>
     <td class="">Replace HDD</td>
     <td class="">Remove hdd from...</td>
-    <td class="">....</td>
+    <td class="col-1 text-truncate">Test test test tetst  tts </td>
     <td class="">
         <select class="form-select form-select-sm" aria-label=".form-select-sm example">
   @foreach(string stat in status_lab)
@@ -42,19 +59,105 @@ Remote Hand List for @friday
    </tr>
   
   </tbody>
+
+
+   <thead>
+  <tr class="table-active">
+    <td class="table table-primary text-center " colspan="12"><b>CHICAGO/AURORA</b></td>
+   
+   </tr>
+   </thead>
+   <tbody>
+   <tr>
+    <td scope="row">GT</td>
+    <td class="">Ny4</td>
+    <td class="">GTC-63568-M8G0T1</td>
+    <td class="">Replace HDD</td>
+    <td class="">Remove hdd from...</td>
+    <td class="col-1 text-truncate">Test test test tetst  tts </td>
+    <td class="">
+        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+  @foreach(string stat in status_lab)
+                    {
+                        <option value="@stat">@stat</option>
+                    }
+                </select>
+</td>
+    <td class="">Tested</td>
+    <td class="">Test</td>
+    <td class="">ADAM</td>
+    <td class="">Mark GPS</td>
+    <td class="">@data</td>
+   </tr>
+  
+  </tbody>
+
+
+
 </table>
 
 
 
 @code{
-    public int friday;
+    public DateTime friday = DateTime.Now;
     public DateOnly data =new DateOnly( DateTime.Today.Year , DateTime.Today.Month, DateTime.Today.Day);
+    public string collapse = "collapse";
 
-
-    public List<string> status_lab = new List<string>() {"Pending", "Sent", "Provided", "Tested", "Notified", "Completed", "Delayed"};
-
-    public int DayOfwork()
+    public List<string> status_lab = new List<string>() {"Pending", "Sent", "Provided", "Tested", "Notified", "Completed", "Delayed", "Cancle"};
+    public List<Class_RH> demo = new List<Class_RH>()
     {
-        return friday = 10; 
+       1, "ny4", "GT", "GTS-1253-1533", "Reprace HDD", "remove trase - add more hdd", "", "wait", "Tested", "JP", "AP", "John", "1/1/2021", "12/17/21" 
+
+    };
+
+    
+
+
+    protected override async Task OnInitializedAsync()
+    {
+
+        fri_day(0);
+        
+
     }
+    public void IncrementCount()
+    {
+        fri_day(7);
+    }
+    public void calend()
+    {
+        if (collapse == "collapse")
+        { collapse = ""; }
+        else {collapse = "collapse"; }
+        
+    }
+    public void fri_day(int day)
+    {
+        int a = 0;
+        if (day == 0)
+        {
+            while (a < 2)
+            {
+
+                if (friday.DayOfWeek == DayOfWeek.Friday)
+                {
+                    a = 2;
+
+                }
+                else
+                {
+                    friday = friday.AddDays(1);
+                }
+            }
+             }
+        else{
+             
+                    friday= friday.AddDays(day);
+            
+        }
+
+
+    }
+
+
 }
