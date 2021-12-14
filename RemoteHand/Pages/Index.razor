@@ -1,6 +1,6 @@
 ﻿@page "/"
-@using Data;
-@inject IJSRuntime JS
+
+
 
 Remote Hand List for 
 <p>
@@ -104,14 +104,14 @@ Remote Hand List for
     public string collapse = "collapse";
 
     public List<string> status_lab = new List<string>() {"Pending", "Sent", "Provided", "Tested", "Notified", "Completed", "Delayed", "Cancle"};
-    public List<Class_RH> demo = new List<Class_RH>()
-    {
-       1, "ny4", "GT", "GTS-1253-1533", "Reprace HDD", "remove trase - add more hdd", "", "wait", "Tested", "JP", "AP", "John", "1/1/2021", "12/17/21" 
-
-    };
-
     
 
+    /*public List<Class_RH> demo = new List<Class_RH>()
+    {
+       (1, "ny4", "GT", "GTS-1253-1533", "Reprace HDD", "remove trase - add more hdd", "", "wait", "Tested", "JP", "AP", "John", "1/1/2021", "12/17/21" )
+
+    };
+    */
 
     protected override async Task OnInitializedAsync()
     {
