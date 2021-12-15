@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Notyfication",
-    "\\Notyfication\\Pages"
+    "\\RemoteHand",
+    "\\RemoteHand\\Data",
+    "\\RemoteHand\\Pages"
   ],
   "SelectedNode": "\\Test.sln",
   "PreviewInSolutionExplorer": false

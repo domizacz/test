@@ -1,5 +1,5 @@
 ﻿@page "/"
-
+@using Data;
 
 
 Remote Hand List for 
@@ -93,31 +93,61 @@ Remote Hand List for
   </tbody>
 
 
+   <tbody>
+    @foreach(var RMHList in ClassRH)
+			@RMHList.id
+   <tr>
+    <td scope="row"></td>
+    <td class="">Ny4</td>
+    <td class="">GTC-63568-M8G0T1</td>
+    <td class="">Replace HDD</td>
+    <td class="">Remove hdd from...</td>
+    <td class="col-1 text-truncate">Test test test tetst  tts </td>
+    <td class="">
+        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+  @foreach(string stat in ListofRemote)
+                    {
+                        <option value="@stat">@stat</option>
+                    }
+                </select>
+</td>
+    <td class="">Tested</td>
+    <td class="">Test</td>
+    <td class="">ADAM</td>
+    <td class="">Mark GPS</td>
+    <td class="">@data</td>
+   </tr>
+  
+  </tbody>
+
+
 
 </table>
 
 
 
 @code{
+    @using Data;
+
+
     public DateTime friday = DateTime.Now;
     public DateOnly data =new DateOnly( DateTime.Today.Year , DateTime.Today.Month, DateTime.Today.Day);
     public string collapse = "collapse";
-
+    public List<ClassRH> ListofRemote;
     public List<string> status_lab = new List<string>() {"Pending", "Sent", "Provided", "Tested", "Notified", "Completed", "Delayed", "Cancle"};
-    
 
-    /*public List<Class_RH> demo = new List<Class_RH>()
-    {
-       (1, "ny4", "GT", "GTS-1253-1533", "Reprace HDD", "remove trase - add more hdd", "", "wait", "Tested", "JP", "AP", "John", "1/1/2021", "12/17/21" )
 
-    };
-    */
+
+
+
 
     protected override async Task OnInitializedAsync()
     {
 
+        var temp = Demo();
+        ListofRemote = temp.DemoList();
         fri_day(0);
-        
+
 
     }
     public void IncrementCount()
@@ -129,7 +159,7 @@ Remote Hand List for
         if (collapse == "collapse")
         { collapse = ""; }
         else {collapse = "collapse"; }
-        
+
     }
     public void fri_day(int day)
     {
@@ -149,13 +179,15 @@ Remote Hand List for
                     friday = friday.AddDays(1);
                 }
             }
-             }
+        }
         else{
-             
-                    friday= friday.AddDays(day);
-            
+
+            friday= friday.AddDays(day);
+
         }
 
+
+        
 
     }
 
