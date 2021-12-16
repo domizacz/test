@@ -35,98 +35,53 @@ Remote Hand List for
     <td class="table-primary">Date Added</td>
    </tr>
    </thead>
-   <tbody>
-   <tr>
-    <td scope="row">GT</td>
-    <td class="">Ny4</td>
-    <td class="">GTC-63568-M8G0T1</td>
-    <td class="">Replace HDD</td>
-    <td class="">Remove hdd from...</td>
-    <td class="col-1 text-truncate">Test test test tetst  tts </td>
-    <td class="">
-        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
-  @foreach(string stat in status_lab)
-                    {
-                        <option value="@stat">@stat</option>
-                    }
-                </select>
-</td>
-    <td class="">Tested</td>
-    <td class="">Test</td>
-    <td class="">ADAM</td>
-    <td class="">Mark GPS</td>
-    <td class="">@data</td>
-   </tr>
-  
-  </tbody>
-
-
-   <thead>
+ 
+     <thead>
   <tr class="table-active">
     <td class="table table-primary text-center " colspan="12"><b>CHICAGO/AURORA</b></td>
    
    </tr>
    </thead>
+
    <tbody>
+    @foreach(var RMHList in ListofRemote)
+    {
    <tr>
-    <td scope="row">GT</td>
-    <td class="">Ny4</td>
-    <td class="">GTC-63568-M8G0T1</td>
-    <td class="">Replace HDD</td>
-    <td class="">Remove hdd from...</td>
-    <td class="col-1 text-truncate">Test test test tetst  tts </td>
+    <td scope="row">@RMHList.Clinet</td>
+    <td class="">@RMHList.Location</td>
+    <td class="">@RMHList.Case</td>
+    <td class="">@RMHList.Task</td>
+    <td class="">@RMHList.Details</td>
+    <td class=".container-sm text-truncate"> @LimitText(@RMHList.Instruction)</td>
     <td class="">
         <select class="form-select form-select-sm" aria-label=".form-select-sm example">
-  @foreach(string stat in status_lab)
+            
+             @foreach(string stat in status_lab)
                     {
-                        <option value="@stat">@stat</option>
+                        if(RMHList.status== stat)
+                        {<option selected value="@stat">@stat</option>}else
+                        {<option value="@stat">@stat</option>}
+                        
                     }
                 </select>
 </td>
-    <td class="">Tested</td>
-    <td class="">Test</td>
-    <td class="">ADAM</td>
-    <td class="">Mark GPS</td>
-    <td class="">@data</td>
+    <td class="">@RMHList.tested</td>
+    <td class="">@RMHList.Support</td>
+    <td class="">@RMHList.Networking</td>
+    <td class="">@RMHList.RemoteHand</td>
+    <td class="">@RMHList.Date_Added</td>
    </tr>
-  
+   }
   </tbody>
 
-
-   <tbody>
-    @foreach(var RMHList in ClassRH)
-			@RMHList.id
-   <tr>
-    <td scope="row"></td>
-    <td class="">Ny4</td>
-    <td class="">GTC-63568-M8G0T1</td>
-    <td class="">Replace HDD</td>
-    <td class="">Remove hdd from...</td>
-    <td class="col-1 text-truncate">Test test test tetst  tts </td>
-    <td class="">
-        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
-  @foreach(string stat in ListofRemote)
-                    {
-                        <option value="@stat">@stat</option>
-                    }
-                </select>
-</td>
-    <td class="">Tested</td>
-    <td class="">Test</td>
-    <td class="">ADAM</td>
-    <td class="">Mark GPS</td>
-    <td class="">@data</td>
-   </tr>
-  
-  </tbody>
-
-
+ 
 
 </table>
 
 
 
 @code{
+
     @using Data;
 
 
@@ -144,8 +99,8 @@ Remote Hand List for
     protected override async Task OnInitializedAsync()
     {
 
-        var temp = Demo();
-        ListofRemote = temp.DemoList();
+        Demo temp = new Demo();
+        ListofRemote = temp.DemoRH();
         fri_day(0);
 
 
@@ -186,9 +141,10 @@ Remote Hand List for
 
         }
 
-
-        
-
+    }
+    public string LimitText (string text)
+    {
+        return text.Substring(0, 12)+"...";
     }
 
 
