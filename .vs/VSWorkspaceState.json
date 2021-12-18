@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Notyfication",
-    "\\Notyfication\\Pages"
+    "\\RemoteHand",
+    "\\RemoteHand\\Data",
+    "\\RemoteHand\\Pages"
   ],
-  "SelectedNode": "\\Notyfication\\Pages\\Treetest.razor",
+  "SelectedNode": "\\Test.sln",
   "PreviewInSolutionExplorer": false
 }
