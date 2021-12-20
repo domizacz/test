@@ -17,6 +17,11 @@ Remote Hand List for
 </div>
 
 
+
+
+
+
+
 <table class="table table-striped table-hover">
    
  <thead>
@@ -100,9 +105,8 @@ Remote Hand List for
     {
 
         Demo temp = new Demo();
-        ListofRemote = temp.DemoRH().Sort();
-
-       
+        ListofRemote = temp.DemoRH();
+        ListofRemote = ListofRemote.Sort(delegate(ClassRH x, ClassRH y) { return x.Location.CompareTo(y.Location);});
 
         fri_day(0);
 
