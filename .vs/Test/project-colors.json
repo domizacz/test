@@ -10,7 +10,12 @@
       "ProjectGuid": "6627419b-e603-4ac0-8c3c-0bb403ae2274",
       "DisplayName": "RemoteHand",
       "ColorIndex": 0
+    },
+    "584fb100-806c-415c-bfc0-c84a12d9c479": {
+      "ProjectGuid": "584fb100-806c-415c-bfc0-c84a12d9c479",
+      "DisplayName": "RemoteHand",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }

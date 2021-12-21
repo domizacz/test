@@ -41,15 +41,16 @@ Remote Hand List for
    <tbody>
     @foreach(ClassRH RMHList in ListofRemote)
     {
-    @if (@RMHList.Data_work == DateOnly.FromDateTime(friday))
-    {
-    @if (@Area != @RMHList.Area)
+        @if (@Area != @RMHList.Area)
             {
                 
                 <tr>            
                         <td class="table-info text-center table-primary" colspan="12"><b>@(Area = RMHList.Area)</b></td>
            </tr>
             }
+    @if (DateOnly.FromDateTime(friday)==RMHList.Data_work)
+    {
+    
             <tr>
     <td scope="row">@RMHList.Clinet</td>
     <td class="">@RMHList.Location</td>
@@ -73,7 +74,7 @@ Remote Hand List for
     <td class="">@RMHList.Support</td>
     <td class="">@RMHList.Networking</td>
     <td class="">@RMHList.RemoteHand</td>
-    <td class="">@RMHList.Date_Added</td>
+    <td class="">@RMHList.Date_Added.Date</td>
    </tr>
    }
    
