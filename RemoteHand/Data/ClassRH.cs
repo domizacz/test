@@ -45,13 +45,6 @@
  }
 
       
-
-            //1, "NY4", "GT", "GTS-1253-1533", "Reprace HDD", "remove trase - add more hdd", "wait", "Tested", "??", "JP", "AP", "John", "1/1/1991", "12/12/2021"
-
-            //{ 1,'ny4', "GT", "GTS-1253-1533", "Reprace HDD", "remove trase - add more hdd", "wait", "Tested", "JP", "AP", "John", 1 / 1 / 2021, 12 / 17 / 21 } 
-        
-    
-
     
    
 

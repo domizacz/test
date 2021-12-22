@@ -191,4 +191,3 @@ C:\Users\Dom\Documents\GitHub\test\RemoteHand\obj\Debug\net6.0\RemoteHand.dll
 C:\Users\Dom\Documents\GitHub\test\RemoteHand\obj\Debug\net6.0\ref\RemoteHand.dll
 C:\Users\Dom\Documents\GitHub\test\RemoteHand\obj\Debug\net6.0\RemoteHand.pdb
 C:\Users\Dom\Documents\GitHub\test\RemoteHand\obj\Debug\net6.0\RemoteHand.genruntimeconfig.cache
-C:\Users\monster\source\repos\domizacz\test\RemoteHand\obj\Debug\net6.0\RemoteHand.csproj.AssemblyReference.cache
