@@ -110,11 +110,7 @@ Remote Hand List for
     protected override async Task OnInitializedAsync()
     {
 
-<<<<<<< HEAD
-        Demo temp = new Demo();
-        ListofRemote = temp.DemoRH();
-        ListofRemote = ListofRemote.Sort(delegate(ClassRH x, ClassRH y) { return x.Location.CompareTo(y.Location);});
-=======
+
         ListofRemote = temp.DemoRH();
 
          ListofRemote.Sort(delegate(ClassRH x, ClassRH y)
@@ -125,10 +121,6 @@ Remote Hand List for
             else return x.Location.CompareTo(y.Location);
         });
 
-        
-
-       
->>>>>>> cfba031a8d8f68ceeab6adbd74c7419d91b65a24
 
         fri_day(0);
 
