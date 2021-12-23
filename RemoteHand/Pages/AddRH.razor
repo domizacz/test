@@ -23,12 +23,14 @@
     public void add()
     {
         ListofRemote = listdemo.DemoRH();
-        ClassRH addrequest = new ClassRH() {id=1, Clinet="GT",Location="NY2",Area="EUROPE" , Case="GTC-123451-1SA35D", Task="REPLACE HDD", Details="BROKEN HDD", Instruction="REMOVE OLD ADD NEW ONE TURN ONE THE SERVER", status="", Support="SUPPORT", Networking="JB", RemoteHand="B612", Date_Added=DateTime.Parse("10/15/2017"), Data_work=DateOnly.ParseExact("1/7/2022" , "MM/dd/yyyy")};
+        ClassRH addrequest = new ClassRH() {id=22, Clinet="GT",Location="fr2",Area="CHICAGO/AURORA" , Case="GTC-11111-1SA35D", Task="RE1PLACE HDD", Details="BROKEN 11HDD", Instruction="REMOVE OLD ADD111NEW ONE TURN ONE THE SERVER", status="", Support="SUPPORT", Networking="JB", RemoteHand="B612", Date_Added=DateTime.Parse("10/15/2017"), Data_work=DateOnly.ParseExact("12/31/2022" , "MM/dd/yyyy")};
+
+
+        
 
         ListofRemote.Add(addrequest);
-        Index indexx = new Index();
-        indexx.page();
-
+        ListofRemote.Add(addrequest);
+        //StateHasChanged();
 
 
     }
