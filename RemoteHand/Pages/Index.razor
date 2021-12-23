@@ -12,16 +12,16 @@ Remote Hand List for
 <div style="min-height: 120px;">
   <div class="@collapse" id="">
     <div class="card card-body" style="width: 300px;">
-      Calendar 
+      Calendar @client
     </div>
   </div>
 </div>
 
-
+@client
 
 
 <div class="input-group flex-nowrap">
-  <input type="text" class="form-control" placeholder="Client" aria-label="Client" aria-describedby="addon-wrapping">
+  <input type="text" class="form-control" placeholder="Client" aria-label="Client" aria-describedby="addon-wrapping" value="client">
   <input type="text" class="form-control" placeholder="Case" aria-label="Case" aria-describedby="addon-wrapping">
   <input type="text" class="form-control" placeholder="Aria" aria-label="Aria" aria-describedby="addon-wrapping">
   <input type="text" class="form-control" placeholder="Location" aria-label="Location" aria-describedby="addon-wrapping">
@@ -108,7 +108,7 @@ Remote Hand List for
 @code{
 
     @using Data;
-
+    private string client { get; set; }
 
     public DateTime friday = DateTime.Now;
     public DateOnly data =new DateOnly( DateTime.Today.Year , DateTime.Today.Month, DateTime.Today.Day);
@@ -121,14 +121,14 @@ Remote Hand List for
     public void add()
     {
         ListofRemote = temp.DemoRH();
-        ClassRH addrequest = new ClassRH() {id=22, Clinet="GT",Location="fr2",Area="CHICAGO/AURORA" , Case="GTC-11111-1SA35D", Task="RE1PLACE HDD", Details="BROKEN 11HDD", Instruction="REMOVE OLD ADD111NEW ONE TURN ONE THE SERVER", status="", Support="SUPPORT", Networking="JB", RemoteHand="B612", Date_Added=DateTime.Parse("10/15/2017"), Data_work=DateOnly.ParseExact("12/31/2022" , "MM/dd/yyyy")};
+        ClassRH addrequest = new ClassRH() {id=27, Clinet="GT",Location="fr2",Area="CHICAGO/AURORA" , Case="GTC-11111-1SA35D", Task="RE1PLACE HDD", Details="BROKEN 11HDD", Instruction="REMOVE OLD ADD111NEW ONE TURN ONE THE SERVER", status="", Support="SUPPORT", Networking="JB", RemoteHand="B612", Date_Added=DateTime.Parse("10/15/2017"), Data_work=DateOnly.ParseExact("01/07/2022" , "MM/dd/yyyy")};
 
 
-        
+
 
         ListofRemote.Add(addrequest);
-        ListofRemote.Add(addrequest);
-        //StateHasChanged();
+     
+      
 
 
     }
@@ -136,12 +136,12 @@ Remote Hand List for
     protected override async Task OnInitializedAsync()
     {
 
-        page();
+        
 
-
+    page();
 
         fri_day(0);
-
+        
 
     }
 
