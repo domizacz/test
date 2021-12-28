@@ -30,7 +30,7 @@ Remote Hand List for
   <input type="text" class="form-control" placeholder="Networking" aria-label="Networking" aria-describedby="addon-wrapping" @bind="@Networking">
   <input type="text" class="form-control" placeholder="Remote Hands" aria-label="Remote Hands" aria-describedby="addon-wrapping" @bind="RemoteHand">
   <div class="col-auto">
-    <button type="submit" class="btn btn-primary mb-3" onclick="@add">Add</button>
+    <button type="submit" class="btn btn-primary mb-3" @onclick="add">Add</button>
   </div>
 </div>
 
@@ -93,7 +93,7 @@ Remote Hand List for
     <td class="">@RMHList.Networking</td>
     <td class="">@RMHList.RemoteHand</td>
     <td class="">@RMHList.Date_Added.Date</td>
-    <td class=""><button type="submit" class="btn btn-warning" @onclick="edit">Edit</button> <button type="submit" class="btn btn-danger" @onclick="del">DEL</button></td>
+    <td class=""><button type="submit" class="btn btn-warning" @onclick="edit">Edit</button> <button type="submit" class="btn btn-danger" @onclick="() => del(RMHList.id)">DEL</button></td>
    </tr>
    }
    
@@ -106,8 +106,8 @@ Remote Hand List for
 
 
 
-@code{
-
+@code {
+    
     @using Data;
 
     private string Taskmod { get; set; }
@@ -119,6 +119,8 @@ Remote Hand List for
     private string Support { get; set; }
     private string Networking { get; set; }
     private string RemoteHand { get; set; }
+    public int ContRecord { get; set; } 
+
 
 
     public DateTime friday = DateTime.Now;
@@ -131,22 +133,23 @@ Remote Hand List for
 
 
 
-    public void del()
+    public void del(int a)
     {
-
+        var itemToRemove = ListofRemote.Single(r => r.id == a);
+        ListofRemote.Remove(itemToRemove);
     }
     public void edit()
     {
-        
+
     }
 
     public void add()
     {
-        
 
-        ClassRH addrequest = new ClassRH() {id=27, Clinet=@Client,Location=@Location, Area=@Aria , Case=@Case, Task=@Taskmod, Details=@Deails , Instruction="REMOVE OLD ADD111NEW ONE TURN ONE THE SERVER", status="Pending", Support=@Support, Networking=@Networking, RemoteHand=@RemoteHand, Date_Added=DateTime.Today, Data_work=DateOnly.FromDateTime(friday) };
-           
-         ListofRemote.Add(addrequest);
+
+        ClassRH addrequest = new ClassRH() {id=ContRecord+1, Clinet=@Client,Location=@Location, Area=@Aria , Case=@Case, Task=@Taskmod, Details=@Deails , Instruction="REMOVE OLD ADD111NEW ONE TURN ONE THE SERVER", status="Pending", Support=@Support, Networking=@Networking, RemoteHand=@RemoteHand, Date_Added=DateTime.Today, Data_work=DateOnly.FromDateTime(friday) };
+
+        ListofRemote.Add(addrequest);
         ListofRemote.Sort(delegate(ClassRH x, ClassRH y)
        {
            if (x.Area == null && y.Area == null) return 0;
@@ -162,12 +165,12 @@ Remote Hand List for
     protected override async Task OnInitializedAsync()
     {
 
-        
 
-    page();
+
+        page();
 
         fri_day(0);
-        
+
 
     }
 
@@ -183,6 +186,7 @@ Remote Hand List for
            else return x.Area
            .CompareTo(y.Area);
        });
+        ContRecord = ListofRemote.Count();
     }
 
     public void IncrementCount()
@@ -231,6 +235,7 @@ Remote Hand List for
     {
         return text.Substring(0, 12)+"...";
     }
+
 
 
 }
