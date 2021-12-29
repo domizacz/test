@@ -192,7 +192,6 @@ C:\Users\monster\source\repos\domizacz\test\RemoteHand\obj\Debug\net6.0\ref\Remo
 C:\Users\monster\source\repos\domizacz\test\RemoteHand\obj\Debug\net6.0\RemoteHand.pdb
 C:\Users\monster\source\repos\domizacz\test\RemoteHand\obj\Debug\net6.0\RemoteHand.genruntimeconfig.cache
 C:\Users\monster\source\repos\domizacz\test\RemoteHand\obj\Debug\net6.0\RemoteHand.csproj.AssemblyReference.cache
-C:\Users\Dom\Documents\Project\test\RemoteHand\obj\Debug\net6.0\RemoteHand.csproj.AssemblyReference.cache
 C:\Users\Dom\Documents\Project\test\RemoteHand\obj\Debug\net6.0\RemoteHand.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Dom\Documents\Project\test\RemoteHand\obj\Debug\net6.0\RemoteHand.AssemblyInfoInputs.cache
 C:\Users\Dom\Documents\Project\test\RemoteHand\obj\Debug\net6.0\RemoteHand.AssemblyInfo.cs

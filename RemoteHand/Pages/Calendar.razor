@@ -1,0 +1,45 @@
+﻿<h3>Calendar</h3>
+
+
+@DayMonthC
+<section>
+    for(int i; i>@dayinmon)
+
+</section>
+
+
+
+@code {
+
+
+    public DateOnly DayNowC;
+    public string DayMonthC;
+    public int dumdays;
+    public int dayinmon;
+
+    protected override void OnInitialized()
+    {
+        DayNowC = DateOnly.FromDateTime(DateTime.Today);
+        dayinmon = DayNowC.AddMonths(1).AddDays(-1);
+
+        DayMonthC = DayNowC.Month switch
+        {
+            1 => "January",
+            2 => "February",
+            3 => "March",
+            4 => "April",
+            5 => "May",
+            6 => "June",
+            7 => "July",
+            8 => "August",
+            9 => "September",
+            10 => "October",
+            11 => "November",
+            12 => "December",
+            _ => ""
+        };
+        dumdays = (int)DayNowC.DayOfWeek;
+    }
+
+
+}

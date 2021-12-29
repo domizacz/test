@@ -12,7 +12,8 @@ Remote Hand List for
 <div style="min-height: 120px;">
   <div class="@collapse" id="">
     <div class="card card-body" style="width: 300px;">
-      Calendar 
+      <Calendar></Calendar>
+      
     </div>
   </div>
 </div>
@@ -25,6 +26,7 @@ Remote Hand List for
   <input type="text" class="form-control" placeholder="Aria" aria-label="Aria" aria-describedby="addon-wrapping" @bind="@Aria" >
   <input type="text" class="form-control" placeholder="Location" aria-label="Location" aria-describedby="addon-wrapping" @bind="@Location">
   <input type="text" class="form-control" placeholder="Task" aria-label="Task" aria-describedby="addon-wrapping" @bind="@Taskmod">
+  <input type="text" class="form-control" placeholder="Instruction" aria-label="Task" aria-describedby="addon-wrapping" @bind="@Instruction">
   <input type="text" class="form-control" placeholder="Details" aria-label="Details" aria-describedby="addon-wrapping" @bind="@Deails">
   <input type="text" class="form-control" placeholder="Support" aria-label="Support" aria-describedby="addon-wrapping" @bind="@Support">
   <input type="text" class="form-control" placeholder="Networking" aria-label="Networking" aria-describedby="addon-wrapping" @bind="@Networking">
@@ -93,7 +95,7 @@ Remote Hand List for
     <td class="">@RMHList.Networking</td>
     <td class="">@RMHList.RemoteHand</td>
     <td class="">@RMHList.Date_Added.Date</td>
-    <td class=""><button type="submit" class="btn btn-warning" @onclick="edit">Edit</button> <button type="submit" class="btn btn-danger" @onclick="() => del(RMHList.id)">DEL</button></td>
+    <td class=""><button type="submit" class="btn btn-warning" @onclick="() => edit(RMHList.id)">Edit</button> <button type="submit" class="btn btn-danger" @onclick="() => del(RMHList.id)">DEL</button></td>
    </tr>
    }
    
@@ -116,6 +118,7 @@ Remote Hand List for
     private string Aria { get; set; }
     private string Location { get; set; }
     private string Deails { get; set; }
+    private string Instruction { get; set; }
     private string Support { get; set; }
     private string Networking { get; set; }
     private string RemoteHand { get; set; }
@@ -133,21 +136,48 @@ Remote Hand List for
 
 
 
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
     public void del(int a)
     {
         var itemToRemove = ListofRemote.Single(r => r.id == a);
         ListofRemote.Remove(itemToRemove);
     }
-    public void edit()
+    public void edit(int a)
     {
-
+        var itemToEdit = ListofRemote.Single(r => r.id == a);
+        Taskmod = itemToEdit.Task;
+        Client = itemToEdit.Clinet;
+        Case = itemToEdit.Case;
+        Aria = itemToEdit.Area;
+        Instruction = itemToEdit.Instruction;
+        Location = itemToEdit.Location;
+        Deails = itemToEdit.Details;
+        Support = itemToEdit.Support;
+        Networking = itemToEdit.Networking;
+        RemoteHand = itemToEdit.RemoteHand; 
     }
 
     public void add()
     {
 
-
-        ClassRH addrequest = new ClassRH() {id=ContRecord+1, Clinet=@Client,Location=@Location, Area=@Aria , Case=@Case, Task=@Taskmod, Details=@Deails , Instruction="REMOVE OLD ADD111NEW ONE TURN ONE THE SERVER", status="Pending", Support=@Support, Networking=@Networking, RemoteHand=@RemoteHand, Date_Added=DateTime.Today, Data_work=DateOnly.FromDateTime(friday) };
+        ContRecord++;
+        ClassRH addrequest = new ClassRH() {id=ContRecord, Clinet=@Client,Location=@Location, Area=@Aria , Case=@Case ,Task=@Taskmod, Details=@Deails , Instruction=@Instruction, status="Pending", Support=@Support, Networking=@Networking, RemoteHand=@RemoteHand, Date_Added=DateTime.Today, Data_work=DateOnly.FromDateTime(friday) };
 
         ListofRemote.Add(addrequest);
         ListofRemote.Sort(delegate(ClassRH x, ClassRH y)
@@ -158,6 +188,24 @@ Remote Hand List for
            else return x.Area
            .CompareTo(y.Area);
        });
+
+
+
+        Taskmod = string.Empty;
+        Client = string.Empty;
+        Case = string.Empty;
+        Aria = string.Empty;
+        Instruction = string.Empty;
+        Location = string.Empty;
+        Deails = string.Empty;
+        Support = string.Empty;
+        Networking = string.Empty;
+        RemoteHand = string.Empty;
+
+
+
+
+
 
 
     }
@@ -233,7 +281,14 @@ Remote Hand List for
     }
     public string LimitText (string text)
     {
-        return text.Substring(0, 12)+"...";
+        if(text.LongCount()>12)
+        {
+            return text.Substring(0, 12)+"...";
+        }
+        else
+        { 
+            return text;
+        }
     }
 
 
