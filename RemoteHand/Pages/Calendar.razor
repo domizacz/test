@@ -2,8 +2,11 @@
 
 
 @DayMonthC
-<section>
-    for(int i; i>@dayinmon)
+<section style="display:grid; grid-template-columns: repeat(7, 1fr); grid-gap: 10px;">
+    @for(int i = 1; i<= dayinmon.Day; i++)
+    {
+        <div style="border: 1px solid black;">@i</div>
+    }
 
 </section>
 
@@ -15,11 +18,11 @@
     public DateOnly DayNowC;
     public string DayMonthC;
     public int dumdays;
-    public int dayinmon;
+    public DateOnly dayinmon;
 
     protected override void OnInitialized()
     {
-        DayNowC = DateOnly.FromDateTime(DateTime.Today);
+        DayNowC =new  DateOnly( DateTime.Today.Year , DateTime.Today.Month, 1 );
         dayinmon = DayNowC.AddMonths(1).AddDays(-1);
 
         DayMonthC = DayNowC.Month switch
