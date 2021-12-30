@@ -11,7 +11,7 @@ Remote Hand List for
 </p>
 <div style="min-height: 20px;">
   <div class="@collapse" id="">
-    <div class="card card-body" style="width: 500px;">
+    <div class="card card-body" style="width: 200px;">
       <Calendar></Calendar>
       
     </div>
@@ -112,6 +112,10 @@ Remote Hand List for
     
     @using Data;
 
+
+   
+
+
     private string Taskmod { get; set; }
     private string Client { get; set; }
     private string Case { get; set; }
@@ -125,6 +129,7 @@ Remote Hand List for
     public int ContRecord { get; set; } 
 
 
+    Time TM = new Time();
 
     public DateTime friday = DateTime.Now;
     public DateOnly data =new DateOnly( DateTime.Today.Year , DateTime.Today.Month, DateTime.Today.Day);
@@ -141,7 +146,7 @@ Remote Hand List for
 
 
 
-    
+
 
 
 
@@ -239,11 +244,15 @@ Remote Hand List for
 
     public void IncrementCount()
     {
-        fri_day(7);
+        fri_day(7); 
+        Calendar calendar = new Calendar();
+        calendar.calendar_drive();
     }
     public void Countout()
     {
         fri_day(-7);
+       
+        
     }
 
     public void calend()
@@ -277,7 +286,8 @@ Remote Hand List for
             friday= friday.AddDays(day);
 
         }
-
+        //TM.friday = new DateOnly(friday.Year, friday.Month, 1);
+        
     }
     public string LimitText (string text)
     {
