@@ -1,64 +1,9 @@
 ﻿
-<center>@DayMonthC</center> 
+<center>DayMonthC</center> 
 
-<section style="display:grid; grid-template-columns: repeat(7, 1fr); grid-gap: 5px;">
-
-    @for(int i = 1; i<dumdays; i++)
-    {
-        <div></div>
-    }
-
-    @for(int i = 1; i<= dayinmon.Day; i++)
-    {
-        <div style="text-align:center;">@i</div>
-    }
-
-</section>
 
 
 
 @code {
-    @using Data;
-
-    public DateOnly DayNowC;
-    public string DayMonthC;
-    public int dumdays;
-    public DateOnly dayinmon;
-    Index indexpage = new Index();
-    Time timemodul = new Time();
-
-    protected override async Task OnInitializedAsync()
-    {
-       calendar_drive();
-
-
-    }
-    public void calendar_drive()
-    {
-        //DateTime friday =indexpage.friday;
-        //DayNowC =new  DateOnly(friday.Year , friday.Month, 1 );
-        DayNowC = new DateOnly(indexpage.friday.Year, indexpage.friday.Month, 1);
-        //DayNowC =new  DateOnly( DateTime.Today.Year , DateTime.Today.Month, 1 );
-        dayinmon = DayNowC.AddMonths(1).AddDays(-1);
-
-        DayMonthC = DayNowC.Month switch
-        {
-            1 => "January",
-            2 => "February",
-            3 => "March",
-            4 => "April",
-            5 => "May",
-            6 => "June",
-            7 => "July",
-            8 => "August",
-            9 => "September",
-            10 => "October",
-            11 => "November",
-            12 => "December",
-            _ => ""
-        };
-        dumdays = (int)DayNowC.DayOfWeek;
-        
-    }
 
 }

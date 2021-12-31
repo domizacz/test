@@ -12,7 +12,25 @@ Remote Hand List for
 <div style="min-height: 20px;">
   <div class="@collapse" id="">
     <div class="card card-body" style="width: 200px;">
-      <Calendar></Calendar>
+      <section style="display:grid; grid-template-columns: repeat(7, 1fr); grid-gap: 5px;">
+
+    @for(int i = 1; i<dumdays; i++)
+    {
+        <div></div>
+    }
+
+    @for(int i = 1; i<= dayinmon.Day; i++)
+    {
+                    @if (@i == friday.Day)
+                    {<div style="text-align:center; color:red;">@i</div>}
+        else           
+
+                            {
+                                <div class="text-primary" style="text-align:center; " @onclick="() => selectday(i)">@i</div>
+                            }
+                }
+
+</section>
       
     </div>
   </div>
@@ -113,7 +131,7 @@ Remote Hand List for
     @using Data;
 
 
-   
+
 
 
     private string Taskmod { get; set; }
@@ -129,7 +147,7 @@ Remote Hand List for
     public int ContRecord { get; set; } 
 
 
-    Time TM = new Time();
+    
 
     public DateTime friday = DateTime.Now;
     public DateOnly data =new DateOnly( DateTime.Today.Year , DateTime.Today.Month, DateTime.Today.Day);
@@ -147,14 +165,49 @@ Remote Hand List for
 
 
 
+    public DateOnly DayNowC;
+    public string DayMonthC;
+    public int dumdays;
+    public DateOnly dayinmon;
+
+
+    public void calendar_drive()
+    {
+        //DateTime friday =indexpage.friday;
+        //DayNowC =new  DateOnly(friday.Year , friday.Month, 1 );
+        DayNowC = new DateOnly(friday.Year, friday.Month, 1);
+        //DayNowC =new  DateOnly( DateTime.Today.Year , DateTime.Today.Month, 1 );
+        dayinmon = DayNowC.AddMonths(1).AddDays(-1);
+
+        DayMonthC = DayNowC.Month switch
+        {
+            1 => "January",
+            2 => "February",
+            3 => "March",
+            4 => "April",
+            5 => "May",
+            6 => "June",
+            7 => "July",
+            8 => "August",
+            9 => "September",
+            10 => "October",
+            11 => "November",
+            12 => "December",
+            _ => ""
+        };
+        dumdays = (int)DayNowC.DayOfWeek;
+
+    }
 
 
 
 
 
 
-
-
+    public void selectday(int i)
+    {
+        friday = DateTime.day(i);
+    }
 
 
 
@@ -208,18 +261,13 @@ Remote Hand List for
         RemoteHand = string.Empty;
 
 
-
-
-
-
-
     }
 
     protected override async Task OnInitializedAsync()
     {
 
 
-
+        calendar_drive();
         page();
 
         fri_day(0);
@@ -245,13 +293,12 @@ Remote Hand List for
     public void IncrementCount()
     {
         fri_day(7); 
-        Calendar calendar = new Calendar();
-        calendar.calendar_drive();
+     calendar_drive();
     }
     public void Countout()
     {
         fri_day(-7);
-       
+       calendar_drive();
         
     }
 
