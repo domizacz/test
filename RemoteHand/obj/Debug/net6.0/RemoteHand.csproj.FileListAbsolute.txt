@@ -200,7 +200,6 @@ C:\Users\monster\source\repos\domizacz\test\RemoteHand\obj\Debug\net6.0\RemoteHa
 C:\Users\monster\source\repos\domizacz\test\RemoteHand\obj\Debug\net6.0\RemoteHand.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\monster\source\repos\domizacz\test\RemoteHand\obj\Debug\net6.0\RemoteHand.RazorAssemblyInfo.cache
 C:\Users\monster\source\repos\domizacz\test\RemoteHand\obj\Debug\net6.0\RemoteHand.RazorAssemblyInfo.cs
-C:\Users\monster\source\repos\domizacz\test\RemoteHand\obj\Debug\net6.0\RemoteHand.csproj.AssemblyReference.cache
 C:\Users\monster\source\repos\domizacz\test\RemoteHand\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\monster\source\repos\domizacz\test\RemoteHand\bin\Debug\net6.0\appsettings.json
 C:\Users\monster\source\repos\domizacz\test\RemoteHand\bin\Debug\net6.0\RemoteHand.staticwebassets.runtime.json
