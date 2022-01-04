@@ -25,7 +25,7 @@
     }
     public class Time
     {
-    public DateOnly friday { get; set; }
+        public DateOnly friday { get; set; }
     }
 
     public class Demo
@@ -40,17 +40,17 @@
                 new ClassRH(){ id=3, Clinet="DCA", Location="DC3", Area="CHICAGO/AURORA", Case="GTC-123451-1SA35D", Task="REPLACE HDD", Details="BROKEN HDD", Instruction="REMOVE OLD ADD NEW ONE TURN ONE THE SERVER", status="Tested", Support="SUPPORT", Networking="JB", RemoteHand="B612", Date_Added=DateTime.Parse("12/25/2017"), Data_work=DateOnly.ParseExact("12/24/2021" , "MM/dd/yyyy") },
                 new ClassRH(){ id=4, Clinet="6BOBO", Location="NY45", Area="EAST COAST", Case="GTC-123451-1SA35D", Task="REPLACE HDD", Details="BROKEN HDD", Instruction="REMOVE OLD ADD NEW ONE TURN ONE THE SERVER", status="??", Support="SUPPORT", Networking="JB", RemoteHand="B612", Date_Added=DateTime.Parse("12/25/2017"), Data_work=DateOnly.ParseExact("12/24/2021" , "MM/dd/yyyy") }
 
-            };      
+            };
 
             return testdemo;
         }
 
     }
-        
- }
 
-      
-    
-   
+}
+
+
+
+
 
 
