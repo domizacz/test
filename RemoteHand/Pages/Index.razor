@@ -1,6 +1,6 @@
 ﻿@page "/"
 
-
+@editedata
 
 Remote Hand List for 
 <p>
@@ -78,7 +78,15 @@ Remote Hand List for
           <td><input type="text" class="form-control" placeholder="Networking" aria-label="Networking" aria-describedby="addon-wrapping" @bind="@Networking"></td>
           <td><input type="text" class="form-control" placeholder="Remote Hands" aria-label="Remote Hands" aria-describedby="addon-wrapping" @bind="RemoteHand"></td>
           <td colspan="1"></td>
-          <td><button type="submit" class="btn btn-primary mb-3" @onclick="add">Add</button></td>
+            <td>@if (editedata !=DateTime.Parse("1/1/0001 12:00:00 AM"))
+                {
+                    <button type="submit" class="btn btn-primary mb-3" @onclick="edit_save">Save</button>
+                }else
+                {
+                    <button type="submit" class="btn btn-primary mb-3" @onclick="add">Add</button>
+                }
+
+          </td>
        </tr>
     @foreach(ClassRH RMHList in ListofRemote)
     {
@@ -115,7 +123,7 @@ Remote Hand List for
     <td class="">@RMHList.Support</td>
     <td class="">@RMHList.Networking</td>
     <td class="">@RMHList.RemoteHand</td>
-    <td class="">@RMHList.Date_Added</td>
+    <td class="">@RMHList.Date_Added.Month/@RMHList.Date_Added.Day/@RMHList.Date_Added.Year</td>
     <td class=""><button type="submit" class="btn btn-warning" @onclick="() => edit(RMHList.id)">Edit</button> <button type="submit" class="btn btn-danger" @onclick="() => del(RMHList.id)">DEL</button></td>
    </tr>
    }
@@ -149,7 +157,7 @@ Remote Hand List for
     private string RemoteHand { get; set; }
     public int ContRecord { get; set; }
 
-
+    public DateTime editedata; 
 
 
     public DateTime friday = DateTime.Now;
@@ -194,7 +202,38 @@ Remote Hand List for
 
 
 
+    public void edit_save()
+    {
 
+        ContRecord++;
+        ClassRH addrequest = new ClassRH() {id=ContRecord, Clinet=@Client,Location=@Location, Area=@Aria , Case=@Case ,Task=@Taskmod, Details=@Deails , Instruction=@Instruction, status="Pending", Support=@Support, Networking=@Networking, RemoteHand=@RemoteHand, Data_work=DateOnly.FromDateTime(friday), user="TestUser", Date_Added=editedata };
+
+        ListofRemote.Add(addrequest);
+        ListofRemote.Sort(delegate(ClassRH x, ClassRH y)
+       {
+           if (x.Area == null && y.Area == null) return 0;
+           else if (x.Area == null) return -1;
+           else if (y.Area == null) return 1;
+           else return x.Area
+           .CompareTo(y.Area);
+       });
+
+
+
+        Taskmod = string.Empty;
+        Client = string.Empty;
+        Case = string.Empty;
+        Aria = string.Empty;
+        Instruction = string.Empty;
+        Location = string.Empty;
+        Deails = string.Empty;
+        Support = string.Empty;
+        Networking = string.Empty;
+        RemoteHand = string.Empty;
+
+        editedata = DateTime.Parse("1/1/0001 12:00:00 AM");
+
+    }
 
 
     public void selectday(int i)
@@ -224,7 +263,11 @@ Remote Hand List for
         Deails = itemToEdit.Details;
         Support = itemToEdit.Support;
         Networking = itemToEdit.Networking;
-        RemoteHand = itemToEdit.RemoteHand; 
+        RemoteHand = itemToEdit.RemoteHand;
+
+        editedata = itemToEdit.Date_Added;
+        del(a);
+
     }
 
     public void add()
