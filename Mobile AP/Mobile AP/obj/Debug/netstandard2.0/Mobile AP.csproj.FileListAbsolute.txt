@@ -1,0 +1,20 @@
+C:\Users\Dom\Documents\Project\test\Mobile AP\Mobile AP\bin\Debug\netstandard2.0\Mobile AP.deps.json
+C:\Users\Dom\Documents\Project\test\Mobile AP\Mobile AP\bin\Debug\netstandard2.0\Mobile AP.dll
+C:\Users\Dom\Documents\Project\test\Mobile AP\Mobile AP\bin\Debug\netstandard2.0\ref\Mobile AP.dll
+C:\Users\Dom\Documents\Project\test\Mobile AP\Mobile AP\bin\Debug\netstandard2.0\Mobile AP.pdb
+C:\Users\Dom\Documents\Project\test\Mobile AP\Mobile AP\obj\Debug\netstandard2.0\Mobile AP.csproj.AssemblyReference.cache
+C:\Users\Dom\Documents\Project\test\Mobile AP\Mobile AP\obj\Debug\netstandard2.0\Mobile AP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dom\Documents\Project\test\Mobile AP\Mobile AP\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Dom\Documents\Project\test\Mobile AP\Mobile AP\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\Dom\Documents\Project\test\Mobile AP\Mobile AP\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\Dom\Documents\Project\test\Mobile AP\Mobile AP\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\Dom\Documents\Project\test\Mobile AP\Mobile AP\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\Dom\Documents\Project\test\Mobile AP\Mobile AP\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\Dom\Documents\Project\test\Mobile AP\Mobile AP\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\Dom\Documents\Project\test\Mobile AP\Mobile AP\obj\Debug\netstandard2.0\Mobile AP.AssemblyInfoInputs.cache
+C:\Users\Dom\Documents\Project\test\Mobile AP\Mobile AP\obj\Debug\netstandard2.0\Mobile AP.AssemblyInfo.cs
+C:\Users\Dom\Documents\Project\test\Mobile AP\Mobile AP\obj\Debug\netstandard2.0\Mobile AP.csproj.CoreCompileInputs.cache
+C:\Users\Dom\Documents\Project\test\Mobile AP\Mobile AP\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Dom\Documents\Project\test\Mobile AP\Mobile AP\obj\Debug\netstandard2.0\Mobile AP.dll
+C:\Users\Dom\Documents\Project\test\Mobile AP\Mobile AP\obj\Debug\netstandard2.0\ref\Mobile AP.dll
+C:\Users\Dom\Documents\Project\test\Mobile AP\Mobile AP\obj\Debug\netstandard2.0\Mobile AP.pdb

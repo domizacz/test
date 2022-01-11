@@ -15,7 +15,17 @@
       "ProjectGuid": "584fb100-806c-415c-bfc0-c84a12d9c479",
       "DisplayName": "RemoteHand",
       "ColorIndex": 1
+    },
+    "539035d9-533c-4d5b-9dcb-d297e7607b43": {
+      "ProjectGuid": "539035d9-533c-4d5b-9dcb-d297e7607b43",
+      "DisplayName": "recaptchaweb",
+      "ColorIndex": 2
+    },
+    "270bdfb7-fc50-41e5-92b8-53eed2ea53da": {
+      "ProjectGuid": "270bdfb7-fc50-41e5-92b8-53eed2ea53da",
+      "DisplayName": "Mobile AP",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 4
 }
