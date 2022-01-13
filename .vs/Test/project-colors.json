@@ -21,14 +21,14 @@
       "DisplayName": "recaptchaweb",
       "ColorIndex": 2
     },
-    "f8870bc8-2312-4c25-b1d0-7b20023756fa": {
-      "ProjectGuid": "f8870bc8-2312-4c25-b1d0-7b20023756fa",
-      "DisplayName": "ASP.netRaz",
+    "270bdfb7-fc50-41e5-92b8-53eed2ea53da": {
+      "ProjectGuid": "270bdfb7-fc50-41e5-92b8-53eed2ea53da",
+      "DisplayName": "Mobile AP",
       "ColorIndex": 3
     },
-    "939dfbd6-a13f-4145-9e97-079101e41080": {
-      "ProjectGuid": "939dfbd6-a13f-4145-9e97-079101e41080",
-      "DisplayName": "WebAPi",
+    "9f2ab8fb-b8a0-4972-adf8-df8c5279e1d6": {
+      "ProjectGuid": "9f2ab8fb-b8a0-4972-adf8-df8c5279e1d6",
+      "DisplayName": "Mobile AP.Android",
       "ColorIndex": 4
     }
   },
