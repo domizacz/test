@@ -21,11 +21,16 @@
       "DisplayName": "recaptchaweb",
       "ColorIndex": 2
     },
-    "270bdfb7-fc50-41e5-92b8-53eed2ea53da": {
-      "ProjectGuid": "270bdfb7-fc50-41e5-92b8-53eed2ea53da",
-      "DisplayName": "Mobile AP",
+    "f8870bc8-2312-4c25-b1d0-7b20023756fa": {
+      "ProjectGuid": "f8870bc8-2312-4c25-b1d0-7b20023756fa",
+      "DisplayName": "ASP.netRaz",
       "ColorIndex": 3
+    },
+    "939dfbd6-a13f-4145-9e97-079101e41080": {
+      "ProjectGuid": "939dfbd6-a13f-4145-9e97-079101e41080",
+      "DisplayName": "WebAPi",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 5
 }
