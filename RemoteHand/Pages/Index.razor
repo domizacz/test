@@ -1,4 +1,6 @@
 ﻿@page "/"
+@inject DB_Mango db
+
 
 Remote Hand List for 
 <p>
@@ -139,6 +141,7 @@ Remote Hand List for
     
     @using Data;
     @using MongoDB.Driver
+
 
 
 
@@ -304,15 +307,15 @@ Remote Hand List for
     protected override async Task OnInitializedAsync()
     {
 
-        
+
+        db.testclass();
 
 
         calendar_drive();
         page();
 
         fri_day(0);
-
-
+        
     }
 
     public void page()
