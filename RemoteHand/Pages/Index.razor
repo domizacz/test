@@ -306,20 +306,20 @@ Remote Hand List for
 
     protected override async Task OnInitializedAsync()
     {
-
+        //db.testclass();
         calendar_drive();
         page();
 
         fri_day(0);
-        
+
     }
 
     public void page()
     {
-        ListofRemote = temp.DemoRH();
-        var a = db.View_Mongo();
-
-
+        //ListofRemote = temp.DemoRH();
+        ListofRemote = db.Getallrecord();
+        
+        
         ListofRemote.Sort(delegate(ClassRH x, ClassRH y)
        {
            if (x.Area == null && y.Area == null) return 0;
