@@ -982,18 +982,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\monster\\.nuget\\packages\\": {},
+    "C:\\Users\\Dom\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\Mobile AP\\Mobile AP.iOS\\Mobile AP.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Dom\\Documents\\Project\\test\\Mobile AP\\Mobile AP.iOS\\Mobile AP.iOS.csproj",
       "projectName": "Mobile AP.iOS",
-      "projectPath": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\Mobile AP\\Mobile AP.iOS\\Mobile AP.iOS.csproj",
-      "packagesPath": "C:\\Users\\monster\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\Mobile AP\\Mobile AP.iOS\\obj\\",
+      "projectPath": "C:\\Users\\Dom\\Documents\\Project\\test\\Mobile AP\\Mobile AP.iOS\\Mobile AP.iOS.csproj",
+      "packagesPath": "C:\\Users\\Dom\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dom\\Documents\\Project\\test\\Mobile AP\\Mobile AP.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1001,7 +1001,7 @@
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\monster\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dom\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -1016,8 +1016,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\monster\\source\\repos\\domizacz\\test\\Mobile AP\\Mobile AP\\Mobile AP.csproj": {
-              "projectPath": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\Mobile AP\\Mobile AP\\Mobile AP.csproj"
+            "C:\\Users\\Dom\\Documents\\Project\\test\\Mobile AP\\Mobile AP\\Mobile AP.csproj": {
+              "projectPath": "C:\\Users\\Dom\\Documents\\Project\\test\\Mobile AP\\Mobile AP\\Mobile AP.csproj"
             }
           }
         }

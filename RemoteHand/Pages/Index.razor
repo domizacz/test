@@ -97,7 +97,7 @@ Remote Hand List for
                         <td class="table-info text-center table-primary" colspan="13"><b>@(Area = RMHList.Area)</b></td>
            </tr>
             }
-    @if (DateOnly.FromDateTime(friday)==RMHList.Data_work)
+    @if (friday.Date==RMHList.Data_work.Date)
     {
     
             <tr>
@@ -208,7 +208,7 @@ Remote Hand List for
     {
 
         ContRecord++;
-        ClassRH addrequest = new ClassRH() {id=ContRecord, Clinet=@Client,Location=@Location, Area=@Aria , Case=@Case ,Task=@Taskmod, Details=@Deails , Instruction=@Instruction, status="Pending", Support=@Support, Networking=@Networking, RemoteHand=@RemoteHand, Data_work=DateOnly.FromDateTime(friday), user="TestUser", Date_Added=editedata };
+        ClassRH addrequest = new ClassRH() {id=ContRecord, Clinet=@Client,Location=@Location, Area=@Aria , Case=@Case ,Task=@Taskmod, Details=@Deails , Instruction=@Instruction, status="Pending", Support=@Support, Networking=@Networking, RemoteHand=@RemoteHand, Data_work=friday, user="TestUser", Date_Added=editedata };
 
         ListofRemote.Add(addrequest);
         ListofRemote.Sort(delegate(ClassRH x, ClassRH y)
@@ -276,7 +276,7 @@ Remote Hand List for
     {
 
         ContRecord++;
-        ClassRH addrequest = new ClassRH() {id=ContRecord, Clinet=@Client,Location=@Location, Area=@Aria , Case=@Case ,Task=@Taskmod, Details=@Deails , Instruction=@Instruction, status="Pending", Support=@Support, Networking=@Networking, RemoteHand=@RemoteHand, Data_work=DateOnly.FromDateTime(friday), user="TestUser", Date_Added=DateTime.Now };
+        ClassRH addrequest = new ClassRH() {id=ContRecord, Clinet=@Client,Location=@Location, Area=@Aria , Case=@Case ,Task=@Taskmod, Details=@Deails , Instruction=@Instruction, status="Pending", Support=@Support, Networking=@Networking, RemoteHand=@RemoteHand, Data_work=friday, user="TestUser", Date_Added=DateTime.Now };
 
         ListofRemote.Add(addrequest);
         ListofRemote.Sort(delegate(ClassRH x, ClassRH y)
@@ -306,10 +306,10 @@ Remote Hand List for
 
     protected override async Task OnInitializedAsync()
     {
-        //db.testclass();
+        db.testclass();
         calendar_drive();
         page();
-
+        
         fri_day(0);
 
     }
