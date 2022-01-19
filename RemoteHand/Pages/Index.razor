@@ -210,15 +210,16 @@ Remote Hand List for
         ContRecord++;
         ClassRH addrequest = new ClassRH() {id=ContRecord, Clinet=@Client,Location=@Location, Area=@Aria , Case=@Case ,Task=@Taskmod, Details=@Deails , Instruction=@Instruction, status="Pending", Support=@Support, Networking=@Networking, RemoteHand=@RemoteHand, Data_work=friday, user="TestUser", Date_Added=editedata };
 
-        ListofRemote.Add(addrequest);
-        ListofRemote.Sort(delegate(ClassRH x, ClassRH y)
-       {
-           if (x.Area == null && y.Area == null) return 0;
-           else if (x.Area == null) return -1;
-           else if (y.Area == null) return 1;
-           else return x.Area
-           .CompareTo(y.Area);
-       });
+        db.AddToDB(addrequest);
+        // ListofRemote.Add(addrequest);
+        // ListofRemote.Sort(delegate(ClassRH x, ClassRH y)
+        //{
+        //    if (x.Area == null && y.Area == null) return 0;
+        //    else if (x.Area == null) return -1;
+        //    else if (y.Area == null) return 1;
+        //    else return x.Area
+        //    .CompareTo(y.Area);
+        //});
 
 
 
@@ -243,6 +244,7 @@ Remote Hand List for
         if (i != null)
         {
             friday = new DateTime(friday.Year, friday.Month, i);
+            page();
         }
     }
 
@@ -250,8 +252,9 @@ Remote Hand List for
 
     public void del(int a)
     {
-        var itemToRemove = ListofRemote.Single(r => r.id == a);
-        ListofRemote.Remove(itemToRemove);
+        //var itemToRemove = ListofRemote.Single(r => r.id == a);
+        //ListofRemote.Remove(itemToRemove);
+        db.delDB(a);
     }
     public void edit(int a)
     {
@@ -306,28 +309,26 @@ Remote Hand List for
 
     protected override async Task OnInitializedAsync()
     {
-        db.testclass();
+        //db.testclass();
         calendar_drive();
-        page();
-        
         fri_day(0);
-
+        page();
     }
 
     public void page()
     {
         //ListofRemote = temp.DemoRH();
-        ListofRemote = db.Getallrecord();
-        
-        
-        ListofRemote.Sort(delegate(ClassRH x, ClassRH y)
-       {
-           if (x.Area == null && y.Area == null) return 0;
-           else if (x.Area == null) return -1;
-           else if (y.Area == null) return 1;
-           else return x.Area
-           .CompareTo(y.Area);
-       });
+        ListofRemote = db.Getallrecord(friday);
+        Area = null;
+
+        // ListofRemote.Sort(delegate(ClassRH x, ClassRH y)
+        //{
+        //    if (x.Area == null && y.Area == null) return 0;
+        //    else if (x.Area == null) return -1;
+        //    else if (y.Area == null) return 1;
+        //    else return x.Area
+        //    .CompareTo(y.Area);
+        //});
         ContRecord = ListofRemote.Count();
     }
 
@@ -335,11 +336,13 @@ Remote Hand List for
     {
         fri_day(7); 
         calendar_drive();
+        page();
     }
     public void Countout()
     {
         fri_day(-7);
         calendar_drive();
+        page();
 
     }
 
