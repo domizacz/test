@@ -2,6 +2,7 @@
 using RemoteHand.Data;
 using Microsoft.Extensions.Configuration;
 using MongoDB.Bson;
+using RemoteHand.Pages;
 
 namespace RemoteHand.Data
 {
@@ -30,11 +31,13 @@ namespace RemoteHand.Data
         public  List<ClassRH> Getallrecord(DateTime friday)
         {
             var record = ConnectionToMongo<ClassRH>(db_collection);
-            var request = new BsonDocument("Data_work", new DateTime(friday.Year, friday.Month, friday.Day,00, 0, 0));
+           var request = new BsonDocument("Data_work", new DateTime(friday.Year, friday.Month, friday.Day,00, 0, 0));
             var results = record.Find(request);
             var sortre = new BsonDocument("Area", 1);
            var sort = results.Sort(sortre);
+
             return sort.ToList();
+            
         }
 
 
@@ -56,7 +59,13 @@ namespace RemoteHand.Data
             record.DeleteOne("_id"+i);
         }
 
+        public int nextrecord()
+        {
+            var record = ConnectionToMongo<ClassRH>(db_collection);
+            var howmany = record.AsQueryable().OrderByDescending(c => c.id).First();
+            return howmany.id;
 
+        }
 
         //public void testclass()
         //{
