@@ -31,7 +31,7 @@ namespace RemoteHand.Data
         public  List<ClassRH> Getallrecord(DateTime friday)
         {
             var record = ConnectionToMongo<ClassRH>(db_collection);
-           var request = new BsonDocument("Data_work", new DateTime(friday.Year, friday.Month, friday.Day,00, 0, 0));
+           var request = new BsonDocument("Data_work", new DateTime(friday.Year, friday.Month, friday.Day));
             var results = record.Find(request);
             var sortre = new BsonDocument("Area", 1);
            var sort = results.Sort(sortre);
@@ -50,18 +50,27 @@ namespace RemoteHand.Data
         public void EditDB(ClassRH edit)
         {
             var record = ConnectionToMongo<ClassRH>(db_collection);
-            record.InsertOne(edit);
+
+            record.ReplaceOne(Builders<ClassRH>.Filter.Eq(i => i.id, edit.id), edit);
             
         }
         public void delDB(int i)
         {
             var record = ConnectionToMongo<ClassRH>(db_collection);
-            record.DeleteOne("_id"+i);
+
+            record.DeleteOne(Builders<ClassRH>.Filter.Eq(t => t.id, i));
+            
         }
 
         public int nextrecord()
         {
             var record = ConnectionToMongo<ClassRH>(db_collection);
+            var emptyFilter = Builders<ClassRH>.Filter.Empty;
+            var check = record.Find(emptyFilter).Count();
+            if (check == 0)
+            {
+                return 0;
+            }
             var howmany = record.AsQueryable().OrderByDescending(c => c.id).First();
             return howmany.id;
 

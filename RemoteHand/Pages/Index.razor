@@ -40,7 +40,7 @@ Remote Hand List for
 </div>
 
 
-
+@test
 
 
 
@@ -108,7 +108,7 @@ Remote Hand List for
     <td class="">@RMHList.Details</td>
     <td class=".container-sm text-truncate"> @LimitText(@RMHList.Instruction)</td>
     <td class="">
-        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+        <select  class="form-select form-select-sm" aria-label=".form-select-sm example" >
             
              @foreach(string stat in status_lab)
                     {
@@ -138,12 +138,12 @@ Remote Hand List for
 
 
 @code {
-    
+
     @using Data;
     @using MongoDB.Driver
 
 
-
+    public string test;
 
 
 
@@ -159,8 +159,7 @@ Remote Hand List for
     private string RemoteHand { get; set; }
 
     public int ContRecord { get; set; }
-
-    public DateTime editedata; 
+    public DateTime editedata;
 
 
     public DateTime friday = DateTime.Now;
@@ -171,7 +170,7 @@ Remote Hand List for
     public Demo temp = new Demo();
     public string Area;
 
-
+    public string statustask;
     public DateOnly DayNowC;
     public string DayMonthC;
     public int dumdays;
@@ -208,10 +207,11 @@ Remote Hand List for
     public void edit_save()
     {
 
-        ContRecord+=db.nextrecord();
-        ClassRH addrequest = new ClassRH() {id=ContRecord, Clinet=@Client,Location=@Location, Area=@Aria , Case=@Case ,Task=@Taskmod, Details=@Deails , Instruction=@Instruction, status="Pending", Support=@Support, Networking=@Networking, RemoteHand=@RemoteHand, Data_work=friday, user="TestUser", Date_Added=editedata };
 
-        db.AddToDB(addrequest);
+        ClassRH addrequest = new ClassRH() {id=ContRecord, Clinet=@Client,Location=@Location, Area=@Aria , Case=@Case ,Task=@Taskmod, Details=@Deails , Instruction=@Instruction, status="Pending", Support=@Support, Networking=@Networking, RemoteHand=@RemoteHand, Data_work=friday.Date, user="TestUser", Date_Added=editedata };
+
+        db.EditDB(addrequest);
+        page();
         // ListofRemote.Add(addrequest);
         // ListofRemote.Sort(delegate(ClassRH x, ClassRH y)
         //{
@@ -256,6 +256,7 @@ Remote Hand List for
         //var itemToRemove = ListofRemote.Single(r => r.id == a);
         //ListofRemote.Remove(itemToRemove);
         db.delDB(a);
+        page();
     }
     public void edit(int a)
     {
@@ -270,9 +271,9 @@ Remote Hand List for
         Support = itemToEdit.Support;
         Networking = itemToEdit.Networking;
         RemoteHand = itemToEdit.RemoteHand;
-
+        ContRecord= a;
         editedata = itemToEdit.Date_Added;
-        del(a);
+
 
     }
 
@@ -280,7 +281,7 @@ Remote Hand List for
     {
 
         ContRecord=db.nextrecord();
-        ClassRH addrequest = new ClassRH() {id=++ContRecord, Clinet=@Client,Location=@Location, Area=@Aria , Case=@Case ,Task=@Taskmod, Details=@Deails , Instruction=@Instruction, status="Pending", Support=@Support, Networking=@Networking, RemoteHand=@RemoteHand, Data_work=friday, user="TestUser", Date_Added=DateTime.Now };
+        ClassRH addrequest = new ClassRH() {id=++ContRecord, Clinet=@Client,Location=@Location, Area=@Aria , Case=@Case ,Task=@Taskmod, Details=@Deails , Instruction=@Instruction, status="Pending", Support=@Support, Networking=@Networking, RemoteHand=@RemoteHand, Data_work=friday.Date, user="TestUser", Date_Added=DateTime.Now };
         db.AddToDB(addrequest);
 
         // ListofRemote.Add(addrequest);
@@ -315,6 +316,13 @@ Remote Hand List for
         calendar_drive();
         fri_day(0);
         page();
+    }
+
+
+    public void StateHasChanged(string a)
+    {
+        
+        test = a;
     }
 
     public void page()
