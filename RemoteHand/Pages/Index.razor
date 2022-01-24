@@ -108,7 +108,7 @@ Remote Hand List for
     <td class="">@RMHList.Details</td>
     <td class=".container-sm text-truncate"> @LimitText(@RMHList.Instruction)</td>
     <td class="">
-        <select  class="form-select form-select-sm" aria-label=".form-select-sm example" >
+        <select  class="form-select form-select-sm" aria-label=".form-select-sm example" @onchange="Selectchange" >
             
              @foreach(string stat in status_lab)
                     {
@@ -175,6 +175,16 @@ Remote Hand List for
     public string DayMonthC;
     public int dumdays;
     public DateOnly dayinmon;
+
+
+
+    public void Selectchange(ChangeEventArgs e)
+    {
+
+        test = e.Value.ToString();
+
+    }
+
 
 
     public void calendar_drive()
@@ -319,11 +329,7 @@ Remote Hand List for
     }
 
 
-    public void StateHasChanged(string a)
-    {
-        
-        test = a;
-    }
+   
 
     public void page()
     {
