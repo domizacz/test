@@ -1,7 +1,9 @@
 ﻿@page "/"
 @inject DB_Mango db
+@using RemoteHand.Services
 
-Welcome to your new <Tooltip Text="Blazor is awesome!">app</Tooltip>.
+
+
 
 Remote Hand List for 
 <p>
@@ -107,7 +109,7 @@ Remote Hand List for
     <td class="">@RMHList.Case</td>
     <td class="">@RMHList.Task</td>
     <td class="">@RMHList.Details</td>
-    <td class=".container-sm text-truncate"><Tooltip Text="@RMHList.Instruction"> @LimitText(@RMHList.Instruction) </Tooltip></td>
+    <td class=".container-sm text-truncate"> @LimitText(@RMHList.Instruction) </td>
     <td class="">
         <select  class="form-select form-select-sm" aria-label=".form-select-sm example" @onchange="e => Selectchange(e , RMHList.id)" >
             
@@ -136,7 +138,7 @@ Remote Hand List for
 
 </table>
 
-
+<Instruction></Instruction>
 
 @code {
     
@@ -177,6 +179,10 @@ Remote Hand List for
     public int dumdays;
     public DateOnly dayinmon;
 
+
+
+
+    
 
     public void Showintstruction(string Instruction)
     {

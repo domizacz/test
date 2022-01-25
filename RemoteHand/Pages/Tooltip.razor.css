@@ -6,7 +6,7 @@
     cursor: help;
 }
 
-span {
+ span {
     visibility: hidden;
     position: absolute;
     width: 120px;

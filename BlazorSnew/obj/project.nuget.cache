@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "hFpzZQd8Tl192c/AqRE/ox4lR5/jh4//3fvje48uqSC/rXYoHTQgCEgkRJtCuKdSvQybKnCSWaGXpVwkB3PQzw==",
+  "dgSpecHash": "W3roph37tIkKlThZiRMZr9EAdBvmbSw9fW6YywYH+c7L//i4h4IyMp/tzpdBmYNq8+mfyu6M0ly95/azCS35hw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\BlazorSnew\\BlazorSnew.csproj",
+  "projectFilePath": "C:\\Users\\Dom\\Documents\\Project\\test\\BlazorSnew\\BlazorSnew.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\monster\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+    "C:\\Users\\Dom\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
   ],
   "logs": []
 }
