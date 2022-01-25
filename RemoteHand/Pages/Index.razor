@@ -1,6 +1,7 @@
 ﻿@page "/"
 @inject DB_Mango db
 
+Welcome to your new <Tooltip Text="Blazor is awesome!">app</Tooltip>.
 
 Remote Hand List for 
 <p>
@@ -106,9 +107,9 @@ Remote Hand List for
     <td class="">@RMHList.Case</td>
     <td class="">@RMHList.Task</td>
     <td class="">@RMHList.Details</td>
-    <td class=".container-sm text-truncate"> @LimitText(@RMHList.Instruction)</td>
+    <td class=".container-sm text-truncate"><Tooltip Text="@RMHList.Instruction"> @LimitText(@RMHList.Instruction) </Tooltip></td>
     <td class="">
-        <select  class="form-select form-select-sm" aria-label=".form-select-sm example" @onchange="Selectchange" >
+        <select  class="form-select form-select-sm" aria-label=".form-select-sm example" @onchange="e => Selectchange(e , RMHList.id)" >
             
              @foreach(string stat in status_lab)
                     {
@@ -138,7 +139,7 @@ Remote Hand List for
 
 
 @code {
-
+    
     @using Data;
     @using MongoDB.Driver
 
@@ -177,12 +178,18 @@ Remote Hand List for
     public DateOnly dayinmon;
 
 
+    public void Showintstruction(string Instruction)
+    {
+        test = Instruction;
+    }
 
-    public void Selectchange(ChangeEventArgs e)
+
+    public void Selectchange(ChangeEventArgs e, int i)
     {
 
-        test = e.Value.ToString();
+        db.UpdateStatus(i, e.Value.ToString());
 
+        Area= null;
     }
 
 
@@ -212,6 +219,7 @@ Remote Hand List for
 
     }
 
+    
 
 
     public void edit_save()

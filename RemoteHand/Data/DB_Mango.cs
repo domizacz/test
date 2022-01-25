@@ -30,9 +30,9 @@ namespace RemoteHand.Data
 
         public  List<ClassRH> Getallrecord(DateTime friday)
         {
-            var record = ConnectionToMongo<ClassRH>(db_collection);
+            var Connection = ConnectionToMongo<ClassRH>(db_collection);
            var request = new BsonDocument("Data_work", new DateTime(friday.Year, friday.Month, friday.Day));
-            var results = record.Find(request);
+            var results = Connection.Find(request);
             var sortre = new BsonDocument("Area", 1);
            var sort = results.Sort(sortre);
 
@@ -43,36 +43,44 @@ namespace RemoteHand.Data
 
         public void AddToDB(ClassRH AddRecord)
         {
-            var record = ConnectionToMongo<ClassRH>(db_collection);
-            record.InsertOne(AddRecord);
+            var Connection = ConnectionToMongo<ClassRH>(db_collection);
+            Connection.InsertOne(AddRecord);
         }
 
         public void EditDB(ClassRH edit)
         {
-            var record = ConnectionToMongo<ClassRH>(db_collection);
+            var Connection = ConnectionToMongo<ClassRH>(db_collection);
 
-            record.ReplaceOne(Builders<ClassRH>.Filter.Eq(i => i.id, edit.id), edit);
+            Connection.ReplaceOne(Builders<ClassRH>.Filter.Eq(i => i.id, edit.id), edit);
             
         }
         public void delDB(int i)
         {
-            var record = ConnectionToMongo<ClassRH>(db_collection);
+            var Connection = ConnectionToMongo<ClassRH>(db_collection);
 
-            record.DeleteOne(Builders<ClassRH>.Filter.Eq(t => t.id, i));
+            Connection.DeleteOne(Builders<ClassRH>.Filter.Eq(t => t.id, i));
             
         }
 
         public int nextrecord()
         {
-            var record = ConnectionToMongo<ClassRH>(db_collection);
+            var Connection = ConnectionToMongo<ClassRH>(db_collection);
             var emptyFilter = Builders<ClassRH>.Filter.Empty;
-            var check = record.Find(emptyFilter).Count();
+            var check = Connection.Find(emptyFilter).Count();
             if (check == 0)
             {
                 return 0;
             }
-            var howmany = record.AsQueryable().OrderByDescending(c => c.id).First();
+            var howmany = Connection.AsQueryable().OrderByDescending(c => c.id).First();
             return howmany.id;
+
+        }
+
+        public void UpdateStatus(int id, string Name)
+        {
+            var Connection = ConnectionToMongo<ClassRH>(db_collection);
+            Connection.UpdateOne(Builders<ClassRH>.Filter.Eq(i => i.id, id), Builders<ClassRH>.Update.Set(n => n.status, Name));
+
 
         }
 

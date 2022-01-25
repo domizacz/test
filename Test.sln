@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobile AP.iOS", "Mobile AP\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mobile AP", "Mobile AP\Mobile AP\Mobile AP.csproj", "{270BDFB7-FC50-41E5-92B8-53EED2EA53DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDB", "MongoDB\MongoDB.csproj", "{F4ECEF1E-90F6-43A7-BF90-9C273F4D7196}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MongoDB", "MongoDB\MongoDB.csproj", "{F4ECEF1E-90F6-43A7-BF90-9C273F4D7196}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
