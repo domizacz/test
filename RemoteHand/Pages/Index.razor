@@ -18,28 +18,30 @@ Remote Hand List for
       <section style="display:grid; grid-template-columns: repeat(7, 1fr); grid-gap: 5px;">
 <div><b>Mo</b></div><div><b>Tu</b></div><div><b>We</b></div><div><b>Th</b></div><div><b>Fr</b></div><div><b>Sa</b></div><div><b>Su</b></div>
 
-    @for(int i = 1; i<dumdays; i++)
-    {
-        <div></div>
-    }
-
-    @for(int i = 1; i<= dayinmon.Day; i++)
-    {
-                    @if (@i == friday.Day)
-                    {<div style="text-align:center; color:red;">@i</div>}
-        else           
-
-                            {
-                                 
-                                var localVariable = i;
-                                <div class="text-primary" style="text-align:center; " @onclick="() => selectday( localVariable )">@i</div>
-                            }
+    @for (int i = 1; i < dumdays; i++)
+                {
+                    <div></div>
                 }
 
-</section>
-      
+                @for (int i = 1; i <= dayinmon.Day; i++)
+                {
+                    @if (@i == friday.Day)
+                    {
+                        <div style="text-align:center; color:red;">@i</div>
+                    }
+                    else
+
+                    {
+
+                        var localVariable = i;
+                        <div class="text-primary" style="text-align:center; " @onclick="() => selectday( localVariable )">@i</div>
+                    }
+                }
+
+            </section>
+
+        </div>
     </div>
-  </div>
 </div>
 
 
@@ -50,100 +52,105 @@ Remote Hand List for
 
 
 <table class="table table-striped table-hover">
-   
- <thead>
-  <tr class="table-active">
-    <td class="table-primary">Client</td>
-    <td class="table-primary">Location</td>
-    <td class="table-primary">Case</td>
-    <td class="table-primary">Task</td>
-    <td class="table-primary">Details</td>
-    <td class="table-primary">Instruction</td>
-    <td class="table-primary">Status</td>
-    <td class="table-primary">Tested</td>
-    <td class="table-primary">Support</td>
-    <td class="table-primary">Networking</td>
-    <td class="table-primary">Remote Hands</td>
-    <td class="table-primary">Date Added</td>
-    <td class="table-primary"></td>
-   </tr>
-   </thead>
- <td colspan="13" ><input type="text" class="form-control" placeholder="Aria" aria-label="Aria" aria-describedby="addon-wrapping" @bind="@Aria" ></td>
-   <tbody>
-       <tr>
-          <td><input type="text" class="form-control" placeholder="Client" aria-label="Client" aria-describedby="addon-wrapping" @bind="@Client"></td> 
-          <td><input type="text" class="form-control" placeholder="Location" aria-label="Location" aria-describedby="addon-wrapping" @bind="@Location"></td>
-          <td><input type="text" class="form-control" placeholder="Case" aria-label="Case" aria-describedby="addon-wrapping" @bind="@Case"></td>
-          <td><input type="text" class="form-control" placeholder="Task" aria-label="Task" aria-describedby="addon-wrapping" @bind="@Taskmod"></td>
-          <td><input type="text" class="form-control" placeholder="Details" aria-label="Details" aria-describedby="addon-wrapping" @bind="@Deails"></td>
-          <td colspan="3"><textarea class="form-control" placeholder="Instruction" aria-label="Instraction" aria-describedby="addon-wrapping" @bind="@Instruction"></textarea></td>
-          <td><input type="text" class="form-control" placeholder="Support" aria-label="Support" aria-describedby="addon-wrapping" @bind="@Support"></td>
-          <td><input type="text" class="form-control" placeholder="Networking" aria-label="Networking" aria-describedby="addon-wrapping" @bind="@Networking"></td>
-          <td><input type="text" class="form-control" placeholder="Remote Hands" aria-label="Remote Hands" aria-describedby="addon-wrapping" @bind="RemoteHand"></td>
-          <td colspan="1"></td>
-            <td>@if (editedata !=DateTime.Parse("1/1/0001 12:00:00 AM"))
+
+    <thead>
+        <tr class="table-active">
+            <td class="table-primary">Client</td>
+            <td class="table-primary">Location</td>
+            <td class="table-primary">Case</td>
+            <td class="table-primary">Task</td>
+            <td class="table-primary">Details</td>
+            <td class="table-primary">Instruction</td>
+            <td class="table-primary">Status</td>
+            <td class="table-primary">Tested</td>
+            <td class="table-primary">Support</td>
+            <td class="table-primary">Networking</td>
+            <td class="table-primary">Remote Hands</td>
+            <td class="table-primary">Date Added</td>
+            <td class="table-primary"></td>
+        </tr>
+    </thead>
+    <td colspan="13" ><input type="text" class="form-control" placeholder="Aria" aria-label="Aria" aria-describedby="addon-wrapping" @bind="@Aria" ></td>
+    <tbody>
+        <tr>
+            <td><input type="text" class="form-control" placeholder="Client" aria-label="Client" aria-describedby="addon-wrapping" @bind="@Client"></td> 
+            <td><input type="text" class="form-control" placeholder="Location" aria-label="Location" aria-describedby="addon-wrapping" @bind="@Location"></td>
+            <td><input type="text" class="form-control" placeholder="Case" aria-label="Case" aria-describedby="addon-wrapping" @bind="@Case"></td>
+            <td><input type="text" class="form-control" placeholder="Task" aria-label="Task" aria-describedby="addon-wrapping" @bind="@Taskmod"></td>
+            <td><input type="text" class="form-control" placeholder="Details" aria-label="Details" aria-describedby="addon-wrapping" @bind="@Deails"></td>
+            <td colspan="3"><textarea class="form-control" placeholder="Instruction" aria-label="Instraction" aria-describedby="addon-wrapping" @bind="@Instruction"></textarea></td>
+            <td><input type="text" class="form-control" placeholder="Support" aria-label="Support" aria-describedby="addon-wrapping" @bind="@Support"></td>
+            <td><input type="text" class="form-control" placeholder="Networking" aria-label="Networking" aria-describedby="addon-wrapping" @bind="@Networking"></td>
+            <td><input type="text" class="form-control" placeholder="Remote Hands" aria-label="Remote Hands" aria-describedby="addon-wrapping" @bind="RemoteHand"></td>
+            <td colspan="1"></td>
+            <td>@if (editedata != DateTime.Parse("1/1/0001 12:00:00 AM"))
                 {
                     <button type="submit" class="btn btn-primary mb-3" @onclick="edit_save">Save</button>
-                }else
+                } else
                 {
                     <button type="submit" class="btn btn-primary mb-3" @onclick="add">Add</button>
                 }
 
-          </td>
-       </tr>
-    @foreach(ClassRH RMHList in ListofRemote)
-    {
-        @if (@Area != @RMHList.Area)
+            </td>
+        </tr>
+        @foreach (ClassRH RMHList in ListofRemote)
+        {
+            @if (@Area != @RMHList.Area)
             {
-                
-                <tr>            
-                        <td class="table-info text-center table-primary" colspan="13"><b>@(Area = RMHList.Area)</b></td>
-           </tr>
-            }
-    @if (friday.Date==RMHList.Data_work.Date)
-    {
-    
-            <tr>
-    <td scope="row">@RMHList.Clinet</td>
-    <td class="">@RMHList.Location</td>
-    <td class="">@RMHList.Case</td>
-    <td class="">@RMHList.Task</td>
-    <td class="">@RMHList.Details</td>
-    <td class=".container-sm text-truncate"> @LimitText(@RMHList.Instruction) </td>
-    <td class="">
-        <select  class="form-select form-select-sm" aria-label=".form-select-sm example" @onchange="e => Selectchange(e , RMHList.id)" >
-            
-             @foreach(string stat in status_lab)
-                    {
-                        if(RMHList.status== stat)
-                        {<option selected value="@stat">@stat</option>}else
-                        {<option value="@stat">@stat</option>}
-                        
-                    }
-                </select>
-</td>
-    <td class="">@RMHList.tested</td>
-    <td class="">@RMHList.Support</td>
-    <td class="">@RMHList.Networking</td>
-    <td class="">@RMHList.RemoteHand</td>
-    <td class="">@RMHList.Date_Added.Month/@RMHList.Date_Added.Day/@RMHList.Date_Added.Year</td>
-    <td class=""><button type="submit" class="btn btn-warning" @onclick="() => edit(RMHList.id)">Edit</button> <button type="submit" class="btn btn-danger" @onclick="() => del(RMHList.id)">DEL</button></td>
-   </tr>
-   }
-   
-}
-  </tbody>
 
- 
+                <tr>            
+                    <td class="table-info text-center table-primary" colspan="13"><b>@(Area = RMHList.Area)</b></td>
+                </tr>
+            }
+            @if (friday.Date == RMHList.Data_work.Date)
+            {
+
+                <tr>
+                    <td scope="row">@RMHList.Clinet</td>
+                    <td class="">@RMHList.Location</td>
+                    <td class="">@RMHList.Case</td>
+                    <td class="">@RMHList.Task</td>
+                    <td class="">@RMHList.Details</td>
+                    <td class=".container-sm text-truncate"> @LimitText(@RMHList.Instruction) </td>
+                    <td class="">
+                        <select  class="form-select form-select-sm" aria-label=".form-select-sm example" @onchange="e => Selectchange(e , RMHList.id)" >
+
+                            @foreach (string stat in status_lab)
+                            {
+                                if (RMHList.status == stat)
+                                {
+                                    <option selected value="@stat">@stat</option>
+                                } else
+                                {
+                                    <option value="@stat">@stat</option>
+                                }
+
+                            }
+                        </select>
+                    </td>
+                    <td class="">@RMHList.tested</td>
+                    <td class="">@RMHList.Support</td>
+                    <td class="">@RMHList.Networking</td>
+                    <td class="">@RMHList.RemoteHand</td>
+                    <td class="">@RMHList.Date_Added.Month/@RMHList.Date_Added.Day/@RMHList.Date_Added.Year</td>
+                    <td class=""><button type="submit" class="btn btn-warning" @onclick="() => edit(RMHList.id)">Edit</button> <button type="submit" class="btn btn-danger" @onclick="() => del(RMHList.id)">DEL</button></td>
+                </tr>
+            }
+
+        }
+    </tbody>
+
+
 
 </table>
 
 <Instruction></Instruction>
 
 @code {
-    
+
     @using Data;
     @using MongoDB.Driver
+    @using System.Net
 
 
     public string test;
@@ -160,7 +167,7 @@ Remote Hand List for
     private string Support { get; set; }
     private string Networking { get; set; }
     private string RemoteHand { get; set; }
-
+    
     public int ContRecord { get; set; }
     public DateTime editedata;
 
@@ -178,7 +185,7 @@ Remote Hand List for
     public string DayMonthC;
     public int dumdays;
     public DateOnly dayinmon;
-
+    public string user =Dns.GetHostName();
 
 
 
@@ -305,7 +312,7 @@ Remote Hand List for
     {
 
         ContRecord=db.nextrecord();
-        ClassRH addrequest = new ClassRH() {id=++ContRecord, Clinet=@Client,Location=@Location, Area=@Aria , Case=@Case ,Task=@Taskmod, Details=@Deails , Instruction=@Instruction, status="Pending", Support=@Support, Networking=@Networking, RemoteHand=@RemoteHand, Data_work=friday.Date, user="TestUser", Date_Added=DateTime.Now };
+        ClassRH addrequest = new ClassRH() {id=++ContRecord, Clinet=@Client,Location=@Location, Area=@Aria , Case=@Case ,Task=@Taskmod, Details=@Deails , Instruction=@Instruction, status="Pending", Support=@Support, Networking=@Networking, RemoteHand=@RemoteHand, Data_work=friday.Date, user=@user, Date_Added=DateTime.Now };
         db.AddToDB(addrequest);
 
         // ListofRemote.Add(addrequest);
@@ -350,6 +357,7 @@ Remote Hand List for
         //ListofRemote = temp.DemoRH();
         ListofRemote = db.Getallrecord(friday);
         Area = null;
+        
 
         // ListofRemote.Sort(delegate(ClassRH x, ClassRH y)
         //{

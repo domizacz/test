@@ -17,7 +17,7 @@ namespace RemoteHand.Data
             _config = config;
         }
 
-        private const string db_mongo_key = "mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass&directConnection=true&ssl=false";
+        private const string db_mongo_key = "mongodb+srv://test:G9z7P5JKnR18@rht0.uynmj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
         private const string db_name = "test";
         private const string db_collection = "test";
 

@@ -31,11 +31,16 @@
       "DisplayName": "WebAPi",
       "ColorIndex": 4
     },
+    "a416922c-a719-4776-91b5-3d422f55e722": {
+      "ProjectGuid": "a416922c-a719-4776-91b5-3d422f55e722",
+      "DisplayName": "WebApplication1",
+      "ColorIndex": 5
+    },
     "f4ecef1e-90f6-43a7-bf90-9c273f4d7196": {
       "ProjectGuid": "f4ecef1e-90f6-43a7-bf90-9c273f4d7196",
       "DisplayName": "MongoDB",
-      "ColorIndex": 5
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 7
 }
