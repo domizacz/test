@@ -1,0 +1,29 @@
+C:\Users\Dom\Documents\git\test\popup windo\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Dom\Documents\git\test\popup windo\bin\Debug\net6.0\appsettings.json
+C:\Users\Dom\Documents\git\test\popup windo\bin\Debug\net6.0\popup windo.staticwebassets.runtime.json
+C:\Users\Dom\Documents\git\test\popup windo\bin\Debug\net6.0\popup windo.exe
+C:\Users\Dom\Documents\git\test\popup windo\bin\Debug\net6.0\popup windo.deps.json
+C:\Users\Dom\Documents\git\test\popup windo\bin\Debug\net6.0\popup windo.runtimeconfig.json
+C:\Users\Dom\Documents\git\test\popup windo\bin\Debug\net6.0\popup windo.dll
+C:\Users\Dom\Documents\git\test\popup windo\bin\Debug\net6.0\ref\popup windo.dll
+C:\Users\Dom\Documents\git\test\popup windo\bin\Debug\net6.0\popup windo.pdb
+C:\Users\Dom\Documents\git\test\popup windo\obj\Debug\net6.0\popup windo.csproj.AssemblyReference.cache
+C:\Users\Dom\Documents\git\test\popup windo\obj\Debug\net6.0\popup windo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dom\Documents\git\test\popup windo\obj\Debug\net6.0\popup windo.AssemblyInfoInputs.cache
+C:\Users\Dom\Documents\git\test\popup windo\obj\Debug\net6.0\popup windo.AssemblyInfo.cs
+C:\Users\Dom\Documents\git\test\popup windo\obj\Debug\net6.0\popup windo.csproj.CoreCompileInputs.cache
+C:\Users\Dom\Documents\git\test\popup windo\obj\Debug\net6.0\popup windo.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Dom\Documents\git\test\popup windo\obj\Debug\net6.0\popup windo.RazorAssemblyInfo.cache
+C:\Users\Dom\Documents\git\test\popup windo\obj\Debug\net6.0\popup windo.RazorAssemblyInfo.cs
+C:\Users\Dom\Documents\git\test\popup windo\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Dom\Documents\git\test\popup windo\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Dom\Documents\git\test\popup windo\obj\Debug\net6.0\scopedcss\Pages\Index.razor.rz.scp.css
+C:\Users\Dom\Documents\git\test\popup windo\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Dom\Documents\git\test\popup windo\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Dom\Documents\git\test\popup windo\obj\Debug\net6.0\scopedcss\bundle\popup windo.styles.css
+C:\Users\Dom\Documents\git\test\popup windo\obj\Debug\net6.0\scopedcss\projectbundle\popup windo.bundle.scp.css
+C:\Users\Dom\Documents\git\test\popup windo\obj\Debug\net6.0\popup windo.dll
+C:\Users\Dom\Documents\git\test\popup windo\obj\Debug\net6.0\ref\popup windo.dll
+C:\Users\Dom\Documents\git\test\popup windo\obj\Debug\net6.0\popup windo.pdb
+C:\Users\Dom\Documents\git\test\popup windo\obj\Debug\net6.0\popup windo.genruntimeconfig.cache
+C:\Users\Dom\Documents\git\test\popup windo\obj\Debug\net6.0\scopedcss\Pages\Popup.razor.rz.scp.css

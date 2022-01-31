@@ -1,28 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\monster\\source\\repos\\domizacz\\test\\Notyfication\\Notyfication.csproj": {}
+    "C:\\Users\\Dom\\Documents\\git\\test\\Notyfication\\Notyfication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\monster\\source\\repos\\domizacz\\test\\Notyfication\\Notyfication.csproj": {
+    "C:\\Users\\Dom\\Documents\\git\\test\\Notyfication\\Notyfication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\Notyfication\\Notyfication.csproj",
+        "projectUniqueName": "C:\\Users\\Dom\\Documents\\git\\test\\Notyfication\\Notyfication.csproj",
         "projectName": "Notyfication",
-        "projectPath": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\Notyfication\\Notyfication.csproj",
-        "packagesPath": "C:\\Users\\monster\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\Notyfication\\obj\\",
+        "projectPath": "C:\\Users\\Dom\\Documents\\git\\test\\Notyfication\\Notyfication.csproj",
+        "packagesPath": "C:\\Users\\Dom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dom\\Documents\\git\\test\\Notyfication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\monster\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dom\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -47,6 +44,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Blazored.Modal": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
             "IPNetwork2": {
               "target": "Package",
               "version": "[2.5.329, )"
@@ -70,12 +71,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.12, 5.0.12]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -84,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

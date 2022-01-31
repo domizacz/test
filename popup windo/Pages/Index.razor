@@ -1,0 +1,41 @@
+﻿@page "/"
+@inject IJSRuntime JS;
+
+
+
+<Popup name="Test" text="Test for more data " ></Popup>
+
+@*<!-- Trigger/Open The Modal -->
+<button id="myBtn" @onclick="click" >@name</button>
+
+<!-- The Modal -->
+<div id="@modal" class="modal" style="@styll">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close" @onclick="popclose">&times;</span>
+    <p>Some text in the Modal..</p>
+  </div>
+
+</div>*@
+
+
+@code{
+
+    //public string styll = "display: none";
+    //public string modal = "modal";
+    //public string name = "none";
+
+    //private async Task click()
+    //{
+    //    //JS.InvokeVoidAsync("Modal", modal);
+    //    //styll = "display: block";
+    //    modal = "";
+    //}
+    //public void popclose()
+    //{
+    //    styll = "display: none";
+
+    //}
+
+}
