@@ -40,7 +40,22 @@
       "ProjectGuid": "f4ecef1e-90f6-43a7-bf90-9c273f4d7196",
       "DisplayName": "MongoDB",
       "ColorIndex": 6
+    },
+    "25617806-b36c-449d-b503-889b5cacfa7c": {
+      "ProjectGuid": "25617806-b36c-449d-b503-889b5cacfa7c",
+      "DisplayName": "Notyfication",
+      "ColorIndex": 7
+    },
+    "21229ae4-7369-493d-ab15-da5cf7b7d6af": {
+      "ProjectGuid": "21229ae4-7369-493d-ab15-da5cf7b7d6af",
+      "DisplayName": "test1",
+      "ColorIndex": 8
+    },
+    "7c6b9b04-301a-4a69-96a9-7cb795d89d12": {
+      "ProjectGuid": "7c6b9b04-301a-4a69-96a9-7cb795d89d12",
+      "DisplayName": "popup windo",
+      "ColorIndex": 9
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 10
 }

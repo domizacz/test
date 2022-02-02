@@ -1,9 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\RemoteHand",
     "\\RemoteHand\\Data",
     "\\RemoteHand\\Pages"
   ],
+  "SelectedNode": "\\Test.sln",
   "PreviewInSolutionExplorer": false
 }
