@@ -9,8 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notyfication", "Notyficatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorSnew", "BlazorSnew\BlazorSnew.csproj", "{63B89C50-9DFB-458F-9C72-E7D0EB2A22B5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{A416922C-A719-4776-91B5-3D422F55E722}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoteHand", "RemoteHand\RemoteHand.csproj", "{584FB100-806C-415C-BFC0-C84A12D9C479}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobile AP.Android", "Mobile AP\Mobile AP.Android\Mobile AP.Android.csproj", "{9F2AB8FB-B8A0-4972-ADF8-DF8C5279E1D6}"
@@ -69,18 +67,6 @@ Global
 		{63B89C50-9DFB-458F-9C72-E7D0EB2A22B5}.Release|iPhone.Build.0 = Release|Any CPU
 		{63B89C50-9DFB-458F-9C72-E7D0EB2A22B5}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{63B89C50-9DFB-458F-9C72-E7D0EB2A22B5}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
-		{A416922C-A719-4776-91B5-3D422F55E722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A416922C-A719-4776-91B5-3D422F55E722}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A416922C-A719-4776-91B5-3D422F55E722}.Debug|iPhone.ActiveCfg = Debug|Any CPU
-		{A416922C-A719-4776-91B5-3D422F55E722}.Debug|iPhone.Build.0 = Debug|Any CPU
-		{A416922C-A719-4776-91B5-3D422F55E722}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{A416922C-A719-4776-91B5-3D422F55E722}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
-		{A416922C-A719-4776-91B5-3D422F55E722}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A416922C-A719-4776-91B5-3D422F55E722}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A416922C-A719-4776-91B5-3D422F55E722}.Release|iPhone.ActiveCfg = Release|Any CPU
-		{A416922C-A719-4776-91B5-3D422F55E722}.Release|iPhone.Build.0 = Release|Any CPU
-		{A416922C-A719-4776-91B5-3D422F55E722}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
-		{A416922C-A719-4776-91B5-3D422F55E722}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{584FB100-806C-415C-BFC0-C84A12D9C479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{584FB100-806C-415C-BFC0-C84A12D9C479}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{584FB100-806C-415C-BFC0-C84A12D9C479}.Debug|iPhone.ActiveCfg = Debug|Any CPU

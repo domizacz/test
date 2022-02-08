@@ -55,7 +55,12 @@
       "ProjectGuid": "7c6b9b04-301a-4a69-96a9-7cb795d89d12",
       "DisplayName": "popup windo",
       "ColorIndex": 9
+    },
+    "63b89c50-9dfb-458f-9c72-e7d0eb2a22b5": {
+      "ProjectGuid": "63b89c50-9dfb-458f-9c72-e7d0eb2a22b5",
+      "DisplayName": "BlazorSnew",
+      "ColorIndex": 10
     }
   },
-  "NextColorIndex": 10
+  "NextColorIndex": 11
 }
