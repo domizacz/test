@@ -1,3 +1,7 @@
 is_global = true
 build_property.RootNamespace = BlazorApp1
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\Dom\Documents\git\test\BlazorApp1\
+=======
+build_property.ProjectDir = C:\Users\monster\source\repos\domizacz\test\BlazorApp1\
+>>>>>>> 13dc851d96bd480301fabd41ee174e1577321ad3

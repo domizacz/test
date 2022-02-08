@@ -8,6 +8,7 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = popup_windo
 build_property.RootNamespace = popup_windo
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\Dom\Documents\git\test\popup windo\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
@@ -62,3 +63,11 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/Dom/Documents/git/test/popup windo/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
+=======
+build_property.ProjectDir = C:\Users\monster\source\repos\domizacz\test\popup windo\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\monster\source\repos\domizacz\test\popup windo
+build_property._RazorSourceGeneratorDebug = 
+>>>>>>> 13dc851d96bd480301fabd41ee174e1577321ad3
