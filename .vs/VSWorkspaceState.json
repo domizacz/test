@@ -1,10 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\RemoteHand",
+    "\\recaptchaweb",
     "\\RemoteHand\\Data",
     "\\RemoteHand\\Pages"
   ],
-  "SelectedNode": "\\Test.sln",
+  "SelectedNode": "\\recaptchaweb\\_Imports.razor",
   "PreviewInSolutionExplorer": false
 }
