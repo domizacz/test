@@ -363,7 +363,6 @@ C:\Users\Dom\Documents\git\test\RemoteHand\obj\Debug\net6.0\RemoteHand.RazorAsse
 C:\Users\Dom\Documents\git\test\RemoteHand\obj\Debug\net6.0\RemoteHand.RazorAssemblyInfo.cs
 C:\Users\Dom\Documents\git\test\RemoteHand\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\Dom\Documents\git\test\RemoteHand\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\Dom\Documents\git\test\RemoteHand\obj\Debug\net6.0\scopedcss\Pages\Tooltip.razor.rz.scp.css
 C:\Users\Dom\Documents\git\test\RemoteHand\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
 C:\Users\Dom\Documents\git\test\RemoteHand\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
 C:\Users\Dom\Documents\git\test\RemoteHand\obj\Debug\net6.0\scopedcss\bundle\RemoteHand.styles.css

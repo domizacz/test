@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace WebApplication1
+namespace WebAPi
 {
     #line hidden
     using System;

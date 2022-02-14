@@ -1,0 +1,74 @@
+﻿@page "/"
+@using BlazorApp1.Modules
+@using Microsoft.AspNetCore.Identity
+
+
+@massage
+
+
+<form>
+    <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail14"  placeholder="@Name" @bind-value=@Name>
+
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="@login" @bind-value="login">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="@password" @bind-value="@password">
+  </div>
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary" @onclick="Create">Submit</button>
+</form>
+
+
+
+
+@code{
+    private UserManager<AplicationUser> _userManager;
+    public string massage;
+
+    public string login;
+    public string password;
+    public string Name;
+
+
+
+    public void UserController(UserManager<AplicationUser> userManager)
+    {
+        this._userManager = userManager;
+    }
+
+    
+
+    public async Task Create()
+    {
+       
+            AplicationUser appUser = new AplicationUser
+                {
+                    UserName = Name,
+                    Email = login
+
+                };
+            IdentityResult result = await _userManager.CreateAsync(appUser, password);
+            if(result.Succeeded){ massage = "User created successfully"; }else
+            {
+                foreach (IdentityError error in result.Errors)
+                    massage = error.Description;
+            }
+
+
+        
+
+        
+    }
+
+
+}

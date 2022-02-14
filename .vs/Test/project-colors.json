@@ -60,7 +60,22 @@
       "ProjectGuid": "63b89c50-9dfb-458f-9c72-e7d0eb2a22b5",
       "DisplayName": "BlazorSnew",
       "ColorIndex": 10
+    },
+    "8f4beeec-efa3-4108-84ec-c5e5ce58cd0d": {
+      "ProjectGuid": "8f4beeec-efa3-4108-84ec-c5e5ce58cd0d",
+      "DisplayName": "MangoLoginidentyty",
+      "ColorIndex": 11
+    },
+    "faf8323d-16d9-49de-9488-ce8582b0e83f": {
+      "ProjectGuid": "faf8323d-16d9-49de-9488-ce8582b0e83f",
+      "DisplayName": "test1",
+      "ColorIndex": 12
+    },
+    "bc377d29-8283-49a6-afbd-6545460fca8a": {
+      "ProjectGuid": "bc377d29-8283-49a6-afbd-6545460fca8a",
+      "DisplayName": "WebApplication1",
+      "ColorIndex": 13
     }
   },
-  "NextColorIndex": 11
+  "NextColorIndex": 14
 }

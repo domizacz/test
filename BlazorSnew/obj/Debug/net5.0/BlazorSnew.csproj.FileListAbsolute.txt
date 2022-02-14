@@ -324,3 +324,5 @@ C:\Users\Dom\Documents\git\test\BlazorSnew\obj\Debug\net5.0\Razor\Pages\Shared\_
 C:\Users\Dom\Documents\git\test\BlazorSnew\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\Dom\Documents\git\test\BlazorSnew\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
 C:\Users\Dom\Documents\git\test\BlazorSnew\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Dom\Documents\git\test\BlazorSnew\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\RegisterConfirmation.cshtml.g.cs
+C:\Users\Dom\Documents\git\test\BlazorSnew\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs

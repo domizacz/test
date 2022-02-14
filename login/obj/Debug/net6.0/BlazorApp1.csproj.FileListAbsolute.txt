@@ -1,0 +1,8 @@
+C:\Users\Dom\Documents\git\test\login\obj\Debug\net6.0\BlazorApp1.csproj.AssemblyReference.cache
+C:\Users\Dom\Documents\git\test\login\obj\Debug\net6.0\BlazorApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dom\Documents\git\test\login\obj\Debug\net6.0\BlazorApp1.AssemblyInfoInputs.cache
+C:\Users\Dom\Documents\git\test\login\obj\Debug\net6.0\BlazorApp1.AssemblyInfo.cs
+C:\Users\Dom\Documents\git\test\login\obj\Debug\net6.0\BlazorApp1.csproj.CoreCompileInputs.cache
+C:\Users\Dom\Documents\git\test\login\obj\Debug\net6.0\BlazorApp1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Dom\Documents\git\test\login\obj\Debug\net6.0\BlazorApp1.RazorAssemblyInfo.cache
+C:\Users\Dom\Documents\git\test\login\obj\Debug\net6.0\BlazorApp1.RazorAssemblyInfo.cs

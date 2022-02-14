@@ -13,121 +13,77 @@ namespace BlazorSnew.Pages
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-<<<<<<< HEAD
 #line 1 "C:\Users\Dom\Documents\git\test\BlazorSnew\_Imports.razor"
-=======
-#line 1 "C:\Users\monster\source\repos\domizacz\test\BlazorSnew\_Imports.razor"
->>>>>>> 13dc851d96bd480301fabd41ee174e1577321ad3
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-<<<<<<< HEAD
 #line 2 "C:\Users\Dom\Documents\git\test\BlazorSnew\_Imports.razor"
-=======
-#line 2 "C:\Users\monster\source\repos\domizacz\test\BlazorSnew\_Imports.razor"
->>>>>>> 13dc851d96bd480301fabd41ee174e1577321ad3
 using Microsoft.AspNetCore.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-<<<<<<< HEAD
 #line 3 "C:\Users\Dom\Documents\git\test\BlazorSnew\_Imports.razor"
-=======
-#line 3 "C:\Users\monster\source\repos\domizacz\test\BlazorSnew\_Imports.razor"
->>>>>>> 13dc851d96bd480301fabd41ee174e1577321ad3
 using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-<<<<<<< HEAD
 #line 4 "C:\Users\Dom\Documents\git\test\BlazorSnew\_Imports.razor"
-=======
-#line 4 "C:\Users\monster\source\repos\domizacz\test\BlazorSnew\_Imports.razor"
->>>>>>> 13dc851d96bd480301fabd41ee174e1577321ad3
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-<<<<<<< HEAD
 #line 5 "C:\Users\Dom\Documents\git\test\BlazorSnew\_Imports.razor"
-=======
-#line 5 "C:\Users\monster\source\repos\domizacz\test\BlazorSnew\_Imports.razor"
->>>>>>> 13dc851d96bd480301fabd41ee174e1577321ad3
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-<<<<<<< HEAD
 #line 6 "C:\Users\Dom\Documents\git\test\BlazorSnew\_Imports.razor"
-=======
-#line 6 "C:\Users\monster\source\repos\domizacz\test\BlazorSnew\_Imports.razor"
->>>>>>> 13dc851d96bd480301fabd41ee174e1577321ad3
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-<<<<<<< HEAD
 #line 7 "C:\Users\Dom\Documents\git\test\BlazorSnew\_Imports.razor"
-=======
-#line 7 "C:\Users\monster\source\repos\domizacz\test\BlazorSnew\_Imports.razor"
->>>>>>> 13dc851d96bd480301fabd41ee174e1577321ad3
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-<<<<<<< HEAD
 #line 8 "C:\Users\Dom\Documents\git\test\BlazorSnew\_Imports.razor"
-=======
-#line 8 "C:\Users\monster\source\repos\domizacz\test\BlazorSnew\_Imports.razor"
->>>>>>> 13dc851d96bd480301fabd41ee174e1577321ad3
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-<<<<<<< HEAD
 #line 9 "C:\Users\Dom\Documents\git\test\BlazorSnew\_Imports.razor"
-=======
-#line 9 "C:\Users\monster\source\repos\domizacz\test\BlazorSnew\_Imports.razor"
->>>>>>> 13dc851d96bd480301fabd41ee174e1577321ad3
 using BlazorSnew;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-<<<<<<< HEAD
 #line 10 "C:\Users\Dom\Documents\git\test\BlazorSnew\_Imports.razor"
-=======
-#line 10 "C:\Users\monster\source\repos\domizacz\test\BlazorSnew\_Imports.razor"
->>>>>>> 13dc851d96bd480301fabd41ee174e1577321ad3
 using BlazorSnew.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-<<<<<<< HEAD
 #line 3 "C:\Users\Dom\Documents\git\test\BlazorSnew\Pages\FetchData.razor"
-=======
-#line 3 "C:\Users\monster\source\repos\domizacz\test\BlazorSnew\Pages\FetchData.razor"
->>>>>>> 13dc851d96bd480301fabd41ee174e1577321ad3
 using BlazorSnew.Data;
 
 #line default
@@ -142,11 +98,7 @@ using BlazorSnew.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-<<<<<<< HEAD
 #line 39 "C:\Users\Dom\Documents\git\test\BlazorSnew\Pages\FetchData.razor"
-=======
-#line 39 "C:\Users\monster\source\repos\domizacz\test\BlazorSnew\Pages\FetchData.razor"
->>>>>>> 13dc851d96bd480301fabd41ee174e1577321ad3
        
     private WeatherForecast[] forecasts;
 
