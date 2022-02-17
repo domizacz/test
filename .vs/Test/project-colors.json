@@ -75,7 +75,12 @@
       "ProjectGuid": "bc377d29-8283-49a6-afbd-6545460fca8a",
       "DisplayName": "WebApplication1",
       "ColorIndex": 13
+    },
+    "dca8d72b-f78c-42a5-9c49-1b472bd88248": {
+      "ProjectGuid": "dca8d72b-f78c-42a5-9c49-1b472bd88248",
+      "DisplayName": "BlazorApp1",
+      "ColorIndex": 14
     }
   },
-  "NextColorIndex": 14
+  "NextColorIndex": 15
 }

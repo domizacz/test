@@ -1,37 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\Projekty\\test\\BlazorApp1\\BlazorApp1.csproj": {}
+    "C:\\Users\\Dom\\Documents\\git\\test\\BlazorApp1\\BlazorApp1.csproj": {}
   },
   "projects": {
-    "Z:\\Projekty\\test\\BlazorApp1\\BlazorApp1.csproj": {
+    "C:\\Users\\Dom\\Documents\\git\\test\\BlazorApp1\\BlazorApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\Projekty\\test\\BlazorApp1\\BlazorApp1.csproj",
+        "projectUniqueName": "C:\\Users\\Dom\\Documents\\git\\test\\BlazorApp1\\BlazorApp1.csproj",
         "projectName": "BlazorApp1",
-        "projectPath": "Z:\\Projekty\\test\\BlazorApp1\\BlazorApp1.csproj",
-        "packagesPath": "C:\\Users\\monster\\.nuget\\packages\\",
-        "outputPath": "Z:\\Projekty\\test\\BlazorApp1\\obj\\",
+        "projectPath": "C:\\Users\\Dom\\Documents\\git\\test\\BlazorApp1\\BlazorApp1.csproj",
+        "packagesPath": "C:\\Users\\Dom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dom\\Documents\\git\\test\\BlazorApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\monster\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Dom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -42,30 +41,30 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[3.1.10, )"
+              "version": "[6.0.1, )",
+              "noWarn": [
+                "NU1605"
+              ]
             },
-            "Microsoft.AspNetCore.Identity.UI": {
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
               "target": "Package",
-              "version": "[3.1.10, )"
+              "version": "[6.0.1, )",
+              "noWarn": [
+                "NU1605"
+              ]
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.Identity.Web": {
               "target": "Package",
-              "version": "[3.1.10, )"
+              "version": "[1.16.0, )"
             },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "Microsoft.Identity.Web.UI": {
               "target": "Package",
-              "version": "[3.1.10, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[3.1.4, )"
+              "version": "[1.16.0, )"
             }
           },
           "imports": [
@@ -86,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
