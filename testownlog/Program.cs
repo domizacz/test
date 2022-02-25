@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using testownlog.Data;
+using testownlog.Models;
 using testownlog.Settings;
 
 var builder = WebApplication.CreateBuilder(args);
