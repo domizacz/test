@@ -1,4 +1,4 @@
-﻿@page "/login"
+﻿@page "/"
 @using testownlog.Models
 @using  Microsoft.AspNetCore.Identity
 @inject UserManager<ApplicationUser> userManager;
@@ -28,26 +28,46 @@
     public string message;
     public string email ="test@test.t";
     public string password = "Today1@Today";
+    
 
-    private 
-        protected async Task OnInitializedAsync (UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager)
+    protected async Task OnInitializedAsync (UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager)
+    {
+        this.userManager = userManager;
+        this.signInManager = signInManager;
+    }
+
+
+    public async Task OnGetAsync()
         {
-            this.userManager = userManager;
-            this.signInManager = signInManager;
+            
+            
+
+            // Clear the existing external cookie to ensure a clean login process
+            await HttpContext.SignOutAsync(IdentityConstants.ExternalScheme);
+
+            await signInManager.GetExternalAuthenticationSchemesAsync();
+
+            
         }
 
-        
-public async Task Logins()
-{
-    
+
+    public async Task Logins()
+    {
+
         ApplicationUser appUser = await userManager.FindByEmailAsync(email);
         if (appUser != null)
         {
+            
+
             SignInResult result = await signInManager.PasswordSignInAsync(appUser, password, false, false);
-            if (result.Succeeded)
-            {
-                navManager.NavigateTo("/");
-            }
+                
+                if (result.Succeeded)
+                {
+                    message = "done";
+                    // navManager.NavigateTo("/");
+                }
+            
+
         }
         message= "Login Failed: Invalid Email or Password";
     

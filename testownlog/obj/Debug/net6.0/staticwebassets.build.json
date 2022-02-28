@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Z/OvW2sLSOwbykKBzeed1P9YeY8Lb6tByNycxX/goks=",
+  "Hash": "074d2aNS6Ie4/TBB/hpR4QQz5uOdroyFtuOCENzQF3Y=",
   "Source": "testownlog",
   "BasePath": "_content/testownlog",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "testownlog\\wwwroot",
       "Source": "testownlog",
-      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\testownlog\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\testownlog\\wwwroot\\",
       "BasePath": "_content/testownlog",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\testownlog\\obj\\Debug\\net6.0\\scopedcss\\bundle\\testownlog.styles.css",
+      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\testownlog\\obj\\Debug\\net6.0\\scopedcss\\bundle\\testownlog.styles.css",
       "SourceId": "testownlog",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\testownlog\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\testownlog\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/testownlog",
       "RelativePath": "testownlog.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\testownlog\\obj\\Debug\\net6.0\\scopedcss\\bundle\\testownlog.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Dom\\Documents\\git\\test\\testownlog\\obj\\Debug\\net6.0\\scopedcss\\bundle\\testownlog.styles.css"
     },
     {
-      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\testownlog\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\testownlog.bundle.scp.css",
+      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\testownlog\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\testownlog.bundle.scp.css",
       "SourceId": "testownlog",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\testownlog\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\testownlog\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/testownlog",
       "RelativePath": "testownlog.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\testownlog\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\testownlog.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Dom\\Documents\\git\\test\\testownlog\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\testownlog.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\testownlog\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\testownlog\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "testownlog",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\testownlog\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\testownlog\\wwwroot\\",
       "BasePath": "_content/testownlog",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\testownlog\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\testownlog\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "testownlog",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\testownlog\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\testownlog\\wwwroot\\",
       "BasePath": "_content/testownlog",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\testownlog\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\testownlog\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "testownlog",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\testownlog\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\testownlog\\wwwroot\\",
       "BasePath": "_content/testownlog",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\testownlog\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\testownlog\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "testownlog",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\testownlog\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\testownlog\\wwwroot\\",
       "BasePath": "_content/testownlog",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\testownlog\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\testownlog\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "testownlog",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\testownlog\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\testownlog\\wwwroot\\",
       "BasePath": "_content/testownlog",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\testownlog\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\testownlog\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "testownlog",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\testownlog\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\testownlog\\wwwroot\\",
       "BasePath": "_content/testownlog",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\testownlog\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\testownlog\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "testownlog",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\testownlog\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\testownlog\\wwwroot\\",
       "BasePath": "_content/testownlog",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\testownlog\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\testownlog\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "testownlog",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\testownlog\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\testownlog\\wwwroot\\",
       "BasePath": "_content/testownlog",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\testownlog\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\testownlog\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "testownlog",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\testownlog\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\testownlog\\wwwroot\\",
       "BasePath": "_content/testownlog",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\testownlog\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\testownlog\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "testownlog",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\testownlog\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\testownlog\\wwwroot\\",
       "BasePath": "_content/testownlog",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\testownlog\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\testownlog\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "testownlog",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\testownlog\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\testownlog\\wwwroot\\",
       "BasePath": "_content/testownlog",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\testownlog\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\testownlog\\wwwroot\\css\\site.css",
       "SourceId": "testownlog",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\testownlog\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\testownlog\\wwwroot\\",
       "BasePath": "_content/testownlog",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\testownlog\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\testownlog\\wwwroot\\favicon.ico",
       "SourceId": "testownlog",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\testownlog\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\testownlog\\wwwroot\\",
       "BasePath": "_content/testownlog",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",

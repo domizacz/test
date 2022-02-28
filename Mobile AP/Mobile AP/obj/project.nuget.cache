@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "FLTrp+iuK54izNpwZL6jSdPz7Vz1v6Hxu5tDlhhZbeCGLqj8U9QXsNwAdZ8dDwod/hsMEOSnWEKoEsNnfPiAMg==",
+  "dgSpecHash": "RO+vxAzsSqGLeLaoNDqovf7uGixbXufhih3Bs4Ii6yqu3uyj3guy2SGdqhYTewtitd9LCB1FnN3/SnE2DoQwQw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\Mobile AP\\Mobile AP\\Mobile AP.csproj",
+  "projectFilePath": "C:\\Users\\Dom\\Documents\\git\\test\\Mobile AP\\Mobile AP\\Mobile AP.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\monster\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\monster\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\monster\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\monster\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\Dom\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Dom\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Dom\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Dom\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Dom\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
 }
