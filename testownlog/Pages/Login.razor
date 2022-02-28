@@ -1,0 +1,62 @@
+﻿@page "/login"
+@using testownlog.Models
+@using  Microsoft.AspNetCore.Identity
+@inject UserManager<ApplicationUser> userManager;
+@inject SignInManager<ApplicationUser> signInManager;
+@inject NavigationManager navManager;
+
+
+
+<h3>login</h3>
+
+
+@message
+<div class="form-group">
+        <label>Email</label>
+        <input name="email" class="form-control" @bind-value="email"/>
+    </div>
+    <div class="form-group">
+        <label>Password</label>
+        <input name="password" class="form-control" @bind-value="password" />
+    </div>
+    <button class="btn btn-primary" type="submit" @onclick="Logins">Log In</button>
+
+
+
+
+@code {
+    public string message;
+    public string email ="test@test.t";
+    public string password = "Today1@Today";
+
+    private 
+        protected async Task OnInitializedAsync (UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager)
+        {
+            this.userManager = userManager;
+            this.signInManager = signInManager;
+        }
+
+        
+public async Task Logins()
+{
+    
+        ApplicationUser appUser = await userManager.FindByEmailAsync(email);
+        if (appUser != null)
+        {
+            SignInResult result = await signInManager.PasswordSignInAsync(appUser, password, false, false);
+            if (result.Succeeded)
+            {
+                navManager.NavigateTo("/");
+            }
+        }
+        message= "Login Failed: Invalid Email or Password";
+    
+}
+
+
+public async Task Logout()
+{
+    await signInManager.SignOutAsync();
+    navManager.NavigateTo("/");
+}
+}

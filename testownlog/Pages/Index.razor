@@ -1,9 +1,107 @@
 ﻿@page "/"
+@using Microsoft.AspNetCore.Identity
+@using testownlog.Models
+@inject UserManager<ApplicationUser> userManager;
+@inject RoleManager<ApplicationRole> roleManager;
+
+
+
+ 
 
 <PageTitle>Index</PageTitle>
-
+@message
+@message1
 <h1>Hello, world!</h1>
 
 Welcome to your new app.
 
 <SurveyPrompt Title="How is Blazor working for you?" />
+
+
+
+
+
+<h1 class="bg-info text-white">Create User</h1>
+<div asp-validation-summary="All" class="text-danger"></div>
+ 
+
+
+    <div class="form-group">
+        <label asp-for="Name" ></label>
+        <input asp-for="Name" @bind-value="User.Name" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email"@bind-value="User.Email"  class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Password"></label>
+        <input asp-for="Password" @bind-value="User.Password"  class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary" @onclick="Create">Create</button>
+
+
+
+
+
+
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <input name="name" class="form-control" @bind-value="@namerule" />
+    </div>
+    <button type="submit" class="btn btn-primary" @onclick="CreateRole">Create</button>
+
+@code{
+    public string message ="test";
+    public string message1 ="test";
+    public User User = new User();
+    public string namerule = "Admin";
+
+protected async Task OnInitializedAsync(UserManager<ApplicationUser> userManager, RoleManager<ApplicationRole> roleManager)
+        {
+            this.userManager = userManager;
+            this.roleManager = roleManager;
+        }
+ public async Task Create()
+        {
+
+
+             
+            
+                ApplicationUser appUser = new ApplicationUser
+                {
+                    UserName = User.Name,
+                    Email = User.Email
+                };
+ 
+                IdentityResult result = await userManager.CreateAsync(appUser, User.Password);
+             
+                   
+                
+                
+                if (result.Succeeded)
+                    message = "User Created Successfully";
+                else
+                {
+                    foreach (IdentityError error in result.Errors)
+                        message= error.Description;
+                }
+          
+        }
+
+
+     public async Task CreateRole()
+        {
+            
+                IdentityResult result = await roleManager.CreateAsync(new ApplicationRole() { Name = namerule });
+                if (result.Succeeded)
+                    message1= "Role Created Successfully";
+                else
+                {
+                    foreach (IdentityError error in result.Errors)
+                        message1= error.Description;
+                }
+          
+        }
+
+}

@@ -41,41 +41,26 @@
       "DisplayName": "MongoDB",
       "ColorIndex": 6
     },
-    "25617806-b36c-449d-b503-889b5cacfa7c": {
-      "ProjectGuid": "25617806-b36c-449d-b503-889b5cacfa7c",
-      "DisplayName": "Notyfication",
+    "bc377d29-8283-49a6-afbd-6545460fca8a": {
+      "ProjectGuid": "bc377d29-8283-49a6-afbd-6545460fca8a",
+      "DisplayName": "WebApplication1",
       "ColorIndex": 7
-    },
-    "21229ae4-7369-493d-ab15-da5cf7b7d6af": {
-      "ProjectGuid": "21229ae4-7369-493d-ab15-da5cf7b7d6af",
-      "DisplayName": "test1",
-      "ColorIndex": 8
-    },
-    "7c6b9b04-301a-4a69-96a9-7cb795d89d12": {
-      "ProjectGuid": "7c6b9b04-301a-4a69-96a9-7cb795d89d12",
-      "DisplayName": "popup windo",
-      "ColorIndex": 9
     },
     "63b89c50-9dfb-458f-9c72-e7d0eb2a22b5": {
       "ProjectGuid": "63b89c50-9dfb-458f-9c72-e7d0eb2a22b5",
       "DisplayName": "BlazorSnew",
+      "ColorIndex": 8
+    },
+    "53eeeced-ba4e-42ff-9d36-2a368a353e45": {
+      "ProjectGuid": "53eeeced-ba4e-42ff-9d36-2a368a353e45",
+      "DisplayName": "testownlog",
+      "ColorIndex": 9
+    },
+    "70a98b49-052f-4ea5-80eb-0a14e1048d92": {
+      "ProjectGuid": "70a98b49-052f-4ea5-80eb-0a14e1048d92",
+      "DisplayName": "WebAPi",
       "ColorIndex": 10
-    },
-    "8f4beeec-efa3-4108-84ec-c5e5ce58cd0d": {
-      "ProjectGuid": "8f4beeec-efa3-4108-84ec-c5e5ce58cd0d",
-      "DisplayName": "MangoLoginidentyty",
-      "ColorIndex": 11
-    },
-    "faf8323d-16d9-49de-9488-ce8582b0e83f": {
-      "ProjectGuid": "faf8323d-16d9-49de-9488-ce8582b0e83f",
-      "DisplayName": "test1",
-      "ColorIndex": 12
-    },
-    "bc377d29-8283-49a6-afbd-6545460fca8a": {
-      "ProjectGuid": "bc377d29-8283-49a6-afbd-6545460fca8a",
-      "DisplayName": "WebApplication1",
-      "ColorIndex": 13
     }
   },
-  "NextColorIndex": 14
+  "NextColorIndex": 11
 }
