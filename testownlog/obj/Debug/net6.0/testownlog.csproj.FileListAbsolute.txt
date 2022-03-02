@@ -252,7 +252,6 @@ C:\Users\Dom\Documents\git\test\testownlog\bin\Debug\net6.0\testownlog.exe
 C:\Users\Dom\Documents\git\test\testownlog\bin\Debug\net6.0\testownlog.deps.json
 C:\Users\Dom\Documents\git\test\testownlog\bin\Debug\net6.0\testownlog.runtimeconfig.json
 C:\Users\Dom\Documents\git\test\testownlog\bin\Debug\net6.0\testownlog.dll
-C:\Users\Dom\Documents\git\test\testownlog\bin\Debug\net6.0\ref\testownlog.dll
 C:\Users\Dom\Documents\git\test\testownlog\bin\Debug\net6.0\testownlog.pdb
 C:\Users\Dom\Documents\git\test\testownlog\bin\Debug\net6.0\AspNetCore.Identity.MongoDbCore.dll
 C:\Users\Dom\Documents\git\test\testownlog\bin\Debug\net6.0\DnsClient.dll
@@ -491,3 +490,4 @@ C:\Users\Dom\Documents\git\test\testownlog\obj\Debug\net6.0\ref\testownlog.dll
 C:\Users\Dom\Documents\git\test\testownlog\obj\Debug\net6.0\testownlog.pdb
 C:\Users\Dom\Documents\git\test\testownlog\obj\Debug\net6.0\testownlog.genruntimeconfig.cache
 C:\Users\Dom\Documents\git\test\testownlog\obj\Debug\net6.0\testownlog.csproj.AssemblyReference.cache
+C:\Users\Dom\Documents\git\test\testownlog\obj\Debug\net6.0\refint\testownlog.dll

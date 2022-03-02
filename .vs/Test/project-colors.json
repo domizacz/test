@@ -90,7 +90,22 @@
       "ProjectGuid": "70a98b49-052f-4ea5-80eb-0a14e1048d92",
       "DisplayName": "WebAPi",
       "ColorIndex": 0
+    },
+    "054dbfb1-3bb3-4e36-8dbe-4dba742326cd": {
+      "ProjectGuid": "054dbfb1-3bb3-4e36-8dbe-4dba742326cd",
+      "DisplayName": "testmslogin",
+      "ColorIndex": 1
+    },
+    "afe11a1d-3759-4b36-8958-40c1d9e4843d": {
+      "ProjectGuid": "afe11a1d-3759-4b36-8958-40c1d9e4843d",
+      "DisplayName": "logingreview",
+      "ColorIndex": 2
+    },
+    "270bdfb7-fc50-41e5-92b8-53eed2ea53da": {
+      "ProjectGuid": "270bdfb7-fc50-41e5-92b8-53eed2ea53da",
+      "DisplayName": "Mobile AP",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 4
 }

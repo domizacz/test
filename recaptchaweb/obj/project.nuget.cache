@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "svsMNPJ01tXxIwveEToQcGxJzc+1rAINm1JNXcUOxzlU/68YkBV2v0/2O1i9SzmJ/95cn9atcm+npfXpYYpAaA==",
+  "dgSpecHash": "VZy0toAbBdCYF4ptVZNmT/ie6lbqN/VH36U2sGmWDDwH2j+/iOU0CX1IYB7SSCkLLjL3xw7z4C7CNAV91e9AKw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Dom\\Documents\\git\\test\\recaptchaweb\\recaptchaweb.csproj",
   "expectedPackageFiles": [
@@ -90,7 +90,8 @@
     "C:\\Users\\Dom\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\Dom\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Dom\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Dom\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\Dom\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\Dom\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512"
   ],
   "logs": []
 }

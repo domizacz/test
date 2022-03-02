@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "yrpK+t+vt6q3mP9uNnM+mDyTM1itHOFIfBlJQ9NoAqAbTXQkbc9tSBBZ0CV1qLqIBl1FyBQ0sxuSAKQrr0VXpQ==",
+  "dgSpecHash": "6WTF9QbWapl67kGqTsykfyHHvT2TuodKiS4RtwsPnVitFuVHIe+JMzvcqMpNL53ms2IaYaQbTa7hiZx+iyH2aA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Dom\\Documents\\git\\test\\Notyfication\\Notyfication.csproj",
   "expectedPackageFiles": [
@@ -24,7 +24,8 @@
     "C:\\Users\\Dom\\.nuget\\packages\\radzen.blazor\\3.8.0\\radzen.blazor.3.8.0.nupkg.sha512",
     "C:\\Users\\Dom\\.nuget\\packages\\system.io.pipelines\\5.0.0\\system.io.pipelines.5.0.0.nupkg.sha512",
     "C:\\Users\\Dom\\.nuget\\packages\\system.linq.dynamic.core\\1.2.2\\system.linq.dynamic.core.1.2.2.nupkg.sha512",
-    "C:\\Users\\Dom\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512"
+    "C:\\Users\\Dom\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Dom\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512"
   ],
   "logs": []
 }
