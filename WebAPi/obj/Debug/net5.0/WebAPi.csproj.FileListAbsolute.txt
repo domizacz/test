@@ -64,7 +64,6 @@ C:\Users\Dom\Documents\git\test\WebAPi\bin\Debug\net5.0\WebAPi.deps.json
 C:\Users\Dom\Documents\git\test\WebAPi\bin\Debug\net5.0\WebAPi.runtimeconfig.json
 C:\Users\Dom\Documents\git\test\WebAPi\bin\Debug\net5.0\WebAPi.runtimeconfig.dev.json
 C:\Users\Dom\Documents\git\test\WebAPi\bin\Debug\net5.0\WebAPi.dll
-C:\Users\Dom\Documents\git\test\WebAPi\bin\Debug\net5.0\ref\WebAPi.dll
 C:\Users\Dom\Documents\git\test\WebAPi\bin\Debug\net5.0\WebAPi.pdb
 C:\Users\Dom\Documents\git\test\WebAPi\bin\Debug\net5.0\Microsoft.OpenApi.dll
 C:\Users\Dom\Documents\git\test\WebAPi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
@@ -85,3 +84,4 @@ C:\Users\Dom\Documents\git\test\WebAPi\obj\Debug\net5.0\WebAPi.dll
 C:\Users\Dom\Documents\git\test\WebAPi\obj\Debug\net5.0\ref\WebAPi.dll
 C:\Users\Dom\Documents\git\test\WebAPi\obj\Debug\net5.0\WebAPi.pdb
 C:\Users\Dom\Documents\git\test\WebAPi\obj\Debug\net5.0\WebAPi.genruntimeconfig.cache
+C:\Users\Dom\Documents\git\test\WebAPi\obj\Debug\net5.0\refint\WebAPi.dll
