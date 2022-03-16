@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-logingreview-3650E56F-F078-43BC-AE4B-806757C0EA40")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("logingreview")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]

@@ -10,7 +10,8 @@ var mongoDbSettings = builder.Configuration.GetSection(nameof(MongoDbConfig)).Ge
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
-builder.Services.AddIdentity<ApplicationUser, ApplicationRole>()
+
+builder.Services.AddIdentity<ApplicationUser, ApplicationRole>(options => options.SignIn.RequireConfirmedAccount = false) 
         .AddMongoDbStores<ApplicationUser, ApplicationRole, Guid>
         (
             mongoDbSettings.ConnectionString, mongoDbSettings.Name
@@ -32,9 +33,10 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
 app.UseAuthentication();
 app.UseAuthorization();
+
+
 
 app.MapBlazorHub();
 app.MapFallbackToPage("/_Host");
