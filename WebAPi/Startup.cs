@@ -28,6 +28,11 @@ namespace WebAPi
         {
 
             services.AddControllers();
+            services.AddCors(policy =>
+            {
+policy.AddPolicy()
+            }
+            );
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebAPi", Version = "v1" });
