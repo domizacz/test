@@ -30,7 +30,9 @@ namespace WebAPi
             services.AddControllers();
             services.AddCors(policy =>
             {
-policy.AddPolicy()
+            policy.AddPolicy("OpenCorsPolicy", opt =>
+            opt.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());    
+            
             }
             );
             services.AddSwaggerGen(c =>
@@ -51,6 +53,7 @@ policy.AddPolicy()
 
             app.UseHttpsRedirection();
 
+            app.UseCors("OpenCorsPolicy");
             app.UseRouting();
 
             app.UseAuthorization();

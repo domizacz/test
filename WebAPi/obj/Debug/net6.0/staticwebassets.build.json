@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "F4TDd+6uhQECKdQ4yimaGZ7bzYPoSAPUGris7LWtNv4=",
+  "Hash": "RNS8lGWcm7bJBLWqrumSfrFDZdcx+t+3R1h1rfU2oZw=",
   "Source": "WebAPi",
   "BasePath": "_content/WebAPi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\RemoteHand.csproj",
+      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\RemoteHand.csproj",
       "Version": 2,
       "Source": "RemoteHand",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -22,17 +22,17 @@
     {
       "Name": "RemoteHand\\wwwroot",
       "Source": "RemoteHand",
-      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\wwwroot\\",
       "BasePath": "_content/RemoteHand",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\RemoteHand.bundle.scp.css",
+      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\RemoteHand.bundle.scp.css",
       "SourceId": "RemoteHand",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/RemoteHand",
       "RelativePath": "RemoteHand.bundle.scp.css",
       "AssetKind": "All",
@@ -43,13 +43,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\RemoteHand.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\RemoteHand.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "RemoteHand",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\wwwroot\\",
       "BasePath": "_content/RemoteHand",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -63,10 +63,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "RemoteHand",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\wwwroot\\",
       "BasePath": "_content/RemoteHand",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "RemoteHand",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\wwwroot\\",
       "BasePath": "_content/RemoteHand",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -97,10 +97,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "RemoteHand",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\wwwroot\\",
       "BasePath": "_content/RemoteHand",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -114,10 +114,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "RemoteHand",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\wwwroot\\",
       "BasePath": "_content/RemoteHand",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "RemoteHand",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\wwwroot\\",
       "BasePath": "_content/RemoteHand",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -148,10 +148,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "RemoteHand",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\wwwroot\\",
       "BasePath": "_content/RemoteHand",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -165,10 +165,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "RemoteHand",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\wwwroot\\",
       "BasePath": "_content/RemoteHand",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -182,10 +182,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "RemoteHand",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\wwwroot\\",
       "BasePath": "_content/RemoteHand",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -199,10 +199,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "RemoteHand",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\wwwroot\\",
       "BasePath": "_content/RemoteHand",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -216,10 +216,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "RemoteHand",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\wwwroot\\",
       "BasePath": "_content/RemoteHand",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -233,10 +233,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\wwwroot\\css\\site.css",
       "SourceId": "RemoteHand",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\wwwroot\\",
       "BasePath": "_content/RemoteHand",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -250,10 +250,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\wwwroot\\favicon.ico",
       "SourceId": "RemoteHand",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\wwwroot\\",
       "BasePath": "_content/RemoteHand",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -267,10 +267,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\wwwroot\\scrypts\\scrypt.js",
+      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\wwwroot\\scrypts\\scrypt.js",
       "SourceId": "RemoteHand",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\wwwroot\\",
       "BasePath": "_content/RemoteHand",
       "RelativePath": "scrypts/scrypt.js",
       "AssetKind": "All",
@@ -284,10 +284,10 @@
       "OriginalItemSpec": "wwwroot\\scrypts\\scrypt.js"
     },
     {
-      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\WebAPi\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebAPi.styles.css",
+      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\WebAPi\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebAPi.styles.css",
       "SourceId": "WebAPi",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\WebAPi\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\WebAPi\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/WebAPi",
       "RelativePath": "WebAPi.styles.css",
       "AssetKind": "All",
@@ -298,7 +298,7 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Dom\\Documents\\git\\test\\WebAPi\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebAPi.styles.css"
+      "OriginalItemSpec": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\WebAPi\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebAPi.styles.css"
     }
   ]
 }

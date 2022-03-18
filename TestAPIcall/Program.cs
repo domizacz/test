@@ -11,7 +11,7 @@ builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddRefitClient<IGuestData>().ConfigureHttpClient(c =>
 {
-    c.BaseAddress = new Uri("https://localhost:4431/api");
+    c.BaseAddress = new Uri("https://localhost:44312/api");
 }
 );
 builder.Services.AddSingleton<WeatherForecastService>();

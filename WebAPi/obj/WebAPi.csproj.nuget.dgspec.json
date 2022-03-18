@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dom\\Documents\\git\\test\\WebAPi\\WebAPi.csproj": {}
+    "C:\\Users\\monster\\source\\repos\\domizacz\\test\\WebAPi\\WebAPi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\RemoteHand.csproj": {
+    "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\RemoteHand.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\RemoteHand.csproj",
+        "projectUniqueName": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\RemoteHand.csproj",
         "projectName": "RemoteHand",
-        "projectPath": "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\RemoteHand.csproj",
-        "packagesPath": "C:\\Users\\Dom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\obj\\",
+        "projectPath": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\RemoteHand.csproj",
+        "packagesPath": "C:\\Users\\monster\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\monster\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -91,22 +94,25 @@
         }
       }
     },
-    "C:\\Users\\Dom\\Documents\\git\\test\\WebAPi\\WebAPi.csproj": {
+    "C:\\Users\\monster\\source\\repos\\domizacz\\test\\WebAPi\\WebAPi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dom\\Documents\\git\\test\\WebAPi\\WebAPi.csproj",
+        "projectUniqueName": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\WebAPi\\WebAPi.csproj",
         "projectName": "WebAPi",
-        "projectPath": "C:\\Users\\Dom\\Documents\\git\\test\\WebAPi\\WebAPi.csproj",
-        "packagesPath": "C:\\Users\\Dom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dom\\Documents\\git\\test\\WebAPi\\obj\\",
+        "projectPath": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\WebAPi\\WebAPi.csproj",
+        "packagesPath": "C:\\Users\\monster\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\WebAPi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\monster\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -119,8 +125,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\RemoteHand.csproj": {
-                "projectPath": "C:\\Users\\Dom\\Documents\\git\\test\\RemoteHand\\RemoteHand.csproj"
+              "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\RemoteHand.csproj": {
+                "projectPath": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\RemoteHand\\RemoteHand.csproj"
               }
             }
           }
