@@ -13,13 +13,13 @@ namespace TestAPIcall.DataAccess
         [Get("/Guests/{id}")]
         Task<GuestModel> GetGuest(int id);
 
-        [Post("/Guest")]
+        [Post("/Guests")]
         Task CreateGuest([Body] GuestModel guest);
 
-        [Put("/Guest/{id}")]
+        [Put("/Guests/{id}")]
         Task UpdateGuest(int id, [Body] GuestModel guest);
 
-        [Delete("/Guest/{id}")]
+        [Delete("/Guests/{id}")]
         Task DeleteGuest(int id);
     }
 }
