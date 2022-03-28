@@ -14,6 +14,11 @@ builder.Services.AddRefitClient<IGuestData>().ConfigureHttpClient(c =>
     c.BaseAddress = new Uri("https://localhost:44312/api");
 }
 );
+//builder.Services.AddRefitClient<IAPiData>().ConfigureHttpClient(c =>
+//{
+//    c.BaseAddress = new Uri("https://api.publicapis.org");
+//}
+//);
 builder.Services.AddSingleton<WeatherForecastService>();
 
 var app = builder.Build();
