@@ -1,0 +1,30 @@
+﻿@page "/"
+@using CallR.Models
+@using CallR.Data
+@using Refit
+
+<PageTitle>Index</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+@*@if(ApiList is not null)
+{
+@foreach(var test in ApiList.entries)
+{
+    test.API.ToString();
+    test.Description.ToString();
+}
+}*@
+<SurveyPrompt Title="How is Blazor working for you?" />
+
+@code{
+    public APIList ApiList;
+    public string test;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var apilistno = RestService.For<IWebAPI>("https://api.publicapis.org");
+        ApiList = await apilistno.GetAPI();
+    }
+}

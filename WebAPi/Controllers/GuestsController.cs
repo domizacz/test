@@ -9,12 +9,12 @@ namespace WebAPi.Controllers
     [ApiController]
     public class GuestsController : ControllerBase
     {
-
+        private static List<Guest> Guests = new List<Guest>() { new Guest { day=1, size="2"} };
         private static List<GuestModel> guests = new()
         {
-            new GuestModel { Id = 1, FirstName = "John", LastName = "Boli" },
-            new GuestModel { Id = 2, FirstName = "Tim", LastName = "Corey" },
-            new GuestModel { Id = 3, FirstName = "Boy", LastName = "Grak" }
+            new GuestModel { Id = 1, FirstName = "John", LastName = "Boli", Room = (new List<Guest>() { new Guest { day = 3, size = "122" } }) },
+            new GuestModel { Id = 2, FirstName = "Tim", LastName = "Corey", Room = (new List<Guest>() { new Guest { day = 33, size = "121" } }) },
+            new GuestModel { Id = 3, FirstName = "Boy", LastName = "Grak", Room=(new List<Guest>() { new Guest { day=1,size="12"} } ) }  
         };
 
 
