@@ -2,8 +2,8 @@
 {
     public class APIList
     {
-        public int count { get; set; }
-        public List<APIs> entries { get; set; }
+        public int Count { get; set; }
+        public List<APIs> Entries { get; set; }
     }
     public class APIs
     {

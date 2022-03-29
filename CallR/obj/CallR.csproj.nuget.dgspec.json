@@ -1,28 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\monster\\source\\repos\\domizacz\\test\\CallR\\CallR.csproj": {}
+    "C:\\Users\\Dom\\Documents\\git\\test\\CallR\\CallR.csproj": {}
   },
   "projects": {
-    "C:\\Users\\monster\\source\\repos\\domizacz\\test\\CallR\\CallR.csproj": {
+    "C:\\Users\\Dom\\Documents\\git\\test\\CallR\\CallR.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\CallR\\CallR.csproj",
+        "projectUniqueName": "C:\\Users\\Dom\\Documents\\git\\test\\CallR\\CallR.csproj",
         "projectName": "CallR",
-        "projectPath": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\CallR\\CallR.csproj",
-        "packagesPath": "C:\\Users\\monster\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\CallR\\obj\\",
+        "projectPath": "C:\\Users\\Dom\\Documents\\git\\test\\CallR\\CallR.csproj",
+        "packagesPath": "C:\\Users\\Dom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dom\\Documents\\git\\test\\CallR\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\monster\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dom\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uIocENmsjP7GXy9tsXp+hq9bW7WFrLk1qt+gjoNDJlI=",
+  "Hash": "3l4puOQdC3GWEx+UxVcwEdkfXQBzGPJf5sgvZsz5BFA=",
   "Source": "CallR",
   "BasePath": "_content/CallR",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "CallR\\wwwroot",
       "Source": "CallR",
-      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\CallR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\CallR\\wwwroot\\",
       "BasePath": "_content/CallR",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\CallR\\obj\\Debug\\net6.0\\scopedcss\\bundle\\CallR.styles.css",
+      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\CallR\\obj\\Debug\\net6.0\\scopedcss\\bundle\\CallR.styles.css",
       "SourceId": "CallR",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\CallR\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\CallR\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/CallR",
       "RelativePath": "CallR.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\CallR\\obj\\Debug\\net6.0\\scopedcss\\bundle\\CallR.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Dom\\Documents\\git\\test\\CallR\\obj\\Debug\\net6.0\\scopedcss\\bundle\\CallR.styles.css"
     },
     {
-      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\CallR\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CallR.bundle.scp.css",
+      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\CallR\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CallR.bundle.scp.css",
       "SourceId": "CallR",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\CallR\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\CallR\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/CallR",
       "RelativePath": "CallR.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\CallR\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CallR.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Dom\\Documents\\git\\test\\CallR\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CallR.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\CallR\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\CallR\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "CallR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\CallR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\CallR\\wwwroot\\",
       "BasePath": "_content/CallR",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\CallR\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\CallR\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "CallR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\CallR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\CallR\\wwwroot\\",
       "BasePath": "_content/CallR",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\CallR\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\CallR\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "CallR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\CallR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\CallR\\wwwroot\\",
       "BasePath": "_content/CallR",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\CallR\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\CallR\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "CallR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\CallR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\CallR\\wwwroot\\",
       "BasePath": "_content/CallR",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\CallR\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\CallR\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "CallR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\CallR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\CallR\\wwwroot\\",
       "BasePath": "_content/CallR",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\CallR\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\CallR\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "CallR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\CallR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\CallR\\wwwroot\\",
       "BasePath": "_content/CallR",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\CallR\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\CallR\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "CallR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\CallR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\CallR\\wwwroot\\",
       "BasePath": "_content/CallR",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\CallR\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\CallR\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "CallR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\CallR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\CallR\\wwwroot\\",
       "BasePath": "_content/CallR",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\CallR\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\CallR\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "CallR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\CallR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\CallR\\wwwroot\\",
       "BasePath": "_content/CallR",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\CallR\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\CallR\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "CallR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\CallR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\CallR\\wwwroot\\",
       "BasePath": "_content/CallR",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\CallR\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\CallR\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "CallR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\CallR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\CallR\\wwwroot\\",
       "BasePath": "_content/CallR",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\CallR\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\CallR\\wwwroot\\css\\site.css",
       "SourceId": "CallR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\CallR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\CallR\\wwwroot\\",
       "BasePath": "_content/CallR",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\CallR\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Dom\\Documents\\git\\test\\CallR\\wwwroot\\favicon.ico",
       "SourceId": "CallR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\CallR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Dom\\Documents\\git\\test\\CallR\\wwwroot\\",
       "BasePath": "_content/CallR",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
