@@ -1,6 +1,6 @@
 ﻿namespace CallR.Models
 {
-    public class APIList
+    public class APIList1
     {
         public int Count { get; set; }
         public List<APIs> Entries { get; set; }

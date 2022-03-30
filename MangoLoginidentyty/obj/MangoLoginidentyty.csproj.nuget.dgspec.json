@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dom\\Documents\\git\\test\\MangoLoginidentyty\\MangoLoginidentyty.csproj": {}
+    "C:\\Users\\monster\\source\\repos\\domizacz\\test\\MangoLoginidentyty\\MangoLoginidentyty.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dom\\Documents\\git\\test\\MangoLoginidentyty\\MangoLoginidentyty.csproj": {
+    "C:\\Users\\monster\\source\\repos\\domizacz\\test\\MangoLoginidentyty\\MangoLoginidentyty.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dom\\Documents\\git\\test\\MangoLoginidentyty\\MangoLoginidentyty.csproj",
+        "projectUniqueName": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\MangoLoginidentyty\\MangoLoginidentyty.csproj",
         "projectName": "MangoLoginidentyty",
-        "projectPath": "C:\\Users\\Dom\\Documents\\git\\test\\MangoLoginidentyty\\MangoLoginidentyty.csproj",
-        "packagesPath": "C:\\Users\\Dom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dom\\Documents\\git\\test\\MangoLoginidentyty\\obj\\",
+        "projectPath": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\MangoLoginidentyty\\MangoLoginidentyty.csproj",
+        "packagesPath": "C:\\Users\\monster\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\MangoLoginidentyty\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\monster\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"

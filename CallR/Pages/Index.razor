@@ -4,32 +4,29 @@
 @using Refit
 
 <PageTitle>Index</PageTitle>
-
-<h1>Hello, world!</h1>
-
 @test
-
-Welcome to your new app.
-
-@foreach(var test in ApiList.Entries)
+@if (ApiList.Count != 0)
 {
-    test.API.ToString();
-    test.Description.ToString();
+    @foreach (var test in ApiList.Entries)
+    {
+        test.API.ToString();
+        test.Description.ToString();
+    }
+
 }
 
-<SurveyPrompt Title="How is Blazor working for you?" />
-
 @code{
-    private APIList ApiList = new APIList();
-    public List<APIs> Listfrom = new List<APIs>();
+    private APIList1 ApiList = new APIList1();
+    private List<APIs> Listfrom = new List<APIs>();
     public string test;
+
     protected override async Task OnInitializedAsync()
     {
-        
-        var apilistno = RestService.For<IWebAPI>("https://api.publicapis.org");
+       
+        var apilistno = RestService.For<IWebAPI>("https://api.publicapis.org/entries?category=science");
         ApiList = await apilistno.GetAPI();
         test = ApiList.Entries[1].Description;
-        await Task.Delay(1000); 
+        
     }
     //protected async Task OnInitializedAsync()
     //{
