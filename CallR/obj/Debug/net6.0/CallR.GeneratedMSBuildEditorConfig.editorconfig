@@ -9,53 +9,53 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CallR
 build_property.RootNamespace = CallR
-build_property.ProjectDir = C:\Users\monster\source\repos\domizacz\test\CallR\
+build_property.ProjectDir = C:\Users\Dom\Documents\git\test\CallR\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\monster\source\repos\domizacz\test\CallR
+build_property.MSBuildProjectDirectory = C:\Users\Dom\Documents\git\test\CallR
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/monster/source/repos/domizacz/test/CallR/App.razor]
+[C:/Users/Dom/Documents/git/test/CallR/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/monster/source/repos/domizacz/test/CallR/Pages/Counter.razor]
+[C:/Users/Dom/Documents/git/test/CallR/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/monster/source/repos/domizacz/test/CallR/Pages/FetchData.razor]
+[C:/Users/Dom/Documents/git/test/CallR/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/monster/source/repos/domizacz/test/CallR/Pages/Index.razor]
+[C:/Users/Dom/Documents/git/test/CallR/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/monster/source/repos/domizacz/test/CallR/Shared/SurveyPrompt.razor]
+[C:/Users/Dom/Documents/git/test/CallR/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/monster/source/repos/domizacz/test/CallR/_Imports.razor]
+[C:/Users/Dom/Documents/git/test/CallR/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/monster/source/repos/domizacz/test/CallR/Shared/MainLayout.razor]
+[C:/Users/Dom/Documents/git/test/CallR/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-thgtel4bdi
 
-[C:/Users/monster/source/repos/domizacz/test/CallR/Shared/NavMenu.razor]
+[C:/Users/Dom/Documents/git/test/CallR/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-ho8hi7iyd2
 
-[C:/Users/monster/source/repos/domizacz/test/CallR/Pages/Error.cshtml]
+[C:/Users/Dom/Documents/git/test/CallR/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/monster/source/repos/domizacz/test/CallR/Pages/_Host.cshtml]
+[C:/Users/Dom/Documents/git/test/CallR/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/monster/source/repos/domizacz/test/CallR/Pages/_Layout.cshtml]
+[C:/Users/Dom/Documents/git/test/CallR/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -5,14 +5,29 @@
 
 <PageTitle>Index</PageTitle>
 
-
+<table class="table table-striped table-sm">
+<thead>
+    <tr>
+        <th scope="col">Category</th>
+        <th scope="col">API</th>
+        <th scope="col">Descriptiom</th>
+        <th scope="col">Auth</th>
+        <th scope="col-10">Link</th>
+    </tr>
+</thead>
+<tbody>
 @foreach(var inv in Listfrom)
 {
-    @inv.API;
-    @inv.Description;
+    <tr>
+        <th class="col-12">@inv.Category</th>
+        <td>@inv.API</td>
+        <td>@inv.Description</td>
+        <td>@inv.Auth</td>
+        <td class="col-1">@inv.Link</td>
+    </tr>
 }
-
-12313
+</tbody>
+</table>
 
 @code{
     private APIList1 ApiList = new APIList1();
