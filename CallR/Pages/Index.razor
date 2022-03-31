@@ -4,16 +4,15 @@
 @using Refit
 
 <PageTitle>Index</PageTitle>
-@test
-@if (ApiList.Count != 0)
-{
-    @foreach (var test in ApiList.Entries)
-    {
-        test.API.ToString();
-        test.Description.ToString();
-    }
 
+
+@foreach(var inv in Listfrom)
+{
+    @inv.API;
+    @inv.Description;
 }
+
+12313
 
 @code{
     private APIList1 ApiList = new APIList1();
@@ -22,9 +21,10 @@
 
     protected override async Task OnInitializedAsync()
     {
-       
-        var apilistno = RestService.For<IWebAPI>("https://api.publicapis.org/entries?category=science");
+
+        var apilistno = RestService.For<IWebAPI>("https://api.publicapis.org");
         ApiList = await apilistno.GetAPI();
+        Listfrom = ApiList.Entries;
         test = ApiList.Entries[1].Description;
         
     }

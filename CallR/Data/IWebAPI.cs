@@ -5,7 +5,7 @@ namespace CallR.Data
 {
     public interface IWebAPI
     {
-        [Get("")]
+        [Get("/entries")]
         Task<APIList1> GetAPI(); 
     }
 }
