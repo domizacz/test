@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "1E1AnY7iGrN1ROc98ofQTGsjvPUVx4EgEgbMXui9EQaVQTDMg+kBQzgsoxyBAGlrFTKI55RK+mtSJlsztggmBQ==",
+  "dgSpecHash": "I7HWWQI6yT1fOy3t4/amu4g4euo9+O2IXKz6R5Ct/DXHAV0tsoZY8Qg16IFOUXrPgqdIIIsidtMM06osx4inDw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dom\\Documents\\git\\test\\Mobile AP\\Mobile AP.iOS\\Mobile AP.iOS.csproj",
+  "projectFilePath": "C:\\Users\\monster\\source\\repos\\domizacz\\test\\Mobile AP\\Mobile AP.iOS\\Mobile AP.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Dom\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\Dom\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\Dom\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\monster\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\monster\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\monster\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
 }
