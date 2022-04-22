@@ -1,0 +1,34 @@
+﻿@page "/login"
+@using TestAutorization.Data;
+@using TestAutorization.Models
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@inject NavigationManager NavigationManager
+@inject Blazored.SessionStorage.ISessionStorageService sessionStorage
+
+
+
+
+
+<h3>Login</h3>
+
+
+
+
+@code {
+    private User user;
+
+    protected override Task OnInitializedAsync()
+    {
+        user = new User();
+        user.EmailAddress = "test@test.com";
+        ValidateUser();
+        return base.OnInitializedAsync();
+    }
+    private async Task<bool> ValidateUser()
+    {
+        ((CustomAuthenticationStateProvider)AuthenticationStateProvider).MarkUserAsAuthenticated(user.EmailAddress);
+        NavigationManager.NavigateTo("/");
+        await sessionStorage.SetItemAsync("emailAddress", user.EmailAddress);
+        return await Task.FromResult(true);
+    }
+}
