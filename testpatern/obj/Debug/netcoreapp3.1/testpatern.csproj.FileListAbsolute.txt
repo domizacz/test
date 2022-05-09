@@ -1,0 +1,14 @@
+C:\Users\monster\source\repos\domizacz\test\testpatern\bin\Debug\netcoreapp3.1\testpatern.exe
+C:\Users\monster\source\repos\domizacz\test\testpatern\bin\Debug\netcoreapp3.1\testpatern.deps.json
+C:\Users\monster\source\repos\domizacz\test\testpatern\bin\Debug\netcoreapp3.1\testpatern.runtimeconfig.json
+C:\Users\monster\source\repos\domizacz\test\testpatern\bin\Debug\netcoreapp3.1\testpatern.runtimeconfig.dev.json
+C:\Users\monster\source\repos\domizacz\test\testpatern\bin\Debug\netcoreapp3.1\testpatern.dll
+C:\Users\monster\source\repos\domizacz\test\testpatern\bin\Debug\netcoreapp3.1\testpatern.pdb
+C:\Users\monster\source\repos\domizacz\test\testpatern\obj\Debug\netcoreapp3.1\testpatern.csproj.AssemblyReference.cache
+C:\Users\monster\source\repos\domizacz\test\testpatern\obj\Debug\netcoreapp3.1\testpatern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\monster\source\repos\domizacz\test\testpatern\obj\Debug\netcoreapp3.1\testpatern.AssemblyInfoInputs.cache
+C:\Users\monster\source\repos\domizacz\test\testpatern\obj\Debug\netcoreapp3.1\testpatern.AssemblyInfo.cs
+C:\Users\monster\source\repos\domizacz\test\testpatern\obj\Debug\netcoreapp3.1\testpatern.csproj.CoreCompileInputs.cache
+C:\Users\monster\source\repos\domizacz\test\testpatern\obj\Debug\netcoreapp3.1\testpatern.dll
+C:\Users\monster\source\repos\domizacz\test\testpatern\obj\Debug\netcoreapp3.1\testpatern.pdb
+C:\Users\monster\source\repos\domizacz\test\testpatern\obj\Debug\netcoreapp3.1\testpatern.genruntimeconfig.cache

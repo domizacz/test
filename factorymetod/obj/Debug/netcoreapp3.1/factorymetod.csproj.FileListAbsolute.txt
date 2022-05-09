@@ -1,0 +1,14 @@
+C:\Users\monster\source\repos\domizacz\test\factorymetod\bin\Debug\netcoreapp3.1\factorymetod.exe
+C:\Users\monster\source\repos\domizacz\test\factorymetod\bin\Debug\netcoreapp3.1\factorymetod.deps.json
+C:\Users\monster\source\repos\domizacz\test\factorymetod\bin\Debug\netcoreapp3.1\factorymetod.runtimeconfig.json
+C:\Users\monster\source\repos\domizacz\test\factorymetod\bin\Debug\netcoreapp3.1\factorymetod.runtimeconfig.dev.json
+C:\Users\monster\source\repos\domizacz\test\factorymetod\bin\Debug\netcoreapp3.1\factorymetod.dll
+C:\Users\monster\source\repos\domizacz\test\factorymetod\bin\Debug\netcoreapp3.1\factorymetod.pdb
+C:\Users\monster\source\repos\domizacz\test\factorymetod\obj\Debug\netcoreapp3.1\factorymetod.csproj.AssemblyReference.cache
+C:\Users\monster\source\repos\domizacz\test\factorymetod\obj\Debug\netcoreapp3.1\factorymetod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\monster\source\repos\domizacz\test\factorymetod\obj\Debug\netcoreapp3.1\factorymetod.AssemblyInfoInputs.cache
+C:\Users\monster\source\repos\domizacz\test\factorymetod\obj\Debug\netcoreapp3.1\factorymetod.AssemblyInfo.cs
+C:\Users\monster\source\repos\domizacz\test\factorymetod\obj\Debug\netcoreapp3.1\factorymetod.csproj.CoreCompileInputs.cache
+C:\Users\monster\source\repos\domizacz\test\factorymetod\obj\Debug\netcoreapp3.1\factorymetod.dll
+C:\Users\monster\source\repos\domizacz\test\factorymetod\obj\Debug\netcoreapp3.1\factorymetod.pdb
+C:\Users\monster\source\repos\domizacz\test\factorymetod\obj\Debug\netcoreapp3.1\factorymetod.genruntimeconfig.cache
